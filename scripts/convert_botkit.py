@@ -1,3 +1,4 @@
+from pathlib import Path
 import json
 import yaml
 import re
@@ -16,9 +17,9 @@ def topo_sort(topic, deps, map, output):
     output.append(snippet)
     
 
-if __name__=='__main__':
+def convert(f_in, f_out):
     out = []
-    scripts = json.load(open('botkit.json'))
+    scripts = json.load(f_in.open())
     for script in scripts:
         snippet_map = {}
         snippet_deps = {}
@@ -49,6 +50,7 @@ if __name__=='__main__':
                     if match := cmd_re.match(text):
                         cmd, args = match.groups()
                         args = args_re.split(args)
+                        args = [k if k != 'key' else key for k in args]
                         steps.append(dict(
                             do=dict(
                                 cmd=cmd,
@@ -177,6 +179,12 @@ if __name__=='__main__':
             topo_sort(topic, snippet_deps, snippet_map, snippets)
         
 
-    yaml.dump(out, open('script.yaml', 'w'),
+    yaml.dump(out, f_out.open('w'),
               allow_unicode=True,
               default_flow_style=False)
+
+if __name__ == '__main__':
+    files = Path().glob('src/*/botkit.json')
+    for f_in in files:
+        f_out = f_in.with_name('script.yaml')
+        convert(f_in, f_out)

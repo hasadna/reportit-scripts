@@ -851,7 +851,7 @@
     - do:
         cmd: uploader
         params:
-        - key
+        - _file1
         - uploader
         variable: _file1
     - say: מה יש בקובץ ששלחתם?
@@ -879,7 +879,7 @@
     - do:
         cmd: uploader
         params:
-        - key
+        - _file2
         - uploader
         variable: _file2
     - say: מה יש בקובץ ששלחתם?
@@ -907,7 +907,7 @@
     - do:
         cmd: uploader
         params:
-        - key
+        - _file3
         - uploader
         variable: _file3
     - say: מה יש בקובץ ששלחתם?
@@ -935,7 +935,7 @@
     - do:
         cmd: uploader
         params:
-        - key
+        - _file4
         - uploader
         variable: _file4
     - say: מה יש בקובץ ששלחתם?
@@ -963,7 +963,7 @@
     - do:
         cmd: uploader
         params:
-        - key
+        - _file5
         - uploader
         variable: _file5
     - say: מה יש בקובץ ששלחתם?
