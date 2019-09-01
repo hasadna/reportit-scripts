@@ -2,7 +2,7 @@ import json
 import yaml
 import re
 
-cmd_re = re.compile(r'^cmd\.([a-zA-Z_]+)\(([a-z, ]+)\)$')
+cmd_re = re.compile(r'^cmd\.([a-zA-Z_]+)\(([a-z, ]*)\)$')
 args_re = re.compile(r'\s*,\s*')
 
 def topo_sort(topic, deps, map, output):
@@ -169,6 +169,10 @@ if __name__=='__main__':
                 steps.append(action_step)
             snippet_map[topic] = osnippet
 
+        snippet_deps = dict(
+            (k, sorted(v))
+            for k, v in snippet_deps.items()
+        )
         for topic in snippet_deps['complete']:
             topo_sort(topic, snippet_deps, snippet_map, snippets)
         

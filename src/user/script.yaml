@@ -7,8 +7,10 @@
 
         לפני שנעביר את הפניה שלך למוקדנ/ית, נבקש ממך לענות על כמה שאלות, שיסייעו לנו
         להשיב במהירות.'
-    - say: cmd.isWorkingTime()
-    - wait:
+    - do:
+        cmd: isWorkingTime
+        params:
+        - ''
         variable: _is_working_time
     - switch:
         arg: _is_working_time
@@ -23,15 +25,15 @@
           steps:
           - goto: 'בדיקת שעות עבודה: מענה מחוץ לשעות עבודה'
     - goto: complete
-  - name: 'בדיקת שעות עבודה: מענה בזמן פעילות'
-    steps:
-    - say: לפני שנעביר את הפניה שלך למוקדנ/ית, נבקש ממך לענות על כמה שאלות, שיסייעו
-        לנו להשיב במהירות.
-    - goto: 'פרטי התקשרות: בקשת שם'
   - name: 'בדיקת שעות עבודה: מענה מחוץ לשעות עבודה'
     steps:
     - say: המוקדנים שלנו עובדים בימים א-ה בשעות 9:00 עד 17:00. כדי שנוכל לחזור אליך
         במהירות נבקש ממך לענות לנו על כמה שאלות
+    - goto: 'פרטי התקשרות: בקשת שם'
+  - name: 'בדיקת שעות עבודה: מענה בזמן פעילות'
+    steps:
+    - say: לפני שנעביר את הפניה שלך למוקדנ/ית, נבקש ממך לענות על כמה שאלות, שיסייעו
+        לנו להשיב במהירות.
     - goto: 'פרטי התקשרות: בקשת שם'
   - name: 'פרטי התקשרות: בקשת שם'
     steps:
@@ -80,16 +82,6 @@
           steps:
           - goto: 'פרטי התקשרות: הוספת וואטסאפ'
     - goto: complete
-  - name: 'פרטי התקשרות: הוספת וואטסאפ'
-    steps:
-    - say: מה מספר הטלפון שלך שרשום בוואטסאפ?
-    - wait:
-        variable: whatsapp
-    - do:
-        cmd: saveUser
-        params:
-        - record
-    - goto: 'פרטי התקשרות: האם להוסיף פרטים?'
   - name: 'פרטי קשר: הוספת מספר טלפון'
     steps:
     - say: מה מספר הטלפון שלך?
@@ -100,21 +92,31 @@
         params:
         - record
     - goto: 'פרטי התקשרות: האם להוסיף פרטים?'
-  - name: 'פרטי התקשרות: הוספת דוא"ל'
-    steps:
-    - say: מה כתובת הדוא"ל שלך?
-    - wait:
-        variable: email
-    - do:
-        cmd: saveUser
-        params:
-        - record
-    - goto: 'פרטי התקשרות: האם להוסיף פרטים?'
   - name: 'פרטי התקשרות: הוספת פייסבוק'
     steps:
     - say: מה שם המשתמש/ת שלך בפייסבוק?
     - wait:
         variable: facebook
+    - do:
+        cmd: saveUser
+        params:
+        - record
+    - goto: 'פרטי התקשרות: האם להוסיף פרטים?'
+  - name: 'פרטי התקשרות: הוספת וואטסאפ'
+    steps:
+    - say: מה מספר הטלפון שלך שרשום בוואטסאפ?
+    - wait:
+        variable: whatsapp
+    - do:
+        cmd: saveUser
+        params:
+        - record
+    - goto: 'פרטי התקשרות: האם להוסיף פרטים?'
+  - name: 'פרטי התקשרות: הוספת דוא"ל'
+    steps:
+    - say: מה כתובת הדוא"ל שלך?
+    - wait:
+        variable: email
     - do:
         cmd: saveUser
         params:
@@ -206,31 +208,6 @@
           steps:
           - goto: 'בריאות: בירור פרטי ארגון/מוסד/מרכז רפואי'
     - goto: complete
-  - name: 'משטרה: בחירת סוג התלונה'
-    steps:
-    - say: מהו סוג האירוע עליו תרצה/תרצי לדווח?
-    - wait:
-        options:
-        - show: התנהגות או התבטאות גזענית מצד שוטר/ת
-          value: התנהגות או התבטאות גזענית מצד שוטר/ת
-        - show: פרופיילינג – הפעלת סמכות משטרתית על בסיס מראה, צבע עור וכדומה
-          value: פרופיילינג – הפעלת סמכות משטרתית על בסיס מראה, צבע עור וכדומה
-        - show: אחר
-          value: אחר
-        variable: complaint_type
-    - switch:
-        arg: complaint_type
-        cases:
-        - match: התנהגות או התבטאות גזענית מצד שוטר/ת
-          steps:
-          - goto: 'משטרה: בקשה לתיאור המקרה'
-        - match: פרופיילינג – הפעלת סמכות משטרתית על בסיס מראה, צבע עור וכדומה
-          steps:
-          - goto: 'משטרה: בקשה לתיאור המקרה'
-        - match: אחר
-          steps:
-          - goto: 'משטרה: בקשה לתיאור המקרה'
-    - goto: complete
   - name: 'חינוך: בחירת מסגרת חינוכית'
     steps:
     - say: באיזו מסגרת חינוכית מדובר?
@@ -281,285 +258,34 @@
           steps:
           - goto: 'חינוך: אחר'
     - goto: complete
-  - name: 'חינוך: חוגים של רשות מקומית'
+  - name: 'משטרה: בחירת סוג התלונה'
     steps:
-    - say: היכן או באיזו מסגרת התקיים החוג?
-    - wait:
-        variable: offender_organization
-    - say: באיזו עיר או ישוב מתקיים החוג?
-    - wait:
-        variable: event_location
-    - do:
-        cmd: saveUser
-        params:
-        - record
-    - goto: 'חינוך: בירור הרקע לאפליה'
-  - name: 'חינוך: גן פרטי לגיל הרך'
-    steps:
-    - say: מה שם הגן?
-    - wait:
-        variable: offender_organization
-    - say: באיזו עיר או ישוב נמצא הגן?
-    - wait:
-        variable: event_location
-    - do:
-        cmd: saveUser
-        params:
-        - record
-    - goto: 'חינוך: בירור הרקע לאפליה'
-  - name: 'חינוך: אוניברסיטה/מכללה'
-    steps:
-    - say: מהו שם המוסד/המכללה?
-    - wait:
-        variable: offender_organization
-    - do:
-        cmd: saveUser
-        params:
-        - record
-    - goto: 'חינוך: בירור הרקע לאפליה'
-  - name: 'חינוך: בית ספר'
-    steps:
-    - say: מה שם בית הספר?
-    - wait:
-        variable: offender_organization
-    - say: באיזו עיר או ישוב נמצא בית הספר?
-    - wait:
-        variable: event_location
-    - do:
-        cmd: saveUser
-        params:
-        - record
-    - goto: 'חינוך: בחירת זרם חינוכי של המסגרת'
-  - name: 'חינוך: גן חובה'
-    steps:
-    - say: מה שם הגן?
-    - wait:
-        variable: offender_organization
-    - say: באיזו עיר או ישוב נמצא הגן?
-    - wait:
-        variable: event_location
-    - goto: 'חינוך: בחירת זרם חינוכי של המסגרת'
-  - name: 'חינוך: גן טרום טרום חובה'
-    steps:
-    - say: מה שם הגן?
-    - wait:
-        variable: offender_organization
-    - say: באיזו עיר או ישוב נמצא המוסד?
-    - wait:
-        variable: event_location
-    - do:
-        cmd: saveUser
-        params:
-        - record
-    - goto: 'חינוך: בחירת זרם חינוכי של המסגרת'
-  - name: 'חינוך: גן טרום חובה'
-    steps:
-    - say: מה שם הגן?
-    - wait:
-        variable: offender_organization
-    - say: באיזו עיר או ישוב נמצא הגן?
-    - wait:
-        variable: event_location
-    - do:
-        cmd: saveUser
-        params:
-        - record
-    - goto: 'חינוך: בחירת זרם חינוכי של המסגרת'
-  - name: 'חינוך: בחירת זרם חינוכי של המסגרת'
-    steps:
-    - say: באיזה זרם חינוכי מדובר?
+    - say: מהו סוג האירוע עליו תרצה/תרצי לדווח?
     - wait:
         options:
-        - show: חינוך ממלכתי
-          value: חינוך ממלכתי
-        - show: חינוך ממלכתי-דתי
-          value: חינוך ממלכתי דתי
-        - show: חינוך חרדי
-          value: חינוך חרדי
-        - show: חינוך מיוחד
-          value: חינוך מיוחד
+        - show: התנהגות או התבטאות גזענית מצד שוטר/ת
+          value: התנהגות או התבטאות גזענית מצד שוטר/ת
+        - show: פרופיילינג – הפעלת סמכות משטרתית על בסיס מראה, צבע עור וכדומה
+          value: פרופיילינג – הפעלת סמכות משטרתית על בסיס מראה, צבע עור וכדומה
         - show: אחר
-          value: אחר
-        variable: offender_details
-    - do:
-        cmd: saveUser
-        params:
-        - record
-    - goto: 'חינוך: בירור הרקע לאפליה'
-  - name: 'חינוך: אחר'
-    steps:
-    - say: מהו הארגון או המסגרת בהם התקיים האירוע?
-    - wait:
-        variable: offender_organization
-    - say: באיזו עיר או ישוב התרחש האירוע?
-    - wait:
-        variable: event_location
-    - do:
-        cmd: saveUser
-        params:
-        - record
-    - goto: 'חינוך: בירור הרקע לאפליה'
-  - name: 'חינוך: בירור הרקע לאפליה'
-    steps:
-    - say: על איזה רקע, לדעתך, הופלית או נהגו כלפיך בגזענות
-    - wait:
-        options:
-        - show: מוצא, עדה או לאום, או צבע עור
-          value: אפליה על רקע מוצא, עדה או לאום, או צבע עור
-        - show: על רקע דת
-          value: אפליה על רקע דת
-        - show: על רקע מין, נטייה מינית או זהות מגדרית
-          value: אפליה על רקע מין, נטייה מינית או זהות מגדרית
-        - show: על רקע אחר
           value: אחר
         variable: complaint_type
     - switch:
         arg: complaint_type
         cases:
-        - default: true
+        - match: התנהגות או התבטאות גזענית מצד שוטר/ת
           steps:
-          - goto: 'חינוך: בקשה לתיאור המקרה'
-    - say: על איזה רקע את/ה חושב/ת שהופלית?
-    - wait:
-        variable: complaint_type
-    - do:
-        cmd: saveUser
-        params:
-        - record
-    - goto: 'חינוך: בקשה לתיאור המקרה'
-  - name: 'חינוך: בקשה לתיאור המקרה'
-    steps:
-    - say: אנא תאר/י את המקרה, עם כמה שיותר פרטים
-    - wait:
-        long: true
-        variable: event_description
-    - do:
-        cmd: saveUser
-        params:
-        - record
-    - goto: 'העלאת קבצים: האם להעלות קבצים?'
+          - goto: 'משטרה: בקשה לתיאור המקרה'
+        - match: פרופיילינג – הפעלת סמכות משטרתית על בסיס מראה, צבע עור וכדומה
+          steps:
+          - goto: 'משטרה: בקשה לתיאור המקרה'
+        - match: אחר
+          steps:
+          - goto: 'משטרה: בקשה לתיאור המקרה'
+    - goto: complete
   - name: 'משטרה: בקשה לתיאור המקרה'
     steps:
     - say: תאר/י בפירוט את האירוע שהתרחש (כולל מקום, תאריך, פרטי השוטר)
-    - wait:
-        long: true
-        variable: event_description
-    - do:
-        cmd: saveUser
-        params:
-        - record
-    - goto: 'העלאת קבצים: האם להעלות קבצים?'
-  - name: 'דיור: בחירת סוג התלונה'
-    steps:
-    - say: מהו סוג האירוע עליו תרצו לדווח?
-    - wait:
-        options:
-        - show: אפליה בקבלה לישוב
-          value: אפליה בקבלה לישוב
-        - show: אפליה במכירת דירה על ידי חברת בניה/יזם/קבלן
-          value: אפליה במכירת דירה על ידי חברת בניה/יזם/קבלן
-        - show: אפליה במכירת דירת יד 2 מידי אדם פרטי
-          value: אפליה במכירת דירת יד 2 מידי אדם פרטי
-        - show: אפליה בהשכרת דירה מאדם פרטי
-          value: אפליה בהשכרת דירה מאדם פרטי
-        - show: אפליה של חברת תיווך
-          value: אפליה של חברת תיווך
-        - show: אחר
-          value: אחר
-        variable: complaint_type
-    - switch:
-        arg: complaint_type
-        cases:
-        - match: אפליה בקבלה לישוב
-          steps:
-          - goto: 'דיור: בירור סוג הישוב'
-        - match: אפליה של חברת תיווך
-          steps:
-          - goto: 'דיור: בירור פרטי חברת תיווך ועובדים'
-    - do:
-        cmd: saveUser
-        params:
-        - record
-    - goto: 'דיור: בירור מיקום האירוע'
-  - name: 'דיור: בירור סוג הישוב'
-    steps:
-    - say: מהו סוג הישוב שקשור לאירוע?
-    - wait:
-        options:
-        - show: ישוב קהילתי
-          value: אפליה בקבלה לישוב קהילתי
-        - show: שכונת הרחבה במושב או בקיבוץ
-          value: אפליה בקבלה לשכונת הרחבה במושב או בקיבוץ
-        - show: נחלה בקיבוץ או במושב
-          value: אפליה בקבלה לנחלה בקיבוץ או במושב
-        - show: אחר
-          value: אפליה בקבלה לישוב מסוג לא מוגדר
-        variable: complaint_type
-    - do:
-        cmd: saveUser
-        params:
-        - record
-    - goto: 'דיור: בירור מיקום האירוע'
-  - name: 'דיור: בירור פרטי חברת תיווך ועובדים'
-    steps:
-    - do:
-        cmd: offenderIsRealEstateCompany
-        params:
-        - record
-    - say: האם ידוע לך מה השם של חברת התיווך או פרטים אחרים לגביה?
-    - wait:
-        options:
-        - show: כן
-          value: 'true'
-        - show: לא
-          value: 'false'
-        variable: _add_real_estate_company_name
-    - switch:
-        arg: _add_real_estate_company_name
-        cases:
-        - match: 'false'
-          steps:
-          - goto: 'דיור: בירור מיקום האירוע'
-    - say: מהו שם חברת התיווך? אנא שלח/י לנו את כל הפרטים הרלוונטים שיש לך, כמו כתובת
-        או טלפון
-    - wait:
-        variable: offender_organization_details
-    - do:
-        cmd: saveUser
-        params:
-        - record
-    - say: האם ידועים לך פרטים של עובד/ת או עובדים שהיו מעורבים באירוע?
-    - wait:
-        options:
-        - show: כן
-          value: 'true'
-        - show: לא
-          value: 'false'
-        variable: _add_offender_details
-    - switch:
-        arg: _add_offender_details
-        cases:
-        - match: 'false'
-          steps:
-          - goto: 'דיור: בירור מיקום האירוע'
-    - say: מהו השם של העובד/ת או העובדים שהיו מעורבים באירוע?
-    - wait:
-        long: true
-        variable: offender_person_details
-    - goto: 'דיור: בירור מיקום האירוע'
-  - name: 'דיור: בירור מיקום האירוע'
-    steps:
-    - say: היכן התרחש האירוע?
-    - wait:
-        variable: event_location
-    - do:
-        cmd: saveUser
-        params:
-        - record
-    - goto: 'דיור: בקשה לתיאור המקרה'
-  - name: 'דיור: בקשה לתיאור המקרה'
-    steps:
-    - say: אנא תאר/י את המקרה, עם כמה שיותר פרטים
     - wait:
         long: true
         variable: event_description
@@ -682,34 +408,272 @@
         params:
         - record
     - goto: 'העלאת קבצים: האם להעלות קבצים?'
-  - name: 'אחר: בירור פרטי הגורם הפוגע'
+  - name: 'חינוך: חוגים של רשות מקומית'
     steps:
-    - say: מהם המסגרת, הארגון או הדמות שעליהם תרצו לדווח?
+    - say: היכן או באיזו מסגרת התקיים החוג?
     - wait:
-        variable: offender
-    - goto: 'אחר: בחירת סוג התלונה'
-  - name: 'אחר: בחירת סוג התלונה'
-    steps:
-    - say: מהו סוג האירוע עליו תרצו לדווח?
-    - wait:
-        long: true
-        variable: complaint_type
-    - do:
-        cmd: saveUser
-        params:
-        - record
-    - goto: 'אחר: בירור מיקום האירוע'
-  - name: 'אחר: בירור מיקום האירוע'
-    steps:
-    - say: 'כתוב/כתבי היכן התרחש האירוע:'
+        variable: offender_organization
+    - say: באיזו עיר או ישוב מתקיים החוג?
     - wait:
         variable: event_location
     - do:
         cmd: saveUser
         params:
         - record
-    - goto: 'אחר: בקשה לתיאור המקרה'
-  - name: 'אחר: בקשה לתיאור המקרה'
+    - goto: 'חינוך: בירור הרקע לאפליה'
+  - name: 'חינוך: גן פרטי לגיל הרך'
+    steps:
+    - say: מה שם הגן?
+    - wait:
+        variable: offender_organization
+    - say: באיזו עיר או ישוב נמצא הגן?
+    - wait:
+        variable: event_location
+    - do:
+        cmd: saveUser
+        params:
+        - record
+    - goto: 'חינוך: בירור הרקע לאפליה'
+  - name: 'חינוך: גן טרום טרום חובה'
+    steps:
+    - say: מה שם הגן?
+    - wait:
+        variable: offender_organization
+    - say: באיזו עיר או ישוב נמצא המוסד?
+    - wait:
+        variable: event_location
+    - do:
+        cmd: saveUser
+        params:
+        - record
+    - goto: 'חינוך: בחירת זרם חינוכי של המסגרת'
+  - name: 'חינוך: גן טרום חובה'
+    steps:
+    - say: מה שם הגן?
+    - wait:
+        variable: offender_organization
+    - say: באיזו עיר או ישוב נמצא הגן?
+    - wait:
+        variable: event_location
+    - do:
+        cmd: saveUser
+        params:
+        - record
+    - goto: 'חינוך: בחירת זרם חינוכי של המסגרת'
+  - name: 'חינוך: גן חובה'
+    steps:
+    - say: מה שם הגן?
+    - wait:
+        variable: offender_organization
+    - say: באיזו עיר או ישוב נמצא הגן?
+    - wait:
+        variable: event_location
+    - goto: 'חינוך: בחירת זרם חינוכי של המסגרת'
+  - name: 'חינוך: בית ספר'
+    steps:
+    - say: מה שם בית הספר?
+    - wait:
+        variable: offender_organization
+    - say: באיזו עיר או ישוב נמצא בית הספר?
+    - wait:
+        variable: event_location
+    - do:
+        cmd: saveUser
+        params:
+        - record
+    - goto: 'חינוך: בחירת זרם חינוכי של המסגרת'
+  - name: 'חינוך: בחירת זרם חינוכי של המסגרת'
+    steps:
+    - say: באיזה זרם חינוכי מדובר?
+    - wait:
+        options:
+        - show: חינוך ממלכתי
+          value: חינוך ממלכתי
+        - show: חינוך ממלכתי-דתי
+          value: חינוך ממלכתי דתי
+        - show: חינוך חרדי
+          value: חינוך חרדי
+        - show: חינוך מיוחד
+          value: חינוך מיוחד
+        - show: אחר
+          value: אחר
+        variable: offender_details
+    - do:
+        cmd: saveUser
+        params:
+        - record
+    - goto: 'חינוך: בירור הרקע לאפליה'
+  - name: 'חינוך: אחר'
+    steps:
+    - say: מהו הארגון או המסגרת בהם התקיים האירוע?
+    - wait:
+        variable: offender_organization
+    - say: באיזו עיר או ישוב התרחש האירוע?
+    - wait:
+        variable: event_location
+    - do:
+        cmd: saveUser
+        params:
+        - record
+    - goto: 'חינוך: בירור הרקע לאפליה'
+  - name: 'חינוך: אוניברסיטה/מכללה'
+    steps:
+    - say: מהו שם המוסד/המכללה?
+    - wait:
+        variable: offender_organization
+    - do:
+        cmd: saveUser
+        params:
+        - record
+    - goto: 'חינוך: בירור הרקע לאפליה'
+  - name: 'חינוך: בירור הרקע לאפליה'
+    steps:
+    - say: על איזה רקע, לדעתך, הופלית או נהגו כלפיך בגזענות
+    - wait:
+        options:
+        - show: מוצא, עדה או לאום, או צבע עור
+          value: אפליה על רקע מוצא, עדה או לאום, או צבע עור
+        - show: על רקע דת
+          value: אפליה על רקע דת
+        - show: על רקע מין, נטייה מינית או זהות מגדרית
+          value: אפליה על רקע מין, נטייה מינית או זהות מגדרית
+        - show: על רקע אחר
+          value: אחר
+        variable: complaint_type
+    - switch:
+        arg: complaint_type
+        cases:
+        - default: true
+          steps:
+          - goto: 'חינוך: בקשה לתיאור המקרה'
+    - say: על איזה רקע את/ה חושב/ת שהופלית?
+    - wait:
+        variable: complaint_type
+    - do:
+        cmd: saveUser
+        params:
+        - record
+    - goto: 'חינוך: בקשה לתיאור המקרה'
+  - name: 'חינוך: בקשה לתיאור המקרה'
+    steps:
+    - say: אנא תאר/י את המקרה, עם כמה שיותר פרטים
+    - wait:
+        long: true
+        variable: event_description
+    - do:
+        cmd: saveUser
+        params:
+        - record
+    - goto: 'העלאת קבצים: האם להעלות קבצים?'
+  - name: 'דיור: בחירת סוג התלונה'
+    steps:
+    - say: מהו סוג האירוע עליו תרצו לדווח?
+    - wait:
+        options:
+        - show: אפליה בקבלה לישוב
+          value: אפליה בקבלה לישוב
+        - show: אפליה במכירת דירה על ידי חברת בניה/יזם/קבלן
+          value: אפליה במכירת דירה על ידי חברת בניה/יזם/קבלן
+        - show: אפליה במכירת דירת יד 2 מידי אדם פרטי
+          value: אפליה במכירת דירת יד 2 מידי אדם פרטי
+        - show: אפליה בהשכרת דירה מאדם פרטי
+          value: אפליה בהשכרת דירה מאדם פרטי
+        - show: אפליה של חברת תיווך
+          value: אפליה של חברת תיווך
+        - show: אחר
+          value: אחר
+        variable: complaint_type
+    - switch:
+        arg: complaint_type
+        cases:
+        - match: אפליה בקבלה לישוב
+          steps:
+          - goto: 'דיור: בירור סוג הישוב'
+        - match: אפליה של חברת תיווך
+          steps:
+          - goto: 'דיור: בירור פרטי חברת תיווך ועובדים'
+    - do:
+        cmd: saveUser
+        params:
+        - record
+    - goto: 'דיור: בירור מיקום האירוע'
+  - name: 'דיור: בירור פרטי חברת תיווך ועובדים'
+    steps:
+    - do:
+        cmd: offenderIsRealEstateCompany
+        params:
+        - record
+    - say: האם ידוע לך מה השם של חברת התיווך או פרטים אחרים לגביה?
+    - wait:
+        options:
+        - show: כן
+          value: 'true'
+        - show: לא
+          value: 'false'
+        variable: _add_real_estate_company_name
+    - switch:
+        arg: _add_real_estate_company_name
+        cases:
+        - match: 'false'
+          steps:
+          - goto: 'דיור: בירור מיקום האירוע'
+    - say: מהו שם חברת התיווך? אנא שלח/י לנו את כל הפרטים הרלוונטים שיש לך, כמו כתובת
+        או טלפון
+    - wait:
+        variable: offender_organization_details
+    - do:
+        cmd: saveUser
+        params:
+        - record
+    - say: האם ידועים לך פרטים של עובד/ת או עובדים שהיו מעורבים באירוע?
+    - wait:
+        options:
+        - show: כן
+          value: 'true'
+        - show: לא
+          value: 'false'
+        variable: _add_offender_details
+    - switch:
+        arg: _add_offender_details
+        cases:
+        - match: 'false'
+          steps:
+          - goto: 'דיור: בירור מיקום האירוע'
+    - say: מהו השם של העובד/ת או העובדים שהיו מעורבים באירוע?
+    - wait:
+        long: true
+        variable: offender_person_details
+    - goto: 'דיור: בירור מיקום האירוע'
+  - name: 'דיור: בירור סוג הישוב'
+    steps:
+    - say: מהו סוג הישוב שקשור לאירוע?
+    - wait:
+        options:
+        - show: ישוב קהילתי
+          value: אפליה בקבלה לישוב קהילתי
+        - show: שכונת הרחבה במושב או בקיבוץ
+          value: אפליה בקבלה לשכונת הרחבה במושב או בקיבוץ
+        - show: נחלה בקיבוץ או במושב
+          value: אפליה בקבלה לנחלה בקיבוץ או במושב
+        - show: אחר
+          value: אפליה בקבלה לישוב מסוג לא מוגדר
+        variable: complaint_type
+    - do:
+        cmd: saveUser
+        params:
+        - record
+    - goto: 'דיור: בירור מיקום האירוע'
+  - name: 'דיור: בירור מיקום האירוע'
+    steps:
+    - say: היכן התרחש האירוע?
+    - wait:
+        variable: event_location
+    - do:
+        cmd: saveUser
+        params:
+        - record
+    - goto: 'דיור: בקשה לתיאור המקרה'
+  - name: 'דיור: בקשה לתיאור המקרה'
     steps:
     - say: אנא תאר/י את המקרה, עם כמה שיותר פרטים
     - wait:
@@ -818,6 +782,44 @@
   - name: 'בריאות: בקשה לתיאור המקרה'
     steps:
     - say: אנא תאר/י את המקרה, עם כמה שיותר פרטים (תאריכים, מקומות, שעות וכל מה שהתרחש)
+    - wait:
+        long: true
+        variable: event_description
+    - do:
+        cmd: saveUser
+        params:
+        - record
+    - goto: 'העלאת קבצים: האם להעלות קבצים?'
+  - name: 'אחר: בירור פרטי הגורם הפוגע'
+    steps:
+    - say: מהם המסגרת, הארגון או הדמות שעליהם תרצו לדווח?
+    - wait:
+        variable: offender
+    - goto: 'אחר: בחירת סוג התלונה'
+  - name: 'אחר: בחירת סוג התלונה'
+    steps:
+    - say: מהו סוג האירוע עליו תרצו לדווח?
+    - wait:
+        long: true
+        variable: complaint_type
+    - do:
+        cmd: saveUser
+        params:
+        - record
+    - goto: 'אחר: בירור מיקום האירוע'
+  - name: 'אחר: בירור מיקום האירוע'
+    steps:
+    - say: 'כתוב/כתבי היכן התרחש האירוע:'
+    - wait:
+        variable: event_location
+    - do:
+        cmd: saveUser
+        params:
+        - record
+    - goto: 'אחר: בקשה לתיאור המקרה'
+  - name: 'אחר: בקשה לתיאור המקרה'
+    steps:
+    - say: אנא תאר/י את המקרה, עם כמה שיותר פרטים
     - wait:
         long: true
         variable: event_description
