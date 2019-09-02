@@ -503,82 +503,72 @@
     - wait:
         options:
         - show: כן
-        - show: לא
           steps:
-          - goto: return
-
-    - say: ניתן להעלות עד חמישה קבצים.
-    - do:
-        cmd: uploader
-        params:
-        - uploader
-    - say: מה יש בקובץ ששלחתם?
-    - wait:
-        variable: file1description
-    - say: ניתן להעלות עוד ארבעה קבצים.
-
-    - say: האם יש בידיך צילומים, מסמכים או תיעוד נוסף שתרצה/תרצי לשלוח כעת?
-    - wait:
-        options:
-        - show: כן
+          - say: ניתן להעלות עד חמישה קבצים.
+          - do:
+              cmd: uploader
+              params:
+              - uploader
+          - say: מה יש בקובץ ששלחתם?
+          - wait:
+              variable: file1description
+          - say: ניתן להעלות עוד ארבעה קבצים.
+          - say: האם יש בידיך צילומים, מסמכים או תיעוד נוסף שתרצה/תרצי לשלוח כעת?
+          - wait:
+              options:
+              - show: כן
+                steps:
+                - do:
+                    cmd: uploader
+                    params:
+                    - uploader
+                - say: מה יש בקובץ ששלחתם?
+                - wait:
+                    variable: file2description        
+                - say: ניתן להעלות עוד שלושה קבצים.
+                - say: האם יש בידיך צילומים, מסמכים או תיעוד נוסף שתרצה/תרצי לשלוח כעת?
+                - wait:
+                    options:
+                    - show: כן
+                      steps:
+                      - do:
+                          cmd: uploader
+                          params:
+                          - uploader
+                      - say: מה יש בקובץ ששלחתם?
+                      - wait:
+                          variable: file3description
+                      - say: ניתן להעלות עוד שני קבצים.
+                      - say: האם יש בידיך צילומים, מסמכים או תיעוד נוסף שתרצה/תרצי לשלוח כעת?
+                      - wait:
+                          options:
+                          - show: כן
+                            steps:
+                            - do:
+                                cmd: uploader
+                                params:
+                                - uploader
+                            - say: מה יש בקובץ ששלחתם?
+                            - wait:
+                                variable: file4description
+                            - say: ניתן להעלות עוד קובץ אחד.
+                            - say: האם יש בידיך צילומים, מסמכים או תיעוד נוסף שתרצה/תרצי לשלוח כעת?
+                            - wait:
+                                options:
+                                - show: כן
+                                  steps:
+                                  - do:
+                                      cmd: uploader
+                                      params:
+                                      - uploader
+                                  - say: מה יש בקובץ ששלחתם?
+                                  - wait:
+                                      variable: file5description
+                                - show: לא
+                          - show: לא
+                    - show: לא
+              - show: לא
         - show: לא
-          steps:
-          - goto: return
-    - do:
-        cmd: uploader
-        params:
-        - uploader
-    - say: מה יש בקובץ ששלחתם?
-    - wait:
-        variable: file2description        
-    - say: ניתן להעלות עוד שלושה קבצים.
-
-    - say: האם יש בידיך צילומים, מסמכים או תיעוד נוסף שתרצה/תרצי לשלוח כעת?
-    - wait:
-        options:
-        - show: כן
-        - show: לא
-          steps:
-          - goto: return
-    - do:
-        cmd: uploader
-        params:
-        - uploader
-    - say: מה יש בקובץ ששלחתם?
-    - wait:
-        variable: file3description
-    - say: ניתן להעלות עוד שני קבצים.
-
-    - say: האם יש בידיך צילומים, מסמכים או תיעוד נוסף שתרצה/תרצי לשלוח כעת?
-    - wait:
-        options:
-        - show: כן
-        - show: לא
-          steps:
-          - goto: return
-    - do:
-        cmd: uploader
-        params:
-        - uploader
-    - say: מה יש בקובץ ששלחתם?
-    - wait:
-        variable: file4description
-    - say: ניתן להעלות עוד קובץ אחד.
-
-    - say: האם יש בידיך צילומים, מסמכים או תיעוד נוסף שתרצה/תרצי לשלוח כעת?
-    - wait:
-        options:
-        - show: כן
-        - show: לא
-          steps:
-          - goto: return
-    - do:
-        cmd: uploader
-        params:
-        - uploader
-    - say: מה יש בקובץ ששלחתם?
-    - wait:
-        variable: file5description
 
 ### MORE INFORMATION
   - name: 'תלונה: הוספת מידע נוסף'
