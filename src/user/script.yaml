@@ -508,6 +508,7 @@
           - do:
               cmd: uploader
               params:
+              - _file1
               - uploader
           - say: מה יש בקובץ ששלחתם?
           - wait:
@@ -521,6 +522,7 @@
                 - do:
                     cmd: uploader
                     params:
+                    - _file2
                     - uploader
                 - say: מה יש בקובץ ששלחתם?
                 - wait:
@@ -534,6 +536,7 @@
                       - do:
                           cmd: uploader
                           params:
+                          - _file3
                           - uploader
                       - say: מה יש בקובץ ששלחתם?
                       - wait:
@@ -547,6 +550,7 @@
                             - do:
                                 cmd: uploader
                                 params:
+                                - _file4
                                 - uploader
                             - say: מה יש בקובץ ששלחתם?
                             - wait:
@@ -560,6 +564,7 @@
                                   - do:
                                       cmd: uploader
                                       params:
+                                      - _file5
                                       - uploader
                                   - say: מה יש בקובץ ששלחתם?
                                   - wait:
