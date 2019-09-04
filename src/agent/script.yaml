@@ -193,6 +193,7 @@
           - do:
               cmd: addTask
               params:
+              - record
               - health_non_racism
     
 ### MISSING DETAILS
@@ -475,6 +476,7 @@
                 - do:
                     cmd: addTask
                     params:
+                    - record
                     - send_to_mahash
                 value: 'yes'
               - show: הפונה מאשר/ת להעביר את המקרה ללא פרטים מזהים
@@ -482,6 +484,7 @@
                 - do:
                     cmd: addTask
                     params:
+                    - record
                     - send_anonymously_to_mahash
                 value: anonymously
               - show: הפונה לא מאשר/ת להעביר את פרטי המקרה למח"ש
@@ -557,6 +560,7 @@
                 - do:
                     cmd: addTask
                     params:
+                    - record
                     - guard_company_policy_complaint
               - show: לא
         - show: לא
@@ -688,6 +692,7 @@
                             - do:
                                 cmd: addTask
                                 params:
+                                - record
                                 - contact_ultra_orthodox_edu_inst
 
                     - show: לא, הפונה לא מעוניינ/ת לערער או שיפנו בעצמם
@@ -723,6 +728,7 @@
                 - do:
                     cmd: addTask
                     params:
+                    - record
                     - contact_education_ministry_ultra_ortodox
               - show: לא
 
@@ -742,6 +748,7 @@
                 - do:
                     cmd: addTask
                     params:
+                    - record
                     - contact_municipal_education_department
                 value: 'yes'
               - show: לא
@@ -760,6 +767,7 @@
                 - do:
                     cmd: addTask
                     params:
+                    - record
                     - contact_education_ministry
                 value: 'yes'
               - show: לא
@@ -801,6 +809,7 @@
           - do:
               cmd: addTask
               params:
+              - record
               - justice_ministry_ask_assistance
           value: 'yes'
         - show: לא
@@ -831,6 +840,7 @@
           - do:
               cmd: addTask
               params:
+              - record
               - contact_acadeimc_org
           value: 'true'
         - show: לא
@@ -876,6 +886,7 @@
                       - do:
                           cmd: addTask
                           params:
+                          - record
                           - municipal_activity_communication_log
 
               - show: לא
@@ -890,6 +901,7 @@
                       - do:
                           cmd: addTask
                           params:
+                          - record
                           - contact_municipality_activity
                     - show: לא
 
@@ -904,6 +916,7 @@
                 - do:
                     cmd: addTask
                     params:
+                    - record
                     - check_if_municipal_activity
               - show: לא
 
@@ -967,6 +980,7 @@
                       - do:
                           cmd: addTask
                           params:
+                          - record
                           - contact_minhal_legal_advisor
                     - show: לא
 
@@ -985,6 +999,7 @@
                       - do:
                           cmd: addTask
                           params:
+                          - record
                           - housing_check_land_status
                     - show: לא
               variable: housing_land_type
@@ -1025,6 +1040,7 @@
                 - do:
                     cmd: addTask
                     params:
+                    - record
                     - send_justice_ministry_realtors_registrar
               - show: לא
           - goto: 'תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים'
@@ -1042,6 +1058,7 @@
                 - do:
                     cmd: addTask
                     params:
+                    - record
                     - housing_acceptance_verify_method
                 value: ok
           - say: הסבירו לפונה שחוץ מהבירור שנעשה בנוגע, אתם יכולים גם להציע לפנות לגורמים
@@ -1072,6 +1089,7 @@
                 - do:
                     cmd: addTask
                     params:
+                    - record
                     - contact_justice_ministry_application_commitee
               - show: לא
         - show: לא
@@ -1141,12 +1159,14 @@
           - do:
               cmd: addTask
               params:
+              - record
               - send_to_health_ministry_public_inquiries
         - show: הפונה מאשר/ת לפנות לנציב ללא מסירת פרטים מזהים
           steps:
           - do:
               cmd: addTask
               params:
+              - record
               - send_to_health_ministry_public_inqueries_anonymously
         - show: לא, הפונה אינו מעוניין לפנות לנציבות
           
@@ -1158,6 +1178,7 @@
           - do:
               cmd: addTask
               params:
+              - record
               - contact_health_ministry_zero_racism
           value: ok
 
@@ -1173,6 +1194,7 @@
           - do:
               cmd: addTask
               params:
+              - record
               - contact_health_ministry_zero_racism
         - show: לא
 
@@ -1184,6 +1206,7 @@
           - do:
               cmd: addTask
               params:
+              - record
               - send_health_centers_antiracism_officers
           - say: עדכנו את הפונה שננסה לאתר את הממונה למאבק בגזענות במוסד, ונעביר גם אליהם
               העתק של הפניה לממונה במשרד הבריאות.
@@ -1204,12 +1227,14 @@
           - do:
               cmd: addTask
               params:
+              - record
               - send_to_health_ministry_accessiblity
         - show: הפונה מאשר/ת לפנות לממונה, מבלי לחשוף פרטים מזהים
           steps:
           - do:
               cmd: addTask
               params:
+              - record
               - send_to_health_ministry_accessiblity_anonymously
         - show: לא
   
@@ -1233,6 +1258,7 @@
           - do:
               cmd: addTask
               params:
+              - record
               - justice_ministry_ask_assistance
         - show: לא
 
@@ -1311,6 +1337,7 @@
           - do:
               cmd: addTask
               params:
+              - record
               - update_user
           value: ok
 
