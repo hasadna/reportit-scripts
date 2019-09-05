@@ -1323,18 +1323,42 @@
 ### FINALIZE
   - name: קביעת שיחת המשך
     steps:
-    - say: 'עדכנו את הפונה בכל המשימות שרשמתם לעצמכם (ומופיעות בצד המסך).
+    - do:
+        cmd: getTaskCount
+        params:
+        - record
+        variable: _numOfTasks
+    - switch:
+        arg: _numOfTasks
+        cases:
+        - match: 0
+          steps:
+          - say: 'סיימנו את השיחה, מבלי שקיבלת את הסכמת הפונה לנקוט פעולה כלשהי.
+
+    הסבר/י לו שזה המצב וברר/י אם ירצו לחזור על הנקודות שהועלו, כדי לחשוב שוב על הדברים
+
+האם הפונה מבקש לשנות חלק מהתשובות?'
+          - wait:
+              options:
+              - show: כן
+                steps:
+                - do:
+                    cmd: restartConversation
+              - show: לא
+        - default: true
+          steps:
+          - say: 'עדכנו את הפונה בכל המשימות שרשמתם לעצמכם (ומופיעות בצד המסך).
 
 
         חשוב לסכם עם הפונה מתי תהיו איתו/איתה בקשר כדי לעדכן על מצב הטיפול בפניה.'
-    - wait:
-        options:
-        - show: בסדר
-          steps:
-          - do:
-              cmd: addTask
-              params:
-              - record
-              - update_user
-          value: ok
+          - wait:
+              options:
+              - show: בסדר
+                steps:
+                - do:
+                    cmd: addTask
+                    params:
+                    - record
+                    - update_user
+                value: ok
 
