@@ -106,6 +106,7 @@
           - wait:
               long: true
               variable: offender_person_details
+        - show: לא
 
 ### HOUSING
   - name: 'דיור: בדיקה אילו פרטים חסרים צריך להשלים'
