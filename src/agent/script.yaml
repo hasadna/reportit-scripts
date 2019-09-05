@@ -650,15 +650,10 @@
 
   - name: 'מסגרת חינוכית: אפליה בקבלה בחינוך חובה'
     steps:
-    - do:
-        cmd: checkIfUltraOrthodoxEducationOrg
-        params:
-        - record
-        variable: _check_if_ultraorthodox_edu
     - switch:
-        arg: _check_if_ultraorthodox_edu
+        arg: offender_details
         cases:
-        - match: 'true'
+        - match: 'חינוך חרדי'
           steps:
           - say: "במקרה שמוסד חינוכי חרדי דחה קבלת תלמיד/ה לשורותיו וההורים סבורים שמדובר\
               \ בהחלטה שאינה מוצדקת, הם רשאים לערער על ההחלטה בפני ועדת ערר של המחוז החרדי\
@@ -720,8 +715,6 @@
                                 סיימו את השיחה בצורה מנומסת ומכובדת ואחלו  לפונה בהצלחה.'
                       - goto: complete
 
-              variable: _check_if_ultraorthodox_edu
-              
           - say: בררו אם הפונה מעוניינ/ת שנסייע לו בפניה לועדת הערר במשרד החינוך
           - wait:
               options:
@@ -1298,15 +1291,17 @@
         - match: 'yes'
           steps:
           - do:
-              cmd: shareWithJusticeMinistry
+              cmd: addTask
               params:
               - record
+              - share_full_details_with_justice_ministry
         - match: anonymously
           steps:
           - do:
-              cmd: shareAnonymouslyWithJusticeMinistry
+              cmd: addTask
               params:
               - record
+              - share_anonymously_with_justice_ministry
     - goto: 'תלונה: שיתוף עם ארגוני חברה אזרחית'
 
   - name: 'תלונה: שיתוף עם ארגוני חברה אזרחית'
