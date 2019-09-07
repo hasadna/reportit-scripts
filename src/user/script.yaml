@@ -55,7 +55,7 @@
           - wait:
               variable: phone
               placeholder: 05x-xxx-yyyy
-              validation: '[-.0-9()/+]{9-16}'
+              validation: '[-.0-9()/+]{9,16}'
         - show: דוא"ל
           steps:
           - say: מה כתובת הדוא"ל שלך?
@@ -74,7 +74,7 @@
           - wait:
               variable: whatsapp
               placeholder: 05x-xxx-yyyy
-              validation: '[-.0-9()/+]{9-16}'
+              validation: '[-.0-9()/+]{9,16}'
     - say: האם תרצה/תרצי שננסה ליצור איתך קשר באמצעי קשר נוספים?
     - wait:
         options:
