@@ -54,11 +54,15 @@
           - say: מה מספר הטלפון שלך?
           - wait:
               variable: phone
+              placeholder: 05x-xxx-yyyy
+              validation: '[-.0-9()/+]{9-16}'
         - show: דוא"ל
           steps:
           - say: מה כתובת הדוא"ל שלך?
           - wait:
               variable: email
+              placeholder: me@mail.com
+              validation: '(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))'
         - show: פייסבוק
           steps:
           - say: מה שם המשתמש/ת שלך בפייסבוק?
@@ -69,6 +73,8 @@
           - say: מה מספר הטלפון שלך שרשום בוואטסאפ?
           - wait:
               variable: whatsapp
+              placeholder: 05x-xxx-yyyy
+              validation: '[-.0-9()/+]{9-16}'
     - say: האם תרצה/תרצי שננסה ליצור איתך קשר באמצעי קשר נוספים?
     - wait:
         options:
