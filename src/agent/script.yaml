@@ -36,7 +36,8 @@
               - record
               - request_extra_communication_methods
           - goto: complete
-        - default: true
+        - match: false
+          default: true
 
   - name: main_switch
     steps:
