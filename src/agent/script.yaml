@@ -9,6 +9,37 @@
     - wait:
         options:
         - show: קראתי
+    - goto: verify_contact_details
+    - goto: main_switch
+    - goto: 'קבצים: בירור אם אפשרות ו/או קבצים להעלות'
+    - goto: 'תלונה: בדיקת אפשרויות פעולה למקרה'
+    - goto: 'קביעת שיחת המשך'
+    - goto: complete
+
+  - name: verify_contact_details
+    steps:
+    - do:
+        cmd: checkOnlyEmail
+        params:
+        - record
+        variable: _only_email
+    - switch:
+        arg: _only_email
+        cases:
+        - match: true
+          steps:
+          - say: הפונה הזין רק כתובת מייל כאמצעי התקשרות
+          - say: שלחו לו הודעת אימייל עם בקשה לספק פרטי התקשרות נוספים (נוסח לדוגמה תמצאו במשימה)
+          - do:
+              cmd: addTask
+              params:
+              - record
+              - request_extra_communication_methods
+          - goto: complete
+        - default: true
+
+  - name: main_switch
+    steps:
     - do:
         cmd: getOffender
         params:
@@ -39,10 +70,6 @@
           default: true
           steps:
           - goto: 'תלונה: בירור והוספת פרטים חסרים'
-    - goto: 'קבצים: בירור אם אפשרות ו/או קבצים להעלות'
-    - goto: 'תלונה: בדיקת אפשרויות פעולה למקרה'
-    - goto: 'קביעת שיחת המשך'
-    - goto: complete
 
 ### POLICE
   - name: 'משטרה: בירור פרטים נוספים'
