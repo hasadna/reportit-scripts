@@ -629,6 +629,7 @@
         arg: _offender_org_category
         cases:
         - default: true
+          steps: []
         - match: אוניברסיטה/מכללה
           steps:
           - goto: 'מסגרת חינוכית: מסלול אוניברסיטה/מכללה'
