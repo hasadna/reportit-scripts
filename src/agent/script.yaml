@@ -350,11 +350,11 @@
         - show: כן
           steps:
           - do:
-            cmd: uploader
-            params:
-            - record
-            - null
-            - uploader
+              cmd: uploader
+              params:
+              - record
+              - null
+              - uploader
           - say: מה יש בקובץ שהועלה?
           - wait:
               variable: file3description
@@ -629,7 +629,6 @@
         arg: _offender_org_category
         cases:
         - default: true
-          steps:
         - match: אוניברסיטה/מכללה
           steps:
           - goto: 'מסגרת חינוכית: מסלול אוניברסיטה/מכללה'
