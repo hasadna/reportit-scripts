@@ -36,7 +36,7 @@
               params:
               - record
               - request_extra_communication_methods
-          - goto: complete
+          - goto: break
         - match: false
           default: true
 
@@ -379,11 +379,11 @@
         - show: כן
           steps:
           - do:
-            cmd: uploader
-            params:
-            - record
-            - null
-            - uploader
+              cmd: uploader
+              params:
+              - record
+              - null
+              - uploader
           - say: מה יש בקובץ שהועלה?
           - wait:
               variable: file3description
@@ -658,7 +658,7 @@
         arg: _offender_org_category
         cases:
         - default: true
-          steps:
+          steps: []
         - match: אוניברסיטה/מכללה
           steps:
           - goto: 'מסגרת חינוכית: מסלול אוניברסיטה/מכללה'
