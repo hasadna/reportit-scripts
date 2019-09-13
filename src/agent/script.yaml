@@ -94,7 +94,7 @@
         - show: לא
           value: לא בוצע מעצר
         variable: _police_arrest
-    - say: האם הוגש כתב אישום?
+    - say: האם הוגש כתב אישום כנגד הפונה?
     - wait:
         options:
         - show: כן
