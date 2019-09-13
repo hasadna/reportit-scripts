@@ -57,7 +57,7 @@
           - goto: 'דיור: בדיקה אילו פרטים חסרים צריך להשלים'
         - match: מאבטח/ת
           steps:
-          - goto: 'תלונה: בירור והוספת פרטים חסרים'
+          - goto: 'מאבטח/ת: בדיקה אילו פרטים חסרים צריך להשלים'
         - match: מסגרת חינוכית
           steps:
           - goto: 'תלונה: בירור והוספת פרטים חסרים'
@@ -262,6 +262,34 @@
         - record
         variable: event_description
     - say: המידע החדש נשמר
+
+  - name: 'מאבטח/ת: בדיקה אילו פרטים חסרים צריך להשלים'
+    steps:
+    - do:
+        cmd: getGuardCompany
+        params:
+        - record
+        variable: Offender_organization
+    - switch:
+        arg: Offender_organization
+        cases:
+        - default: true
+        - match: ''
+          steps:
+          - say: 'בררו אם הפונה יודע/ת את שם חברת האבטחה.'
+          - wait:
+            options:
+            - show: לא
+              
+            - show: כן
+              steps:
+                  - say: 'אמרו לפונה שאנחנו ננסה לאתר שם חברת האבטחה בה עבד/ה המאבטח/ת.'
+                  - do:
+                      cmd: addTask
+                      params:
+                      - record
+                      - findGuardCompany
+    - goto: 'תלונה: בירור והוספת פרטים חסרים'
 
 ### FILE UPLOAD
   - name: 'קבצים: בירור אם אפשרות ו/או קבצים להעלות'
