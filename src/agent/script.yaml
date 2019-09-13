@@ -270,26 +270,29 @@
         cmd: getGuardCompany
         params:
         - record
-        variable: Offender_organization
+        variable: offender_organization
     - switch:
-        arg: Offender_organization
+        arg: offender_organization
         cases:
         - default: true
         - match: ''
           steps:
           - say: 'בררו אם הפונה יודע/ת את שם חברת האבטחה.'
           - wait:
-            options:
-            - show: לא
-              
-            - show: כן
-              steps:
-                  - say: 'אמרו לפונה שאנחנו ננסה לאתר שם חברת האבטחה בה עבד/ה המאבטח/ת.'
-                  - do:
-                      cmd: addTask
-                      params:
-                      - record
-                      - findGuardCompany
+              options:
+                - show: כן
+                  steps: 
+                    - say: 'מהו שם חברת האבטחה?'
+                    - wait:
+                        variable: offender_organization                      
+                - show: לא
+                  steps:
+                    - say: 'אמרו לפונה שאנחנו ננסה לאתר שם חברת האבטחה בה עבד/ה המאבטח/ת.'
+                    - do:
+                        cmd: addTask
+                        params:
+                        - record
+                        - findGuardCompany
     - goto: 'תלונה: בירור והוספת פרטים חסרים'
 
 ### FILE UPLOAD
