@@ -1,0 +1,4 @@
+awesome-slugify
+PyYAML
+requests
+
