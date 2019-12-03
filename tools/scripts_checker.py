@@ -217,8 +217,6 @@ def check_stats(stats, expected_lists):
         assert param in stats["do.params"], param + \
             " from expected list is not in do.params stats"
 
-    do_params = []
-
 
 def check_keys(keys, name, valid_keys):
     for key in keys:
