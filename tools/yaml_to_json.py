@@ -138,10 +138,13 @@ def pull_translations(lang, filename):
 
 
 if __name__=='__main__':
-    files = Path().glob('src/*/script.yaml')
-    for f_in in files:
-        print(f_in)
-        scripts = yaml.load(f_in.open())
+    for kind in ('user', 'agent'):
+        print(kind)
+        url_in = f'https://firestore.googleapis.com/v1/projects/reportit-script-builder/databases/(default)/documents/script/{kind}'
+        f_in = Path(f'src/{kind}/script.yaml')
+        content = requests.get(url_in).json()['fields']['yaml']['stringValue']
+        scripts = yaml.load(content)
+        yaml.dump(scripts, f_in.open('w'), allow_unicode=True, indent=2, width=1000000)
         assign_ids(scripts, [str(f_in)])
 
         if TRANSIFEX_TOKEN:
