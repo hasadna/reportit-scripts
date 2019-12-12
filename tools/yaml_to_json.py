@@ -58,10 +58,12 @@ def assign_ids(x, stack=[]):
 TRANSIFEX_TOKEN = os.environ.get('TRANSIFEX_TOKEN')
 LANGUAGES = ('ar', 'am', 'en', 'ru')
 
-def assign_translations(x, stack, parent=None, parentkey=None, translations=None):
+def assign_translations(x, stack, parent=None, parentkey=None, translations=None, fields=(), field_in_key=False):
     if isinstance(x, dict):
         key = None
-        if x.get('name'):
+        if x.get('slug'):
+            stack.append(x['slug'])
+        elif x.get('name'):
             stack.append(slugify(x['name']))
         if 'uid' in x:
             stack.append(x['uid'][:2])
@@ -71,24 +73,27 @@ def assign_translations(x, stack, parent=None, parentkey=None, translations=None
                     new_stack = stack + []
                     yield from assign_translations(s, new_stack, 
                         parent=None, parentkey=None,
-                        translations=translations)
+                        translations=translations, fields=fields, field_in_key=field_in_key)
             else:
                 yield from assign_translations(v, stack[:],
                     parent=x, parentkey=k,
-                    translations=translations
+                    translations=translations, fields=fields, field_in_key=field_in_key
                 )
     elif isinstance(x, list):
         for index, xx in enumerate(x):
             new_stack = stack + [index]
             yield from assign_translations(xx, new_stack, 
                 parent=x, parentkey=index,
-                translations=translations
+                translations=translations, fields=fields, field_in_key=field_in_key
             )
     elif isinstance(x, str):
         if parent and parentkey and has_hebrew(x):
-            if isinstance(parentkey, str) and parentkey not in ('say', 'show'):
+            if isinstance(parentkey, str) and parentkey not in fields:
                 return
-            key = '/'.join(str(s) for s in stack)
+            if field_in_key:
+                key = '/'.join(str(s) for s in stack + [parentkey])
+            else:
+                key = '/'.join(str(s) for s in stack)
             yield key, x
             if key in translations:
                 parent[parentkey]={'.tx': dict(translations[key], he=x)}
@@ -147,9 +152,12 @@ def push_translations(filename: Path, translations):
 def pull_translations(lang, filename):
     s = transifex_session()
     slug = transifex_slug(filename)
-    translations = s.get(
-            f'https://www.transifex.com/api/2/project/equalityorgil/resource/{slug}/translation/{lang}/',
-    ).json()
+    url = f'https://www.transifex.com/api/2/project/equalityorgil/resource/{slug}/translation/{lang}/'
+    try:
+        translations = s.get(url).json()
+    except json.decoder.JSONDecodeError:
+        print('No data from %s' % url)
+        return {}
     translations = yaml.load(translations['content'], Loader=yaml.BaseLoader)['he']
     translations = dict((k, v) for k, v in translations.items() if v)
     return translations
@@ -173,7 +181,7 @@ if __name__=='__main__':
                     rx_translations.setdefault(key, {})[lang] = value
             tx_translations = {}
             for script in scripts:
-                for k, v in assign_translations(script, [], translations=rx_translations):
+                for k, v in assign_translations(script, [], translations=rx_translations, fields=('show', 'say')):
                     assert tx_translations.get(k, v) == v, 'Duplicate key %s (v=%r, tx[k]==%r)' % (k, v, tx_translations[k])
                     tx_translations[k] = v
             push_translations(f_in, tx_translations)
@@ -181,3 +189,25 @@ if __name__=='__main__':
         scripts = dict(s=scripts)
         f_out = f_in.with_suffix('.json')
         json.dump(scripts, f_out.open('w'), ensure_ascii=False, sort_keys=True)
+
+    for kind in ('infocards', 'organizations', 'tasktemplates'):
+        print(kind)
+        f_in = Path(f'src/datasets/{kind}.datapackage.json')
+        dataset = json.load(f_in.open())
+
+        if TRANSIFEX_TOKEN:
+            rx_translations = {}
+            for lang in LANGUAGES: 
+                lang_translations = pull_translations(lang, f_in)
+                for key, value in lang_translations.items():
+                    rx_translations.setdefault(key, {})[lang] = value
+            tx_translations = {}
+            fields = list(f['name'] for f in dataset['resources'][0]['schema']['fields'])
+            for item in dataset['resources'][0]['data']:
+                for k, v in assign_translations(item, [], translations=rx_translations, fields=fields, field_in_key=True):
+                    assert tx_translations.get(k, v) == v, 'Duplicate key %s (v=%r, tx[k]==%r)' % (k, v, tx_translations[k])
+                    tx_translations[k] = v
+            push_translations(f_in, tx_translations)
+
+        f_out = f_in.with_suffix('.tx.datapackage.json')
+        json.dump(dataset, f_out.open('w'), ensure_ascii=False, sort_keys=True, indent=2)
