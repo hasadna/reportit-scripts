@@ -209,5 +209,5 @@ if __name__=='__main__':
                     tx_translations[k] = v
             push_translations(f_in, tx_translations)
 
-        f_out = f_in.with_suffix('.tx.datapackage.json')
+        f_out = f_in.with_suffix('.tx.json')
         json.dump(dataset, f_out.open('w'), ensure_ascii=False, sort_keys=True, indent=2)
