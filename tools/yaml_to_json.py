@@ -1,4 +1,5 @@
 import os
+import re
 from pathlib import Path
 from hashlib import md5
 from slugify import slugify
@@ -11,6 +12,9 @@ def calc_hash(s):
     ret = md5(s.encode('utf8')).hexdigest()[:10]
     return ret
 
+HEB = re.compile('[א-ת]')
+def has_hebrew(s):
+    return len(HEB.findall(s)) > 0
 
 def get_field(x, f):
     parts = f.split('.')
@@ -54,7 +58,7 @@ def assign_ids(x, stack=[]):
 TRANSIFEX_TOKEN = os.environ.get('TRANSIFEX_TOKEN')
 LANGUAGES = ('ar', 'am', 'en', 'ru')
 
-def assign_translations(x, stack, lang=None, translations=None):
+def assign_translations(x, stack, parent=None, parentkey=None, translations=None):
     if isinstance(x, dict):
         key = None
         if x.get('name'):
@@ -63,20 +67,34 @@ def assign_translations(x, stack, lang=None, translations=None):
             stack.append(x['uid'][:2])
         for k, v in x.items():
             if k == 'steps':
-                for index, s in enumerate(v):
+                for s in v:
                     new_stack = stack + []
-                    yield from assign_translations(s, new_stack, lang, translations)
-            elif k in ('say', 'show'):
-                key = '/'.join(str(s) for s in stack)
-                yield key, v
+                    yield from assign_translations(s, new_stack, 
+                        parent=None, parentkey=None,
+                        translations=translations)
             else:
-                yield from assign_translations(v, stack[:], lang, translations)
-        if lang is not None and key in translations:
-            x.setdefault('.tx', {})[lang] = translations[key]
+                yield from assign_translations(v, stack[:],
+                    parent=x, parentkey=k,
+                    translations=translations
+                )
     elif isinstance(x, list):
         for index, xx in enumerate(x):
             new_stack = stack + [index]
-            yield from assign_translations(xx, new_stack, lang, translations)
+            yield from assign_translations(xx, new_stack, 
+                parent=x, parentkey=index,
+                translations=translations
+            )
+    elif isinstance(x, str):
+        if parent and parentkey and has_hebrew(x):
+            if isinstance(parentkey, str) and parentkey not in ('say', 'show'):
+                return
+            key = '/'.join(str(s) for s in stack)
+            yield key, x
+            if key in translations:
+                parent[parentkey]={'.tx': dict(translations[key], he=x)}
+            else:
+                print('KEY NOT IN TX %s'% key)
+
 
 
 def transifex_session():
@@ -148,17 +166,17 @@ if __name__=='__main__':
         assign_ids(scripts, [str(f_in)])
 
         if TRANSIFEX_TOKEN:
-            translations = {}
-            for script in scripts:
-                for k, v in assign_translations(script, []):
-                    assert k not in translations
-                    translations[k] = v
-            push_translations(f_in, translations)
+            rx_translations = {}
             for lang in LANGUAGES: 
-                translations = pull_translations(lang, f_in)
-                for script in scripts:
-                    for k, v in assign_translations(script, [], lang, translations):
-                        pass
+                lang_translations = pull_translations(lang, f_in)
+                for key, value in lang_translations.items():
+                    rx_translations.setdefault(key, {})[lang] = value
+            tx_translations = {}
+            for script in scripts:
+                for k, v in assign_translations(script, [], translations=rx_translations):
+                    assert tx_translations.get(k, v) == v, 'Duplicate key %s (v=%r, tx[k]==%r)' % (k, v, tx_translations[k])
+                    tx_translations[k] = v
+            push_translations(f_in, tx_translations)
 
         scripts = dict(s=scripts)
         f_out = f_in.with_suffix('.json')
