@@ -213,6 +213,12 @@
           "infocard_slugs": null,
           "slug": "request_extra_communication_methods"
         }
+        {
+          "Description": "הפניה נסגרה על ידי המוקדנ/ית",
+          "Title": "הטיפול בפניה הושלם",
+          "infocard_slugs": null,
+          "slug": "report_closed"
+        }
       ],
       "format": "json",
       "name": "tasktemplates",
