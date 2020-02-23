@@ -146,7 +146,7 @@ def push_translations(filename: Path, translations):
             'https://www.transifex.com/api/2/project/equalityorgil/resources/',
             json=data
         ) 
-        print(resp.status_code, resp.content[:50])
+        print(resp.status_code, resp.content[:100])
 
 
 def pull_translations(lang, filename):
@@ -190,10 +190,10 @@ if __name__=='__main__':
         f_out = f_in.with_suffix('.json')
         json.dump(scripts, f_out.open('w'), ensure_ascii=False, sort_keys=True)
 
-    for kind in ('infocards', 'organizations', 'tasktemplates'):
-        print(kind)
-        f_in = Path(f'src/datasets/{kind}.datapackage.json')
-        dataset = json.load(f_in.open())
+    for kind in ('infocards', 'organizations', 'taskTemplates'):
+        url_in = f'https://firestore.googleapis.com/v1/projects/reportit-script-builder/databases/(default)/documents/script/agent'
+        content = yaml.load(requests.get(url_in).json()['fields']['yaml']['stringValue'])[0]
+        dataset = content[kind]
 
         if TRANSIFEX_TOKEN:
             rx_translations = {}
@@ -202,8 +202,12 @@ if __name__=='__main__':
                 for key, value in lang_translations.items():
                     rx_translations.setdefault(key, {})[lang] = value
             tx_translations = {}
-            fields = list(f['name'] for f in dataset['resources'][0]['schema']['fields'])
-            for item in dataset['resources'][0]['data']:
+            fields = list(dataset[0].keys())
+            for item in dataset:
+                if 'scenarios' in item:
+                    item['scenarios'] = [
+                        json.loads(x['json']) for x in item['scenarios']
+                    ]
                 for k, v in assign_translations(item, [], translations=rx_translations, fields=fields, field_in_key=True):
                     assert tx_translations.get(k, v) == v, 'Duplicate key %s (v=%r, tx[k]==%r)' % (k, v, tx_translations[k])
                     tx_translations[k] = v
