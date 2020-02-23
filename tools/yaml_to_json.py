@@ -192,6 +192,7 @@ if __name__=='__main__':
 
     for kind in ('infocards', 'organizations', 'taskTemplates'):
         url_in = f'https://firestore.googleapis.com/v1/projects/reportit-script-builder/databases/(default)/documents/script/agent'
+        f_in = Path(f'src/datasets/{kind}.datapackage.json')
         content = yaml.load(requests.get(url_in).json()['fields']['yaml']['stringValue'])[0]
         dataset = content[kind]
 
