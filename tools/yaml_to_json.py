@@ -97,8 +97,8 @@ def assign_translations(x, stack, parent=None, parentkey=None, translations=None
             yield key, x
             if key in translations:
                 parent[parentkey]={'.tx': dict(translations[key], _=x)}
-            else:
-                print('KEY NOT IN TX %s'% key)
+            # else:
+            #     print('KEY NOT IN TX %s'% key)
 
 
 
