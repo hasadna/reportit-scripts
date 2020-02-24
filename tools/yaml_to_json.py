@@ -215,4 +215,5 @@ if __name__=='__main__':
             push_translations(f_in, tx_translations)
 
         f_out = f_in.with_suffix('.tx.json')
+        print('DATASET %s has %d entries' % (kind, len(dataset)))
         json.dump(dataset, f_out.open('w'), ensure_ascii=False, sort_keys=True, indent=2)
