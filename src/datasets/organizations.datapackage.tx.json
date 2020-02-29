@@ -202,9 +202,7 @@
     "phoneResponseDetails": "ימים א-ה, 09:00-17:00",
     "receptionDetails": null,
     "scenarios": [
-      {
-        "offender": "משטרה"
-      }
+      {}
     ],
     "slug": "justice_ministry_anti_racism_unit",
     "websiteLabel1": "טופס מקוון להגשת דיווח או תלונה",
@@ -251,6 +249,9 @@
     "phoneNumber2": null,
     "phoneResponseDetails": "בימים א' עד ה', בין השעות 08:00 עד 16:00.  במערכת ניתוב השיחות יש לבחור בשלוחה מספר 4.",
     "receptionDetails": null,
+    "scenarios": [
+      {}
+    ],
     "slug": "justice_ministry_legal_assistance",
     "websiteLabel1": "מידע על בקשה לסיוע משפטי",
     "websiteLabel2": "שעות ועמדות קבלת קהל",
@@ -272,15 +273,7 @@
     "phoneResponseDetails": "כל יום בשעות 10:30-17:00. בשעות שבהן אין מענה אפשר להשאיר הודעה ברורה במשיבון ואנו נחזור אליכם.",
     "receptionDetails": null,
     "scenarios": [
-      {
-        "offender": "בריאות"
-      },
-      {
-        "offender": "דיור"
-      },
-      {
-        "offender": "מסגרת חינוכית"
-      }
+      {}
     ],
     "slug": "acri",
     "websiteLabel1": "אתר הארגון",
@@ -327,7 +320,7 @@
     "phoneNumber2": null,
     "phoneResponseDetails": null,
     "receptionDetails": null,
-    "slug": "education_ministry_unltra_orthodox",
+    "slug": "education_ministry_ultra_orthodox",
     "websiteLabel1": "מידע בנוגע לפנייה לוועדת הערר של המחוז החרדי במשרד החינוך",
     "websiteLabel2": "",
     "websiteUrl1": "http://cms.education.gov.il/EducationCMS/Units/ChinuchMukar/PikuahPedagogi/KabalaRishum.htm",
@@ -367,6 +360,9 @@
     "phoneNumber2": null,
     "phoneResponseDetails": null,
     "receptionDetails": null,
+    "scenarios": [
+      {}
+    ],
     "slug": "minhal_legal_advisor",
     "websiteLabel1": null,
     "websiteLabel2": null,
