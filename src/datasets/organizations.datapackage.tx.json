@@ -1,5 +1,25 @@
 [
   {
+    "contactPerson1": null,
+    "contactPerson2": null,
+    "description": "האגודה פועלת למען החברה בישראל וכחלק ממנה, כדי להגן ולקדם את הזכויות של כולן וכולם, ללא קשר ותנאי למעמדם בישראל: אזרחים, תושבים, פליטים ומבקשי מקלט, מהגרי עבודה, תושבי ירושלים המזרחית ותושבי השטחים הכבושים; נשים וגברים, דתיים וחילונים, יהודים ופלסטינים, בעלי דעות פוליטיות מהימין ומן השמאל.\n\nצוות פניות הציבור מטפל בתלונות על פגיעה בזכויות אדם על ידי המדינה ורשויותיה או מי שפועל בשם הרשויות (ובמקרים של אפליה ופרנסה, גם על ידי גורמים פרטיים). הארגון מקבל פניות מכל אדם, ללא קשר למעמדו/ה בישראל",
+    "email1": "mail@acri.org.il",
+    "email2": null,
+    "fax": null,
+    "mailAddress": "האגודה לזכויות האזרח, רח' נחלת בנימין 75 תל-אביב 6515417. ",
+    "organizationName": "אגודה לזכויות האזרח",
+    "organizationType": "ארגון חברה אזרחית",
+    "phoneNumber1": "03-5608185",
+    "phoneNumber2": "073-7050752",
+    "phoneResponseDetails": "כל יום בשעות 10:30-17:00. בשעות שבהן אין מענה אפשר להשאיר הודעה ברורה במשיבון ואנו נחזור אליכם.",
+    "receptionDetails": null,
+    "slug": "acri",
+    "websiteLabel1": "אתר הארגון",
+    "websiteLabel2": "פרטי יצירת קשר וטופס מקוון",
+    "websiteUrl1": "https://www.acri.org.il/",
+    "websiteUrl2": "https://www.acri.org.il/contact-us"
+  },
+  {
     "contactPerson1": "",
     "contactPerson2": "",
     "description": "מוקד מידע, סיוע ותיעוד שיילחם בגזענות בישראל באמצעות העצמת נפגעי גזענות, ויציע ליווי מול הרשויות, סיוע משפטי וסיוע נפשי כדי להקל על הגישה לאוכלוסיות הנפגעות.",
@@ -13,104 +33,11 @@
     "phoneNumber2": "",
     "phoneResponseDetails": "שני, 13:00-17:00 שישי, 09:00-13:00 בשאר‭ ‬הזמן‭ ‬ניתן‭ ‬להשאיר‭ ‬הודעה ",
     "receptionDetails": "",
-    "scenarios": [
-      {
-        "offender": "משטרה"
-      },
-      {
-        "event_location": "משרד ממשלתי",
-        "offender": "מאבטח/ת"
-      },
-      {
-        "offender": "מסגרת חינוכית"
-      },
-      {
-        "offender": "דיור"
-      },
-      {
-        "offender": "בריאות"
-      }
-    ],
     "slug": "reform_movement",
     "websiteLabel1": "למידע נוסף",
     "websiteLabel2": "",
     "websiteUrl1": "https://www.ircc.org.il/",
     "websiteUrl2": ""
-  },
-  {
-    "contactPerson1": null,
-    "contactPerson2": null,
-    "description": "המרכז המשפטי לקידום השוויון (ע\"ר), פועל במטרה להיאבק למען אוכלוסיות מוחלשות ומושתקות בחברה הישראלית, אשר מופלות על בסיס מרכיבי זהות כגון מגדר, מיניות ואתניות.\n\n \nהמרכז פועל להביא לשינוי חברתי וכלכלי במסגרת השדה המשפטי על ידי שימוש בכלים משפטיים: פנייה לערכאות, סיוע משפטי לקבוצות ולפרטים שנפגעו כתוצאה מאפליה, וליווי של מהלכים המתמקדים בחקיקה מתקנת. ",
-    "email1": null,
-    "email2": null,
-    "fax": null,
-    "mailAddress": null,
-    "organizationName": "מרכז תמורה",
-    "organizationType": "ארגון חברה אזרחית",
-    "phoneNumber1": " 03-963419",
-    "phoneNumber2": null,
-    "phoneResponseDetails": null,
-    "receptionDetails": null,
-    "scenarios": [
-      {
-        "complaint_type": [
-          "בידוק מפלה"
-        ]
-      },
-      {
-        "complaint_type": [
-          "מניעת כניסה"
-        ]
-      },
-      {
-        "complaint_type": [
-          "אפליה בהשכרת דירה מחברה"
-        ]
-      },
-      {
-        "complaint_type": [
-          "אפליה במכירת דירה על ידי חברת בניה/יזם/קבלן"
-        ]
-      },
-      {
-        "complaint_type": [
-          "אפליה בקבלה לישוב מסוג לא מוגדר"
-        ]
-      },
-      {
-        "complaint_type": [
-          "אפליה בקבלה לנחלה בקיבוץ או במושב"
-        ]
-      },
-      {
-        "complaint_type": [
-          "אפליה בקבלה לשכונת הרחבה במושב או בקיבוץ"
-        ]
-      },
-      {
-        "complaint_type": [
-          "אפליה בקבלה לישוב קהילתי"
-        ]
-      },
-      {
-        "complaint_type": [
-          "אפליה במכירת דירת יד 2 מידי אדם פרטי"
-        ]
-      },
-      {
-        "complaint_type": [
-          "אפליה בהשכרת דירה מאדם פרטי"
-        ]
-      },
-      {
-        "offender": "מסגרת חינוכית"
-      }
-    ],
-    "slug": "tmura",
-    "websiteLabel1": "אתר מרכזי",
-    "websiteLabel2": "טופס לפניה מקוונת",
-    "websiteUrl1": "http://www.tmura.org.il/",
-    "websiteUrl2": "http://www.tmura.org.il/page6.html"
   },
   {
     "contactPerson1": null,
@@ -202,7 +129,9 @@
     "phoneResponseDetails": "ימים א-ה, 09:00-17:00",
     "receptionDetails": null,
     "scenarios": [
-      {}
+      {
+        "run": "never"
+      }
     ],
     "slug": "justice_ministry_anti_racism_unit",
     "websiteLabel1": "טופס מקוון להגשת דיווח או תלונה",
@@ -249,37 +178,11 @@
     "phoneNumber2": null,
     "phoneResponseDetails": "בימים א' עד ה', בין השעות 08:00 עד 16:00.  במערכת ניתוב השיחות יש לבחור בשלוחה מספר 4.",
     "receptionDetails": null,
-    "scenarios": [
-      {}
-    ],
     "slug": "justice_ministry_legal_assistance",
     "websiteLabel1": "מידע על בקשה לסיוע משפטי",
     "websiteLabel2": "שעות ועמדות קבלת קהל",
     "websiteUrl1": "https://www.gov.il//he/service/legal_aid_application?gclid=CjwKCAjw4LfkBRBDEiwAc2DSlO_uPreYOnjLe-ziCSlih4jIvwqoyXBiLOkbbSOQuB1yw2iVuxj1vBoCJJ0QAvD_BwE",
     "websiteUrl2": null
-  },
-  {
-    "contactPerson1": null,
-    "contactPerson2": null,
-    "description": "האגודה פועלת למען החברה בישראל וכחלק ממנה, כדי להגן ולקדם את הזכויות של כולן וכולם, ללא קשר ותנאי למעמדם בישראל: אזרחים, תושבים, פליטים ומבקשי מקלט, מהגרי עבודה, תושבי ירושלים המזרחית ותושבי השטחים הכבושים; נשים וגברים, דתיים וחילונים, יהודים ופלסטינים, בעלי דעות פוליטיות מהימין ומן השמאל.\n\nצוות פניות הציבור מטפל בתלונות על פגיעה בזכויות אדם על ידי המדינה ורשויותיה או מי שפועל בשם הרשויות (ובמקרים של אפליה ופרנסה, גם על ידי גורמים פרטיים). הארגון מקבל פניות מכל אדם, ללא קשר למעמדו/ה בישראל",
-    "email1": "mail@acri.org.il",
-    "email2": null,
-    "fax": null,
-    "mailAddress": "האגודה לזכויות האזרח, רח' נחלת בנימין 75 תל-אביב 6515417. ",
-    "organizationName": "אגודה לזכויות האזרח",
-    "organizationType": "ארגון חברה אזרחית",
-    "phoneNumber1": "03-5608185",
-    "phoneNumber2": "073-7050752",
-    "phoneResponseDetails": "כל יום בשעות 10:30-17:00. בשעות שבהן אין מענה אפשר להשאיר הודעה ברורה במשיבון ואנו נחזור אליכם.",
-    "receptionDetails": null,
-    "scenarios": [
-      {}
-    ],
-    "slug": "acri",
-    "websiteLabel1": "אתר הארגון",
-    "websiteLabel2": "פרטי יצירת קשר וטופס מקוון",
-    "websiteUrl1": "https://www.acri.org.il/",
-    "websiteUrl2": "https://www.acri.org.il/contact-us"
   },
   {
     "contactPerson1": " עו\"ד הרן רייכמן",
@@ -320,6 +223,11 @@
     "phoneNumber2": null,
     "phoneResponseDetails": null,
     "receptionDetails": null,
+    "scenarios": [
+      {
+        "run": "never"
+      }
+    ],
     "slug": "education_ministry_ultra_orthodox",
     "websiteLabel1": "מידע בנוגע לפנייה לוועדת הערר של המחוז החרדי במשרד החינוך",
     "websiteLabel2": "",
@@ -340,6 +248,11 @@
     "phoneNumber2": null,
     "phoneResponseDetails": null,
     "receptionDetails": null,
+    "scenarios": [
+      {
+        "run": "never"
+      }
+    ],
     "slug": "justice_ministry_admission_committee",
     "websiteLabel1": "אתר הועדה ואופן הגשת הפניה",
     "websiteLabel2": null,
@@ -361,7 +274,9 @@
     "phoneResponseDetails": null,
     "receptionDetails": null,
     "scenarios": [
-      {}
+      {
+        "run": "never"
+      }
     ],
     "slug": "minhal_legal_advisor",
     "websiteLabel1": null,
@@ -383,6 +298,11 @@
     "phoneNumber2": " 5575*",
     "phoneResponseDetails": "המוקד פועל בימים א'-ה' משעה 8:00 עד 19:00 ובימי שישי משעה 8:00 עד 12:00. מענה אוטומטי ניתן 24 שעות ביממה.  שירותי המוקד הטל​פוני  - מתן מידע אישי לכלל הנושאים והלקוחות מתוך התיק המתנהל ברשות מקרקעי ישראל.  - משלוח העתקי מסמכים בדואר לבעל הנכס או למיופה כוחו בלבד.  - מתן מידע מקיף לכל המעוניין. המידע כולל שאלות ותש​​ובות, טפסים והסברים,  - מכרזי מקרקעין, תוכניות מתאר, כתובות וטלפונים ועוד.​​",
     "receptionDetails": null,
+    "scenarios": [
+      {
+        "run": "never"
+      }
+    ],
     "slug": "minhal",
     "websiteLabel1": "אתר רשות מקרקעי ישראל (רמ\"י)",
     "websiteLabel2": "טופס מקוון להגשת פניות",
@@ -403,6 +323,11 @@
     "phoneNumber2": null,
     "phoneResponseDetails": null,
     "receptionDetails": null,
+    "scenarios": [
+      {
+        "run": "never"
+      }
+    ],
     "slug": "realtors_registrar",
     "websiteLabel1": "אתר",
     "websiteLabel2": null,
@@ -473,6 +398,11 @@
     "phoneNumber2": null,
     "phoneResponseDetails": null,
     "receptionDetails": null,
+    "scenarios": [
+      {
+        "run": "never"
+      }
+    ],
     "slug": "health_ministry_accessiblity",
     "websiteLabel1": "מידע על פניות בנושאי נגישות, אתר משרד הבריאות",
     "websiteLabel2": null,
