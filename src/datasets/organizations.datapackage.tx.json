@@ -31,7 +31,6 @@
         "offender": "בריאות"
       }
     ],
-    "scenariosRelevancy": "",
     "slug": "reform_movement",
     "websiteLabel1": "למידע נוסף",
     "websiteLabel2": "",
@@ -107,7 +106,6 @@
         "offender": "מסגרת חינוכית"
       }
     ],
-    "scenariosRelevancy": null,
     "slug": "tmura",
     "websiteLabel1": "אתר מרכזי",
     "websiteLabel2": "טופס לפניה מקוונת",
@@ -133,7 +131,6 @@
         "offender": "משטרה"
       }
     ],
-    "scenariosRelevancy": null,
     "slug": "mahash",
     "websiteLabel1": "מידע נוסף על אופן הגשת התלונה",
     "websiteLabel2": "טפסים בערבית ובאמהרית",
@@ -159,7 +156,6 @@
         "offender": "מאבטח/ת"
       }
     ],
-    "scenariosRelevancy": null,
     "slug": "police_security_department",
     "websiteLabel1": "לאתר החטיבה",
     "websiteLabel2": null,
@@ -185,7 +181,6 @@
         "offender": "משטרה"
       }
     ],
-    "scenariosRelevancy": null,
     "slug": "police_complaints",
     "websiteLabel1": "אתר המידע",
     "websiteLabel2": "טופס פניה למערך פניות ותלונות הציבור",
@@ -211,7 +206,6 @@
         "offender": "משטרה"
       }
     ],
-    "scenariosRelevancy": null,
     "slug": "justice_ministry_anti_racism_unit",
     "websiteLabel1": "טופס מקוון להגשת דיווח או תלונה",
     "websiteLabel2": null,
@@ -237,7 +231,6 @@
         "offender": "מסגרת חינוכית"
       }
     ],
-    "scenariosRelevancy": null,
     "slug": "education_ministry",
     "websiteLabel1": "אתר",
     "websiteLabel2": null,
@@ -258,7 +251,6 @@
     "phoneNumber2": null,
     "phoneResponseDetails": "בימים א' עד ה', בין השעות 08:00 עד 16:00.  במערכת ניתוב השיחות יש לבחור בשלוחה מספר 4.",
     "receptionDetails": null,
-    "scenariosRelevancy": null,
     "slug": "justice_ministry_legal_assistance",
     "websiteLabel1": "מידע על בקשה לסיוע משפטי",
     "websiteLabel2": "שעות ועמדות קבלת קהל",
@@ -290,7 +282,6 @@
         "offender": "מסגרת חינוכית"
       }
     ],
-    "scenariosRelevancy": null,
     "slug": "acri",
     "websiteLabel1": "אתר הארגון",
     "websiteLabel2": "פרטי יצירת קשר וטופס מקוון",
@@ -316,7 +307,6 @@
         "offender": "מסגרת חינוכית"
       }
     ],
-    "scenariosRelevancy": null,
     "slug": null,
     "websiteLabel1": "אתר",
     "websiteLabel2": "עמוד הפייסבוק",
@@ -337,7 +327,6 @@
     "phoneNumber2": null,
     "phoneResponseDetails": null,
     "receptionDetails": null,
-    "scenariosRelevancy": null,
     "slug": "education_ministry_unltra_orthodox",
     "websiteLabel1": "מידע בנוגע לפנייה לוועדת הערר של המחוז החרדי במשרד החינוך",
     "websiteLabel2": "",
@@ -358,7 +347,6 @@
     "phoneNumber2": null,
     "phoneResponseDetails": null,
     "receptionDetails": null,
-    "scenariosRelevancy": null,
     "slug": "justice_ministry_admission_committee",
     "websiteLabel1": "אתר הועדה ואופן הגשת הפניה",
     "websiteLabel2": null,
@@ -379,7 +367,6 @@
     "phoneNumber2": null,
     "phoneResponseDetails": null,
     "receptionDetails": null,
-    "scenariosRelevancy": null,
     "slug": "minhal_legal_advisor",
     "websiteLabel1": null,
     "websiteLabel2": null,
@@ -400,7 +387,6 @@
     "phoneNumber2": " 5575*",
     "phoneResponseDetails": "המוקד פועל בימים א'-ה' משעה 8:00 עד 19:00 ובימי שישי משעה 8:00 עד 12:00. מענה אוטומטי ניתן 24 שעות ביממה.  שירותי המוקד הטל​פוני  - מתן מידע אישי לכלל הנושאים והלקוחות מתוך התיק המתנהל ברשות מקרקעי ישראל.  - משלוח העתקי מסמכים בדואר לבעל הנכס או למיופה כוחו בלבד.  - מתן מידע מקיף לכל המעוניין. המידע כולל שאלות ותש​​ובות, טפסים והסברים,  - מכרזי מקרקעין, תוכניות מתאר, כתובות וטלפונים ועוד.​​",
     "receptionDetails": null,
-    "scenariosRelevancy": null,
     "slug": "minhal",
     "websiteLabel1": "אתר רשות מקרקעי ישראל (רמ\"י)",
     "websiteLabel2": "טופס מקוון להגשת פניות",
@@ -421,7 +407,6 @@
     "phoneNumber2": null,
     "phoneResponseDetails": null,
     "receptionDetails": null,
-    "scenariosRelevancy": null,
     "slug": "realtors_registrar",
     "websiteLabel1": "אתר",
     "websiteLabel2": null,
@@ -447,7 +432,6 @@
         "offender": "בריאות"
       }
     ],
-    "scenariosRelevancy": null,
     "slug": "health_ministry_zero_racism",
     "websiteLabel1": null,
     "websiteLabel2": null,
@@ -473,7 +457,6 @@
         "offender": "בריאות"
       }
     ],
-    "scenariosRelevancy": null,
     "slug": "health_ministry_public_inquiries",
     "websiteLabel1": "פרטי הגשת פניה",
     "websiteLabel2": null,
@@ -494,7 +477,6 @@
     "phoneNumber2": null,
     "phoneResponseDetails": null,
     "receptionDetails": null,
-    "scenariosRelevancy": null,
     "slug": "health_ministry_accessiblity",
     "websiteLabel1": "מידע על פניות בנושאי נגישות, אתר משרד הבריאות",
     "websiteLabel2": null,

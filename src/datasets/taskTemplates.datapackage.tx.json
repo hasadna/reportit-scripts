@@ -208,5 +208,11 @@
     "infocardSlugs": null,
     "slug": "findGuardCompany",
     "title": "ניסיון לאתר את שם פרטי חברת האבטחה"
+  },
+  {
+    "description": "הוסיפו תיאור המשימה החדשה וערכו את כותרת המשימה",
+    "infocardSlugs": null,
+    "slug": "new_task",
+    "title": "משימה חדשה"
   }
 ]
