@@ -55,7 +55,7 @@
     "receptionDetails": null,
     "scenarios": [
       {
-        "offender": "משטרה"
+        "json": "{\n      \"offender\": \"משטרה\"\n    }"
       }
     ],
     "slug": "mahash",
@@ -80,7 +80,7 @@
     "receptionDetails": null,
     "scenarios": [
       {
-        "offender": "מאבטח/ת"
+        "json": "{\n      \"offender\": \"מאבטח/ת\"\n    }"
       }
     ],
     "slug": "police_security_department",
@@ -105,7 +105,7 @@
     "receptionDetails": null,
     "scenarios": [
       {
-        "offender": "משטרה"
+        "json": "{\n      \"offender\": \"משטרה\"\n    }"
       }
     ],
     "slug": "police_complaints",
@@ -130,7 +130,7 @@
     "receptionDetails": null,
     "scenarios": [
       {
-        "run": "never"
+        "json": "{\"run\": \"never\"}"
       }
     ],
     "slug": "justice_ministry_anti_racism_unit",
@@ -155,7 +155,7 @@
     "receptionDetails": null,
     "scenarios": [
       {
-        "offender": "מסגרת חינוכית"
+        "json": "{ \n  \"offender\": \"מסגרת חינוכית\"\n}"
       }
     ],
     "slug": "education_ministry",
@@ -200,7 +200,7 @@
     "receptionDetails": null,
     "scenarios": [
       {
-        "offender": "מסגרת חינוכית"
+        "json": "{\n      \"offender\": \"מסגרת חינוכית\"\n    }"
       }
     ],
     "slug": null,
@@ -225,7 +225,7 @@
     "receptionDetails": null,
     "scenarios": [
       {
-        "run": "never"
+        "json": "{\"run\": \"never\"}"
       }
     ],
     "slug": "education_ministry_ultra_orthodox",
@@ -250,7 +250,7 @@
     "receptionDetails": null,
     "scenarios": [
       {
-        "run": "never"
+        "json": "{\"run\": \"never\"}"
       }
     ],
     "slug": "justice_ministry_admission_committee",
@@ -275,7 +275,7 @@
     "receptionDetails": null,
     "scenarios": [
       {
-        "run": "never"
+        "json": "{\"run\": \"never\"}"
       }
     ],
     "slug": "minhal_legal_advisor",
@@ -300,7 +300,7 @@
     "receptionDetails": null,
     "scenarios": [
       {
-        "run": "never"
+        "json": "{\"run\": \"never\"}"
       }
     ],
     "slug": "minhal",
@@ -325,7 +325,7 @@
     "receptionDetails": null,
     "scenarios": [
       {
-        "run": "never"
+        "json": "{\"run\": \"never\"}"
       }
     ],
     "slug": "realtors_registrar",
@@ -350,7 +350,7 @@
     "receptionDetails": null,
     "scenarios": [
       {
-        "offender": "בריאות"
+        "json": " {\n      \"offender\": \"בריאות\"\n    }"
       }
     ],
     "slug": "health_ministry_zero_racism",
@@ -375,7 +375,7 @@
     "receptionDetails": null,
     "scenarios": [
       {
-        "offender": "בריאות"
+        "json": "{\n      \"offender\": \"בריאות\"\n    }"
       }
     ],
     "slug": "health_ministry_public_inquiries",
@@ -400,7 +400,7 @@
     "receptionDetails": null,
     "scenarios": [
       {
-        "run": "never"
+        "json": "{\"run\": \"never\"}"
       }
     ],
     "slug": "health_ministry_accessiblity",
