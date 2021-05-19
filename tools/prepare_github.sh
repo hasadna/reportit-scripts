@@ -1,5 +1,5 @@
 #!/bin/bash
-openssl aes-256-cbc -pass ""  -k "$travis_key_password" -d -md sha256 -a -in travis_key.enc -out travis_key && echo 'Decrypted file successfully'
+openssl aes-256-cbc -K $encrypted_3f2dabfde256_key -iv $encrypted_3f2dabfde256_iv -in travis_key.enc -out travis_key -d && echo 'Decrypted file successfully'
 ls -la
 head -n1 travis_key
 echo "Host github.com" > ~/.ssh/config
