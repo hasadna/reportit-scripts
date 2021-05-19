@@ -1,5 +1,5 @@
 #!/bin/bash
-openssl aes-256-cbc -k "$travis_key_password" -d -md sha256 -a -in travis_key.enc -out travis_key
+openssl aes-256-cbc --pass ""  -k "$travis_key_password" -d -md sha256 -a -in travis_key.enc -out travis_key
 echo "Host github.com" > ~/.ssh/config
 echo "  IdentityFile  $(pwd)/travis_key" >> ~/.ssh/config
 chmod 400 travis_key
