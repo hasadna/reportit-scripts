@@ -1,1455 +1,1998 @@
-- description: תסריט צד מוקדנ/ית
+- constants: []
+  description: תסריט צד מוקדנ/ית
+  infocards:
+  - content: 'בישוב בנגב ובגליל שבו פחות מ-400 משפחות מתקיימת ועדת קבלה, הבוחנת התאמה לחיים בקהילה קטנה, באמצעות חוות דעת של מכון מיון. כמו כן נבחן האם יש במועמדות משום פגיעה במרקם החברתי תרבותי של הישוב. אסור להפלות מחמת לאום, דת נטיה מינית, מוגבלות וכדומה.  במקרה שיש ראיה להפליה ניתן להגיש ערר לוועדת השגות :  [קישור](https://www.gov.il/he/Departments/General/reservations_committee)  בכל שאר הארץ אין ועדת קבלה ולישוב אסור להפלות . מי שנתקל בהפליה יופנה לעו"ד או לאחד הארגונים העוסקים בנושא ליעוץ משפטי.'
+    slug: real_estate_small_comittee
+    title: אפליה ברכישת נדל"ן בישוב קהילתי או בשכונת הרחבה
+  - content: 'ניתן לתבוע בהליך אזרחי את האגודה השיתופית וניתן לדרוש מרשות מקרקעי ישראל לאפשר הרכישה חרף התנגדות האגודה השיתופית. על פי המצב המשפטי הקיים, למושב ולקיבוץ שיקול דעת נרחב לדחות מועמדים המבקשים לגור בישוב, אך סירוב כזה דורש את אישור רשות מקרקעי ישראל. בתי המשפט קבעו במספר מקרים כי האגודה השיתופית המנהלת את הישוב היא גוף המחוייב לפעול בשוויון בהקצאת מגרשים, אך מומלץ במקרה זה להתייעץ עם ארגון רלוונטי או עו"ד פרטי. '
+    slug: real_estate_kibutz_moshav_acceptance
+    title: אפליה בקבלה לקיבוץ או מושב
+  - content: בחלק ממשרדי הממשלה השונים פועלים ממונים למניעת גזענות ואפליה. הם מונו על ידי היחידה הממשלתית לתיאום המאבק בגזענות ותפקידם להיות כתובת לפניות והתייעצויות בכל הקשור לאירועים של גילויי גזענות במוסדות.  [לרשימה המעודכנת](https://www.gov.il/he/Departments/General/responsible_for_racism)
+    slug: office_preventing_racism
+    title: ממונים משרדיים למניעת גזענות
+  - content: 'דיני הנזיקין עוסקים בסיטואציה שבה נגרם נזק על ידי גורם שניתן להטיל עליו חבות במשפט בגין אותו הנזק. דיני הנזיקין דנים בשתי שאלות עיקריות:      האם קיימת אחריות של גורם הנזק?     מהו הסעד (התמיכה) לו זכאי הניזוק מאת המזיק?  הסעד העיקרי והשכיח ביותר הוא סעד הפיצויים.  [לרקע נוסף על דיני נזיקין, ויקיפדיה](https://he.wikipedia.org/wiki/%D7%93%D7%99%D7%A0%D7%99_%D7%A0%D7%96%D7%99%D7%A7%D7%99%D7%9F#%D7%A9%D7%90%D7%9C%D7%AA_%D7%94%D7%90%D7%97%D7%A8%D7%99%D7%95%D7%AA)'
+    slug: what_is_nezikin
+    title: מהי תביעת נזיקין
+  - content: '[לרשימת המוסדות האקדמיים ופרטי ההתקשרות עם הדיקנ/ית ונציבי קבילות הסטודנטים](https://docs.google.com/spreadsheets/d/1ZbwKcgyM5XMT32UYGDLJnWlXFwS8W2RhcLyGg0nabpE/edit?usp=sharing)'
+    slug: academic_orgs_list
+    title: רשימת מוסדות אקדמיים ופרטי התקשרות
+  - content: '[רשימת מנהלי מחלקות חינוך ברשויות מקומיות](http://www.e4u.org.il/ManagementMembers/Pages/MemberList.aspx)'
+    slug: municipal_education_list
+    title: רשימת מנהלי מחלקות חינוך ברשויות מקומיות
+  - content: בישוב בנגב ובגליל שבו פחות מ-400 משפחות מתקיימת ועדת קבלה, הבוחנת התאמה לחיים בקהילה קטנה, באמצעות חוות דעת של מכון מיון. כמו כן בודקת הועדה האם יש במועמדות משום פגיעה במרקם החברתי תרבותי של הישוב. אסור להפלות מחמת לאום, דת, נטיה מינית, מוגבלות וכדומה.  <br><br> בכל שאר הארץ אין ועדת קבלה ולישוב אסור להפלות . מי שנתקל באפליה יופנה לעו"ד או לאחד הארגונים העוסקים בנושא ליעוץ משפטי.
+    slug: settlement_committee
+    title: ועדות קבלה בישובים קטנים
+  - content: '[קישור](https://www.health.gov.il/PniyotHazibur/Pages/Complaints.aspx)'
+    slug: health_ministry_contacts
+    title: עמוד פניות ותלונות באתר משרד הבריאות
+  - content: '[קישור לרשימה](https://docs.google.com/spreadsheets/d/1DHU9iCmg64qXbpQIj1IWr6x88xLYuvEksO9X22rIuFU/edit?usp=sharing)'
+    slug: health_centers_antiracism_officers
+    title: רשימת ממוני מניעת גזענות בבתי החולים ומרכזים רפואיים
   name: מוקדנ/ית
+  organizations:
+  - contactPerson1: null
+    contactPerson2: null
+    description: 'האגודה פועלת למען החברה בישראל וכחלק ממנה, כדי להגן ולקדם את הזכויות של כולן וכולם, ללא קשר ותנאי למעמדם בישראל: אזרחים, תושבים, פליטים ומבקשי מקלט, מהגרי עבודה, תושבי ירושלים המזרחית ותושבי השטחים הכבושים; נשים וגברים, דתיים וחילונים, יהודים ופלסטינים, בעלי דעות פוליטיות מהימין ומן השמאל.
+
+
+      צוות פניות הציבור מטפל בתלונות על פגיעה בזכויות אדם על ידי המדינה ורשויותיה או מי שפועל בשם הרשויות (ובמקרים של אפליה ופרנסה, גם על ידי גורמים פרטיים). הארגון מקבל פניות מכל אדם, ללא קשר למעמדו/ה בישראל'
+    email1: mail@acri.org.il
+    email2: null
+    fax: null
+    mailAddress: 'האגודה לזכויות האזרח, רח'' נחלת בנימין 75 תל-אביב 6515417. '
+    organizationName: אגודה לזכויות האזרח
+    organizationType: ארגון חברה אזרחית
+    phoneNumber1: 03-5608185
+    phoneNumber2: 073-7050752
+    phoneResponseDetails: כל יום בשעות 10:30-17:00. בשעות שבהן אין מענה אפשר להשאיר הודעה ברורה במשיבון ואנו נחזור אליכם.
+    receptionDetails: null
+    slug: acri
+    websiteLabel1: אתר הארגון
+    websiteLabel2: פרטי יצירת קשר וטופס מקוון
+    websiteUrl1: https://www.acri.org.il/
+    websiteUrl2: https://www.acri.org.il/contact-us
+  - contactPerson1: ''
+    contactPerson2: ''
+    description: מוקד מידע, סיוע ותיעוד שיילחם בגזענות בישראל באמצעות העצמת נפגעי גזענות, ויציע ליווי מול הרשויות, סיוע משפטי וסיוע נפשי כדי להקל על הגישה לאוכלוסיות הנפגעות.
+    email1: stop.racism@ircc.org.il
+    email2: ''
+    fax: ''
+    mailAddress: ''
+    organizationName: 'מרכז לנפגעי גזענות (התנועה הרפורמית): מוקד מידע, סיוע וליווי משפטי'
+    organizationType: ארגון חברה אזרחית
+    phoneNumber1: 1-700-704-408
+    phoneNumber2: ''
+    phoneResponseDetails: 'שני, 13:00-17:00 שישי, 09:00-13:00 בשאר‭ ‬הזמן‭ ‬ניתן‭ ‬להשאיר‭ ‬הודעה '
+    receptionDetails: ''
+    slug: reform_movement
+    websiteLabel1: למידע נוסף
+    websiteLabel2: ''
+    websiteUrl1: https://www.ircc.org.il/
+    websiteUrl2: ''
+  - contactPerson1: null
+    contactPerson2: null
+    description: את התלונה ניתן למסור ישירות לחוקר באחת משלוחות המחלקה, או לשלוח בדואר אלקטרוני, בפקס או בדואר רגיל. לאחר מסירת התלונה היא תיבחן ויוחלט אם יש מקום לפתוח בגינה בחקירה פלילית.​
+    email1: null
+    email2: null
+    fax: null
+    mailAddress: null
+    organizationName: מחלקה לחקירות שוטרים בפרקליטות המדינה (מח"ש), משרד המשפטים
+    organizationType: יחידה ממשלתית
+    phoneNumber1: null
+    phoneNumber2: null
+    phoneResponseDetails: null
+    receptionDetails: null
+    scenarios:
+    - json: "{\n      \"offender\": \"משטרה\"\n    }"
+    slug: mahash
+    websiteLabel1: מידע נוסף על אופן הגשת התלונה
+    websiteLabel2: טפסים בערבית ובאמהרית
+    websiteUrl1: https://www.gov.il/he/departments/general/dipi-information-file-a-complaint
+    websiteUrl2: https://www.gov.il/he/Departments/General/dipi-forms-arabic-amharic
+  - contactPerson1: תנ"צ מוריס חן, ראש חטיבת האבטחה והרישוי
+    contactPerson2: null
+    description: 'חטיבת האבטחה והרישוי מנחה גופים, קב"טים ומאבטחים בתחום האבטחה הפיזית החמושה.
+
+
+      חטיבת אבטחה ורישוי מונה כ-260 שוטרים וקצינים, ומנחה אלפי גופים בישראל - ציבוריים, משרדי ממשלה, עסקים טעוני רישוי שהחטיבה אחראית על הנחיית האבטחה בהם, ובנוסף מובילה מערך של 73,000 מאבטחים שתפקידם מניעת אירועי פעילות חבלנית עוינת, אלימות וסדר ציבורי.
+
+
+      על פי קביעת המחוקק, חטיבת האבטחה והרישוי מנחה את הגופים לאורך כל הדרך - מרמת התבחינים לגיוס, דרך הליך ההכשרה ועד להצבתו של המאבטח.
+
+
+      [למידע נוסף על חטיבה לאבטחה ורישוי במשטרת ישראל](https://www.gov.il/he/departments/guides/police_policing_department_security_and_licensing_division?chapterIndex=1)
+
+
+      [שאלות ותשובות בנושא אבטחה ורישוי עסקים](https://www.gov.il/he/departments/guides/police_policing_department_security_and_licensing_division?chapterIndex=2)
+
+
+      [שאלות ותשובות בנושא אבטחה במוסדות חינוך](https://www.gov.il/he/departments/guides/police_policing_department_security_and_licensing_division?chapterIndex=3)'
+    email1: null
+    email2: null
+    fax: 02-5607971
+    mailAddress: null
+    organizationName: חטיבת האבטחה והרישוי במשטרת ישראל
+    organizationType: יחידה ממשלתית
+    phoneNumber1: null
+    phoneNumber2: null
+    phoneResponseDetails: null
+    receptionDetails: null
+    scenarios:
+    - json: "{\n      \"offender\": \"מאבטח/ת\"\n    }"
+    slug: police_security_department
+    websiteLabel1: לאתר החטיבה
+    websiteLabel2: null
+    websiteUrl1: https://www.gov.il/he/departments/guides/police_policing_department_security_and_licensing_division
+    websiteUrl2: null
+  - contactPerson1: null
+    contactPerson2: null
+    description: '
+
+      מערך לתלונות הציבור מטפל בתלונות שעניינן התנהגות בלתי נאותה של שוטר או מילוי תפקיד באופן לקוי וכן בפניות בנושאים שונים הקשורים לאופן התנהלותה של המשטרה.
+
+
+      היחידה לתלונות הציבור במרחב או במחוז מטפלת בתלונות המתקבלות נגד שוטרים המשרתים ביחידות המרחב ו/או המחוז. יחידה זו קיימת במחוזות ובמרחבים הכפופים לו.
+
+
+      נושאי הפניה:
+
+
+      - תלונה על מעשה או מחדל של שוטר בעניין הקשור במילוי תפקידו או בתפקוד המשטרה ועל התנהגות בלתי נאותה של השוטר או מילוי תפקידו באופן לקוי.
+
+      - תלונה על התנהגות לא נאותה של שוטר שלא בעת מילוי תפקידו, שיש בה זיקה לתפקידו כשוטר או שימוש בסמכויותיו, כמו ניצול מעמדו כשוטר או התנהגות באופן הפוגע בתדמית המשטרה.
+
+      - פניית ציבור היא פנייה העוסקת בנושאים שונים הקשורים למשטרת ישראל באופן כללי. מדובר בפנייה שאינה תלונה נגד שוטר מסוים. עם זאת, ישנם נושאים שאינם בתחום טיפולה של היחידה לתלונות הציבור ועל כן יופנו לטיפולן של יחידות אחרות.
+
+
+
+
+      [טופס פניה למערך פניות ותלונות הציבור:](https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=pniotzibur%40police.gov.il)
+
+      הטופס יישלח אוטומטית למדור תלונות הציבור הארצי אחת ליממה ומשם ינותב לקציני תלונות הציבור הפרוסים ברחבי הארץ ו/או לגורמים מקצועיים אחרים למתן מענה.
+
+
+      [לרשימת פרטי ההתקשרות עם עם קציני פניות הציבור במחוזות השונים](https://www.gov.il/he/Departments/Guides/police_public_complaints_unit?chapterIndex=7")'
+    email1: null
+    email2: null
+    fax: null
+    mailAddress: null
+    organizationName: מחלקת פניות ציבור במשטרה
+    organizationType: יחידה ממשלתית
+    phoneNumber1: null
+    phoneNumber2: null
+    phoneResponseDetails: null
+    receptionDetails: null
+    scenarios:
+    - json: "{\n      \"offender\": \"משטרה\"\n    }"
+    slug: police_complaints
+    websiteLabel1: אתר המידע
+    websiteLabel2: טופס פניה למערך פניות ותלונות הציבור
+    websiteUrl1: https://www.gov.il/he/Departments/Guides/police_public_complaints_unit
+    websiteUrl2: https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=pniotzibur%40police.gov.il
+  - contactPerson1: אסתר ביסוור-רז
+    contactPerson2: null
+    description: יחידה בממשלה שאחראית לתאם, לעקוב אחרי תלונות בנושאי גילויי גזענות ממסדית וליזום שינויים בחוק בנושא.
+    email1: antiracismunit@justice.gov.il
+    email2: null
+    fax: null
+    mailAddress: null
+    organizationName: יחידה הממשלתית לתיאום המאבק בגזענות, משרד המשפטים
+    organizationType: יחידה ממשלתית רוחבית לתיאום
+    phoneNumber1: 3406*
+    phoneNumber2: '073-3925074 '
+    phoneResponseDetails: ימים א-ה, 09:00-17:00
+    receptionDetails: null
+    scenarios:
+    - json: '{"run": "never"}'
+    slug: justice_ministry_anti_racism_unit
+    websiteLabel1: טופס מקוון להגשת דיווח או תלונה
+    websiteLabel2: null
+    websiteUrl1: https://www.gov.il/he/Departments/ministry_of_justice_anti_racism
+    websiteUrl2: null
+  - contactPerson1: null
+    contactPerson2: null
+    description: 'האגף מסייע לתלמידים, להורים ולעובדי ההוראה במימוש זכויותיהם אם אלה קופחו, בשל אי קיום הוראות ונהלים או בשל שרירות לב, הפליה, התרשלות או הזנחה בטיפול בהם. האגף פועל למימוש הזכויות, כאמור, בהתבסס על חוקים, תקנות ועל ההוראות הקיימות. האגף מסייע גם לאוכלוסיות נוספות , כגון: סטודנטים, אזרחים, ארגונים, בעלויות וכו'', ככל שנדרש ובהתאם לצורך.
+
+      '
+    email1: tluna@education.gov.il
+    email2: info@education.gov.il
+    fax: 02-5602390
+    mailAddress: רח' דבורה הנביאה 2, ירושלים מיקוד 9100201
+    organizationName: האגף לפניות ותלונות הציבור במשרד החינוך
+    organizationType: יחידה ממשלתית
+    phoneNumber1: 1-800-25-00-25
+    phoneNumber2: null
+    phoneResponseDetails: null
+    receptionDetails: null
+    scenarios:
+    - json: "{ \n  \"offender\": \"מסגרת חינוכית\"\n}"
+    slug: education_ministry
+    websiteLabel1: אתר
+    websiteLabel2: null
+    websiteUrl1: https://edu.gov.il/owlHeb/AboutUs/Inquiries/Pages/Inquiries.aspx
+    websiteUrl2: null
+  - contactPerson1: null
+    contactPerson2: null
+    description: 'הזכאות לקבלת סיוע משפטי מותנית בבחינת זכאות כלכלית וסיכויי ההצלחה של המקרה.
+
+      אתר היחידה מפרט את המסמכים הדרושים לצורך הגשת הפניה את דרכי הגשת הבקשה.
+
+
+      שכר טרחתו של עורך דין משולם על ידי הסיוע המשפטי ולא על ידי מגיש הבקשה לסיוע.
+
+
+      [לאיתור פרטי המחוז המטפל במשרד המשפטים](https://www.justice.gov.il/Units/SiuaMishpaty/tzorkeser/lishka/Pages/district.aspx)
+
+      '
+    email1: moked-siyua@justice.gov.il
+    email2: null
+    fax: null
+    mailAddress: null
+    organizationName: אגף לסיוע משפטי במשרד המשפטים
+    organizationType: יחידה ממשלתית
+    phoneNumber1: 076-5300899
+    phoneNumber2: null
+    phoneResponseDetails: בימים א' עד ה', בין השעות 08:00 עד 16:00.  במערכת ניתוב השיחות יש לבחור בשלוחה מספר 4.
+    receptionDetails: null
+    slug: justice_ministry_legal_assistance
+    websiteLabel1: מידע על בקשה לסיוע משפטי
+    websiteLabel2: שעות ועמדות קבלת קהל
+    websiteUrl1: https://www.gov.il//he/service/legal_aid_application?gclid=CjwKCAjw4LfkBRBDEiwAc2DSlO_uPreYOnjLe-ziCSlih4jIvwqoyXBiLOkbbSOQuB1yw2iVuxj1vBoCJJ0QAvD_BwE
+    websiteUrl2: null
+  - contactPerson1: ' עו"ד הרן רייכמן'
+    contactPerson2: 'ד"ר תמי הראל בן-שחר '
+    description: 'הקליניקה למשפט ומדיניות חינוך באוניברסיטת חיפה שמה לה למטרה לקדם ולהוות גורם משמעותי בעיצוב מדיניות החינוך בישראל, חיזוק החינוך הציבורי, קידום שוויון מהותי במערכת החינוך, חיזוק סולידריות חברתית והגנה על זכויות תלמידים במערכת החינוך. '
+    email1: law.haran@gmail.com
+    email2: tharel@univ.haifa.ac.il
+    fax: null
+    mailAddress: null
+    organizationName: קליניקה למשפט ומדיניות חינוך, אוניברסיטת חיפה
+    organizationType: ארגון חברה אזרחית
+    phoneNumber1: null
+    phoneNumber2: null
+    phoneResponseDetails: null
+    receptionDetails: null
+    scenarios:
+    - json: "{\n      \"offender\": \"מסגרת חינוכית\"\n    }"
+    slug: null
+    websiteLabel1: אתר
+    websiteLabel2: עמוד הפייסבוק
+    websiteUrl1: http://law.haifa.ac.il/index.php/en/educationpolicyclinic
+    websiteUrl2: https://www.facebook.com/lawclinicforeducatin/
+  - contactPerson1: null
+    contactPerson2: null
+    description: null
+    email1: null
+    email2: null
+    fax: null
+    mailAddress: null
+    organizationName: אגף לחינוך חרדי במשרד החינוך
+    organizationType: יחידה ממשלתית
+    phoneNumber1: null
+    phoneNumber2: null
+    phoneResponseDetails: null
+    receptionDetails: null
+    scenarios:
+    - json: '{"run": "never"}'
+    slug: education_ministry_ultra_orthodox
+    websiteLabel1: מידע בנוגע לפנייה לוועדת הערר של המחוז החרדי במשרד החינוך
+    websiteLabel2: ''
+    websiteUrl1: http://cms.education.gov.il/EducationCMS/Units/ChinuchMukar/PikuahPedagogi/KabalaRishum.htm
+    websiteUrl2: null
+  - contactPerson1: null
+    contactPerson2: null
+    description: מועמד שועדת הקבלה דחתה את קבלתו לישוב או ישוב שמעוניין להשיג על החלטת ועדת הקבלה לקבל מועמד לישוב, רשאים להגיש השגה על החלטת ועדת הקבלה בפני "ועדת ההשגות על החלטות ועדות הקבלה לישובים בנגב ובגליל".
+    email1: null
+    email2: null
+    fax: null
+    mailAddress: null
+    organizationName: ' ועדת ההשגות על החלטות ועדות קבלה לישובים בנגב ובגליל במשרד המשפטים'
+    organizationType: יחידה ממשלתית
+    phoneNumber1: null
+    phoneNumber2: null
+    phoneResponseDetails: null
+    receptionDetails: null
+    scenarios:
+    - json: '{"run": "never"}'
+    slug: justice_ministry_admission_committee
+    websiteLabel1: אתר הועדה ואופן הגשת הפניה
+    websiteLabel2: null
+    websiteUrl1: https://www.gov.il/he/Departments/General/reservations_committee
+    websiteUrl2: null
+  - contactPerson1: לייקין מניה, היועצת המשפטית
+    contactPerson2: null
+    description: null
+    email1: null
+    email2: null
+    fax: 02-6549021
+    mailAddress: null
+    organizationName: מנהל מקרקעי ישראל, היועצת המשפטית
+    organizationType: יחידה ממשלתית
+    phoneNumber1: 073-2021354​
+    phoneNumber2: null
+    phoneResponseDetails: null
+    receptionDetails: null
+    scenarios:
+    - json: '{"run": "never"}'
+    slug: minhal_legal_advisor
+    websiteLabel1: null
+    websiteLabel2: null
+    websiteUrl1: null
+    websiteUrl2: null
+  - contactPerson1: מוקד טלפוני
+    contactPerson2: מוקד טלפוני
+    description: "מינהל מקרקעי ישראל (ממ\"י) הפך במסגרת הרפורמה במקרקעי ישראל לרשות מקרקעי ישראל (רמ\"י).\nבראש רמ\"י פועלת מועצת מקרקעי ישראל, הקובעת את מדיניות המקרקעין במדינה. בראש המועצה עומד כיום שר האוצר, וחבריה הם מנכ\"לים של משרדי ממשלה ונציגי הקרן הקיימת לישראל (קק\"ל). רמ\"י מבצעת את המדיניות הנקבעת על ידי מועצת מקרקעי ישראל.\n\nתפקידיה של רשות מקרקעי ישראל  \n\n-    הקצאת קרקעות למטרות מגורים, דיור בר השגה, דיור ציבורי, תעסוקה, שטחים פתוחים ומטרות אחרות, במקומות ובהיקפים הנדרשים על פי צורכי המשק, החברה והסביבה, לרבות צרכים עתידיים.\n\n -   מתן שירותים לבעלי זכויות במקרקעי ישראל ככל הנדרש, לצורך ניהול זכויותיהם או מימושן.\n\n  -  שמירה על קרקעות כמשאב לטובת הציבור, הסביבה והדורות הבאים.\n\n   - יישום הרפורמה במקרקעי ישראל והקניית הבעלות בנכסים עירוניים מהוונים לחוכריהם.\n\n   - קידום רישום הזכויות במקרקעי ישראל בפנקסי המקרקעין.\n\n   - רכישת קרקעות וסיוע למדינה בהפקעת קרקעות לפי כל דין, לרבות למטרות סביבתיות.\n\n   - ביצוע מדיניות המקרקעין שקובעת מועצת מקרקעי ישראל וכל תפקיד אחר הנוגע לניהול מקרקעי ישראל, המוטל עליה לפי כל דין או לפי החלטת הממשלה.\n\n\n"
+    email1: null
+    email2: null
+    fax: null
+    mailAddress: null
+    organizationName: רשות מקרקעי ישראל (רמ"י)
+    organizationType: null
+    phoneNumber1: 03-9533333
+    phoneNumber2: ' 5575*'
+    phoneResponseDetails: המוקד פועל בימים א'-ה' משעה 8:00 עד 19:00 ובימי שישי משעה 8:00 עד 12:00. מענה אוטומטי ניתן 24 שעות ביממה.  שירותי המוקד הטל​פוני  - מתן מידע אישי לכלל הנושאים והלקוחות מתוך התיק המתנהל ברשות מקרקעי ישראל.  - משלוח העתקי מסמכים בדואר לבעל הנכס או למיופה כוחו בלבד.  - מתן מידע מקיף לכל המעוניין. המידע כולל שאלות ותש​​ובות, טפסים והסברים,  - מכרזי מקרקעין, תוכניות מתאר, כתובות וטלפונים ועוד.​​
+    receptionDetails: null
+    scenarios:
+    - json: '{"run": "never"}'
+    slug: minhal
+    websiteLabel1: אתר רשות מקרקעי ישראל (רמ"י)
+    websiteLabel2: טופס מקוון להגשת פניות
+    websiteUrl1: http://www.land.gov.il/About/Pages/About.aspx
+    websiteUrl2: https://forms.gov.il/globaldata/getsequence/getHtmlForm.aspx?formtype=ktovlanu%40land.gov.il
+  - contactPerson1: null
+    contactPerson2: null
+    description: 'יחידת רשם המתווכים פועלת במסגרת זו, ואחראית על רישוי מתווכים, מקיימת בחינות ומעניקה רישיונות. הוועדה המייעצת אחראית על הסדרה חוקית של המקצוע. '
+    email1: null
+    email2: null
+    fax: null
+    mailAddress: רח' כנפי נשרים 15, ירושלים מיקוד 9134302
+    organizationName: רשם המתווכים, מנהלת היחידות המקצועיות (הסדרת מקצועות הרישוי) במשרד המשפטים
+    organizationType: יחידה ממשלתית
+    phoneNumber1: 02-6545911
+    phoneNumber2: null
+    phoneResponseDetails: null
+    receptionDetails: null
+    scenarios:
+    - json: '{"run": "never"}'
+    slug: realtors_registrar
+    websiteLabel1: אתר
+    websiteLabel2: null
+    websiteUrl1: https://www.gov.il/he/departments/professional_units_licenses_regulation
+    websiteUrl2: null
+  - contactPerson1: null
+    contactPerson2: null
+    description: null
+    email1: zero.racism@MOH.HEALTH.GOV.IL
+    email2: null
+    fax: null
+    mailAddress: null
+    organizationName: מתאמת המאבק בגזענות, משרד הבריאות
+    organizationType: יחידה ממשלתית
+    phoneNumber1: null
+    phoneNumber2: null
+    phoneResponseDetails: null
+    receptionDetails: null
+    scenarios:
+    - json: " {\n      \"offender\": \"בריאות\"\n    }"
+    slug: health_ministry_zero_racism
+    websiteLabel1: null
+    websiteLabel2: null
+    websiteUrl1: null
+    websiteUrl2: null
+  - contactPerson1: null
+    contactPerson2: null
+    description: "נציב קבילות הציבור למקצועות רפואיים פועל כשעולה חשש לרשלנות, לאי-מקצועיות או להתנהגות לא ראויה של בעלי מקצוע רפואי או במוסד רפואי  (כגון: רופאים, רופאי שיניים, אחיות, מיילדות, פסיכולוגים, פיזיותרפיסטים, רוקחים, מוסדות גריאטריים, מרפאות בריאות הנפש ועוד). \n\n<br><br>\nחשוב לדעת כי כחלק מבירור התלונה, שם המתלונן יועבר לגוף או לגורם עליו אתם מתלוננים ואין מדובר בדיווח אנונימי. עם זאת, אם תרצו לשמור על אנונימיות, חשוב שתציינו זאת במפורש בעת הגשת התלונה.\n\n<br><br>\n- בתלונות הנוגעות להתנהגות גזענית או מפלה של רופאי שיניים, יש לפנות למחלקה לתלונות ופניות הציבור ברפואת שיניים, מינהל איכות ושירות ​[call.habriut@moh.health.gov.il](matilto:call.habriut@moh.health.gov.il)\n\n- בתלונות הנוגעות להתנהגות גזענית או מפלה של פסיכולוגים יש למען את הפניה לועדת התלונות על פסיכולוגים במייל\n[call.habriut@moh.health.gov.il](call.habriut@moh.health.gov.il) או [בטופס המקוון](https://my.health.gov.il/myportal/pniyothazibur)/pages/ComplaintForm.aspx\n\n"
+    email1: null
+    email2: null
+    fax: null
+    mailAddress: null
+    organizationName: נציב קבילות הציבור למקצועות רפואיים במשרד הבריאות ומחלקות ממוקדות תחום
+    organizationType: יחידה ממשלתית
+    phoneNumber1: null
+    phoneNumber2: null
+    phoneResponseDetails: null
+    receptionDetails: null
+    scenarios:
+    - json: "{\n      \"offender\": \"בריאות\"\n    }"
+    slug: health_ministry_public_inquiries
+    websiteLabel1: פרטי הגשת פניה
+    websiteLabel2: null
+    websiteUrl1: https://www.gov.il/he/service/public_ombudsman_for_medical_professions
+    websiteUrl2: null
+  - contactPerson1: גב' אורלי בוני
+    contactPerson2: null
+    description: null
+    email1: accessibility@moh.gov.il
+    email2: null
+    fax: 02-6725739
+    mailAddress: ' רח'' ירמיהו 39, ירושלים, ת.ד. 1176, ירושלים, מיקוד 9101002'
+    organizationName: ממונת שוויון זכויות לאנשים עם מוגבלויות, משרד הבריאות
+    organizationType: יחידה ממשלתית
+    phoneNumber1: '02-5080848 '
+    phoneNumber2: null
+    phoneResponseDetails: null
+    receptionDetails: null
+    scenarios:
+    - json: '{"run": "never"}'
+    slug: health_ministry_accessiblity
+    websiteLabel1: מידע על פניות בנושאי נגישות, אתר משרד הבריאות
+    websiteLabel2: null
+    websiteUrl1: https://www.health.gov.il/Subjects/Rights_disabilities/accessibility/Pages/exemplary.aspx
+    websiteUrl2: null
   snippets:
-    - name: default
-      steps:
-        - say: עברו על פרטי המקרה המוצגים בצד המסך.
-        - wait:
-            options:
-              - show: קראתי
-                steps: []
-        - say: הקריאו בקצרה לפונה את הפרטים שהועברו בדיווח הראשוני, כדי לוודא
-            שהוא/היא זוכרים ומאשרים את המידע.
-        - goto: verify_contact_details
-        - goto: main_switch
-        - goto: "קבצים: בירור אם אפשרות ו/או קבצים להעלות"
-        - goto: "תלונה: בדיקת אפשרויות פעולה למקרה"
-        - goto: קביעת שיחת המשך
-        - goto: complete
-    - name: verify_contact_details
-      steps:
-        - do:
-            cmd: checkOnlyEmail
-            variable: _only_email
-            params:
+  - name: default
+    steps:
+    - say: עברו על פרטי המקרה המוצגים בצד המסך.
+    - wait:
+        options:
+        - show: קראתי
+          steps: []
+    - say: הקריאו בקצרה לפונה את הפרטים שהועברו בדיווח הראשוני, כדי לוודא שהוא/היא זוכרים ומאשרים את המידע.
+    - goto: verify_contact_details
+    - goto: main_switch
+    - goto: 'קבצים: בירור אם אפשרות ו/או קבצים להעלות'
+    - goto: 'תלונה: בדיקת אפשרויות פעולה למקרה'
+    - goto: קביעת שיחת המשך
+    - goto: Completed
+  - name: verify_contact_details
+    steps:
+    - do:
+        cmd: checkOnlyEmail
+        params:
+        - record
+        variable: _only_email
+    - switch:
+        arg: _only_email
+        cases:
+        - match: true
+          steps:
+          - say: הפונה העביר/ה רק כתובת דואר אלקטרוני כאמצעי תקשורת
+          - say: שלחו לו/לה הודעת אימייל עם בקשה לספק פרטי התקשרות נוספים (נוסח לדוגמה תמצאו במשימה המפורטת שברשימת המשימות).
+          - do:
+              cmd: addTask
+              params:
               - record
-        - switch:
-            arg: _only_email
-            cases:
-              - match: true
+              - request_extra_communication_methods
+          - goto: break
+        - default: true
+          steps: []
+  - name: main_switch
+    steps:
+    - do:
+        cmd: getOffender
+        params:
+        - record
+        variable: offender
+    - switch:
+        arg: offender
+        cases:
+        - match: משטרה
+          steps:
+          - goto: 'משטרה: בירור פרטים נוספים'
+        - match: דיור
+          steps:
+          - goto: 'דיור: בדיקה אילו פרטים חסרים צריך להשלים'
+        - match: מאבטח/ת
+          steps:
+          - goto: 'מאבטח/ת: בדיקה אילו פרטים חסרים צריך להשלים'
+        - match: מסגרת חינוכית
+          steps:
+          - goto: 'תלונה: בירור והוספת פרטים חסרים'
+        - match: בריאות
+          steps:
+          - goto: 'בריאות: בדיקה האם הפניה רלוונטית לנושא הגזענות והאפליה'
+        - default: true
+          steps:
+          - goto: 'תלונה: בירור והוספת פרטים חסרים'
+  - name: 'משטרה: בירור פרטים נוספים'
+    steps:
+    - say: שאלו את הפונה האם ישנו מידע או פרטים נוספים שירצו להוסיף
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - say: 'הוסיפו את הפרטים הנוספים:'
+          - wait:
+              long: true
+              variable: _police_more_details
+        - show: לא
+        variable: _police_more_details
+    - say: האם בוצע מעצר במסגרת המקרה?
+    - wait:
+        options:
+        - show: כן
+          value: בוצע מעצר
+        - show: לא
+          value: לא בוצע מעצר
+        variable: _police_arrest
+    - say: האם הוגש כתב אישום כנגד הפונה?
+    - wait:
+        options:
+        - show: כן
+          value: הוגש כתב אישום
+        - show: לא
+          value: לא הוגש כתב אישום
+        variable: _police_court
+    - say: האם הפונה כבר מיוצג/ת ע"י עו"ד?
+    - wait:
+        options:
+        - show: כן
+          value: הפונה מיוצג/ת ע"י עו"ד
+        - show: לא
+          value: הפונה לא מיוצג/ת ע"י עו"ד
+        variable: _police_has_lawyer
+    - say: האם היו עדים למקרה?
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - say: כתב/י לנו בבקשה את שמות העדים, פרטי הקשר וכל מידע שיסביר את הקשר שלהם לאירוע
+          - wait:
+              long: true
+              variable: _police_witness_details
+        - show: לא
+          steps: []
+    - do:
+        cmd: combinedPoliceEventDescription
+        params:
+        - record
+        variable: event_description
+    - say: האם יש פרטים של השוטר/ים או הניידת? האם הם היו מזוהים בתג או שזיהו את עצמם?
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - say: מהם פרטי השוטר/ים הידועים לך?
+          - wait:
+              long: true
+              variable: offender_person_details
+        - show: לא
+          steps: []
+  - name: 'דיור: בדיקה אילו פרטים חסרים צריך להשלים'
+    steps:
+    - do:
+        cmd: getComplaintType
+        params:
+        - record
+        variable: complaint_type
+    - switch:
+        arg: complaint_type
+        cases:
+        - default: true
+          steps: []
+        - match: אפליה במכירת דירה על ידי חברת בניה/יזם/קבלן
+          steps:
+          - goto: 'דיור: אפליה על ידי חברת בניה/יזם/קבלן, בירור פרטים חסרים'
+  - name: 'דיור: אפליה על ידי חברת בניה/יזם/קבלן, בירור פרטים חסרים'
+    steps:
+    - say: 'ודאו ששם החברה, היזם והפרוייקט (אם רלוונטי) מופיע ברשומת המידע. אם לא, בררו פרטים אלו עם הפונה
+
+        <br>
+
+        האם יש צורך לעדכן את שם החברה, היזם או שם הפרוייקט?'
+    - wait:
+        options:
+        - show: לא
+          steps: []
+        - show: כן
+          steps:
+          - say: מהם שם החברה, היזם והפרוייקט (אם רלוונטי)?
+          - wait:
+              variable: offender_organization
+          - say: 'האם יש לפונה פרטי התקשרות רלוונטים נוספים או אחרים מאלו שמוזנים כרגע? <br>
+
+              האם הפונה מעוניינ/ת לעדכן פרטי התקשרות עם החברה, היזם או הפרוייקט?'
+          - wait:
+              options:
+              - show: כן, לעדכן פרטי הקשר
                 steps:
-                  - say: הפונה העביר/ה רק כתובת דואר אלקטרוני כאמצעי תקשורת
-                  - say: שלחו לו/לה הודעת אימייל עם בקשה לספק פרטי התקשרות נוספים
-                      (נוסח לדוגמה תמצאו במשימה המפורטת שברשימת המשימות).
-                  - do:
-                      cmd: addTask
-                      params:
-                        - record
-                        - request_extra_communication_methods
-                  - goto: break
-              - default: true
+                - say: הזינו את פרטי הקשר או ההתקשרות הרלוונטים
+                - wait:
+                    variable: offender_organization_details
+              - show: לא
                 steps: []
-    - name: main_switch
-      steps:
-        - do:
-            cmd: getOffender
-            variable: offender
-            params:
+    - say: 'בדקו האם מיקום הפרוייקט המדובר מופיע ברשומות המידע בצד, וודאו את המיקום עם הפונה.
+
+        <br><br>
+
+        האם יש צורך לעדכן את מיקום הפרוייקט?'
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - say: מהו מיקום או כתובת הפרוייקט?
+          - wait:
+              variable: event_location
+        - show: לא
+          steps: []
+    - goto: 'תלונה: בירור אם היו עדים'
+  - name: 'בריאות: בדיקה האם הפניה רלוונטית לנושא הגזענות והאפליה'
+    steps:
+    - say: 'קראו את פרטי המקרה ותקשרו עם הפונה כדי להבין את מהות הפניה.<br>
+
+        <br>
+
+        שאלו את עצמכם האם תוכן הפניה עוסק באפליה או התנהלות על רקע גזעני.<br><br>
+
+
+        במקרה שלא – למשל – אם הפניה עוסקת ברשלנות רפואית, פגיעה בפרטיות, טיב הטיפול הרפואי, היעדר או יכולת כלכלית לרכוש תרופה - יש להפנות את הפונה לעמוד עם פרטי הקשר לכל המוקדים הקיימים במשרד הבריאות'
+    - do:
+        cmd: showInfoCard
+        params:
+        - health_ministry_contacts
+    - say: האם פרטי המקרה עוסקים באפליה או התנהלות על רקע גזעני?
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - goto: 'תלונה: בירור והוספת פרטים חסרים'
+        - show: לא
+          steps:
+          - do:
+              cmd: addTask
+              params:
               - record
-        - switch:
-            arg: offender
-            cases:
-              - match: משטרה
-                steps:
-                  - goto: "משטרה: בירור פרטים נוספים"
-              - match: דיור
-                steps:
-                  - goto: "דיור: בדיקה אילו פרטים חסרים צריך להשלים"
-              - match: מאבטח/ת
-                steps:
-                  - goto: "מאבטח/ת: בדיקה אילו פרטים חסרים צריך להשלים"
-              - match: מסגרת חינוכית
-                steps:
-                  - goto: "תלונה: בירור והוספת פרטים חסרים"
-              - match: בריאות
-                steps:
-                  - goto: "בריאות: בדיקה האם הפניה רלוונטית לנושא הגזענות והאפליה"
-              - default: true
-                steps:
-                  - goto: "תלונה: בירור והוספת פרטים חסרים"
-    - name: "משטרה: בירור פרטים נוספים"
-      steps:
-        - say: שאלו את הפונה האם ישנו מידע או פרטים נוספים שירצו להוסיף
-        - wait:
-            variable: _police_more_details
-            options:
+              - health_non_racism
+  - name: 'תלונה: בירור והוספת פרטים חסרים'
+    steps:
+    - say: "האם כל הפרטים הבאים מופיעים בתיאור האירוע? \n<br><br>\n<ul>\n<li>זמן האירוע <br>\n<li>מיקום<br>\n<li>מה נאמר או נעשה שחשף את ההתנהגות המפלה או הגזענית<br>\n</ul>"
+    - wait:
+        options:
+        - show: כן, כל הפרטים הללו כבר מופיעים בתיאור האירוע
+          steps: []
+        - show: לא, חלק מהפרטים חסרים
+          steps:
+          - say: 'בררו עם הפונה את הפרטים החסרים בתיאור האירוע: זמן האירוע, מיקומו ומה נאמר או נעשה שחשף את ההתנהגות המפלה או הגזענית.'
+          - wait:
+              long: true
+              variable: _details_to_add_to_description
+    - goto: 'תלונה: בירור אם היו עדים'
+  - name: 'תלונה: בירור אם היו עדים'
+    steps:
+    - say: האם היו עדים למקרה, או אנשים אחרים שיכולים לאמת את המידע?
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - say: כתב/י לנו בבקשה את שמות העדים, פרטי הקשר וכל מידע שיסביר את הקשר שלהם לאירוע
+          - wait:
+              long: true
+              variable: _witness_details
+        - show: לא
+          steps: []
+    - do:
+        cmd: combinedEventDescription
+        params:
+        - record
+        variable: event_description
+    - say: המידע החדש נשמר
+  - name: 'מאבטח/ת: בדיקה אילו פרטים חסרים צריך להשלים'
+    steps:
+    - do:
+        cmd: getGuardCompany
+        params:
+        - record
+        variable: offender_organization
+    - switch:
+        arg: offender_organization
+        cases:
+        - default: true
+          steps: []
+        - match: ''
+          steps:
+          - say: בררו אם הפונה יודע/ת את שם חברת האבטחה.
+          - wait:
+              options:
               - show: כן
                 steps:
-                  - say: "הוסיפו את הפרטים הנוספים:"
-                  - wait:
-                      long: true
-                      variable: _police_more_details
+                - say: מהו שם חברת האבטחה?
+                - wait:
+                    variable: offender_organization
               - show: לא
-        - say: האם בוצע מעצר במסגרת המקרה?
-        - wait:
-            variable: _police_arrest
-            options:
-              - show: כן
-                value: בוצע מעצר
-              - show: לא
-                value: לא בוצע מעצר
-        - say: האם הוגש כתב אישום כנגד הפונה?
-        - wait:
-            variable: _police_court
-            options:
-              - show: כן
-                value: הוגש כתב אישום
-              - show: לא
-                value: לא הוגש כתב אישום
-        - say: האם הפונה כבר מיוצג/ת ע"י עו"ד?
-        - wait:
-            variable: _police_has_lawyer
-            options:
-              - show: כן
-                value: הפונה מיוצג/ת ע"י עו"ד
-              - show: לא
-                value: הפונה לא מיוצג/ת ע"י עו"ד
-        - say: האם היו עדים למקרה?
-        - wait:
-            options:
-              - show: כן
                 steps:
-                  - say: כתב/י לנו בבקשה את שמות העדים, פרטי הקשר וכל מידע שיסביר
-                      את הקשר שלהם לאירוע
-                  - wait:
-                      variable: _police_witness_details
-                      long: true
-              - show: לא
-                steps: []
-        - do:
-            cmd: combinedPoliceEventDescription
-            variable: event_description
-            params:
+                - say: אמרו לפונה שאנחנו ננסה לאתר שם חברת האבטחה בה עבד/ה המאבטח/ת.
+                - do:
+                    cmd: addTask
+                    params:
+                    - record
+                    - findGuardCompany
+    - goto: 'תלונה: בירור והוספת פרטים חסרים'
+  - name: 'קבצים: בירור אם אפשרות ו/או קבצים להעלות'
+    steps:
+    - do:
+        cmd: countFiles
+        params:
+        - record
+        variable: _files_counter
+    - switch:
+        arg: _files_counter
+        cases:
+        - default: true
+          steps: []
+        - match: 0
+          steps:
+          - goto: 'קבצים: העלאת קובץ ותיאור #1'
+        - match: 1
+          steps:
+          - goto: 'קבצים: העלאת קובץ ותיאור #2'
+        - match: 2
+          steps:
+          - goto: 'קבצים: העלאת קובץ ותיאור #3'
+        - match: 3
+          steps:
+          - goto: 'קבצים: העלאת קובץ ותיאור #4'
+        - match: 4
+          steps:
+          - goto: 'קבצים: העלאת קובץ ותיאור #5'
+  - name: 'קבצים: העלאת קובץ ותיאור #1'
+    steps:
+    - say: 'כרגע אין קבצים שמורים במערכת. בררו אם הפונה מעוניינ/ת להעביר לכם קבצים - צילומים, סרטונים, מסמכים או הקלטות, כדי להעלות למערכת.
+
+        <br><br>
+
+        ניתן להעלות עד 5 קבצים.'
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - do:
+              cmd: uploader
+              params:
               - record
-        - say: האם יש פרטים של השוטר/ים או הניידת? האם הם היו מזוהים בתג או שזיהו
-            את עצמם?
-        - wait:
-            options:
-              - show: כן
-                steps:
-                  - say: מהם פרטי השוטר/ים הידועים לך?
-                  - wait:
-                      variable: offender_person_details
-                      long: true
-              - show: לא
-                steps: []
-    - name: "דיור: בדיקה אילו פרטים חסרים צריך להשלים"
-      steps:
-        - do:
-            cmd: getComplaintType
-            variable: complaint_type
-            params:
+              - ''
+              - uploader
+          - say: מה יש בקובץ שהועלה?
+          - wait:
+              variable: file1description
+          - say: הקובץ נשמר..
+          - goto: 'קבצים: העלאת קובץ ותיאור #2'
+        - show: לא
+          steps: []
+  - name: 'קבצים: העלאת קובץ ותיאור #2'
+    steps:
+    - say: 'במערכת שמור קובץ אחד שקשור לדיווח, וניתן לשמור עוד ארבעה.
+
+        האם יש בידי הפונה עוד קבצים - צילומים, סרטונים, מסמכים או הקלטות - שניתן לצרף לתיעוד?'
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - do:
+              cmd: uploader
+              params:
               - record
-        - switch:
-            arg: complaint_type
-            cases:
-              - default: true
-                steps: []
-              - match: אפליה במכירת דירה על ידי חברת בניה/יזם/קבלן
-                steps:
-                  - goto: "דיור: אפליה על ידי חברת בניה/יזם/קבלן, בירור פרטים חסרים"
-    - name: "דיור: אפליה על ידי חברת בניה/יזם/קבלן, בירור פרטים חסרים"
-      steps:
-        - say: >-
-            ודאו ששם החברה, היזם והפרוייקט (אם רלוונטי) מופיע ברשומת המידע. אם
-            לא, בררו פרטים אלו עם הפונה
+              - ''
+              - uploader
+          - say: מה יש בקובץ שהועלה?
+          - wait:
+              variable: file2description
+          - say: הקובץ נשמר.
+          - goto: 'קבצים: העלאת קובץ ותיאור #3'
+        - show: לא
+          steps: []
+  - name: 'קבצים: העלאת קובץ ותיאור #3'
+    steps:
+    - say: 'במערכת שמורים שני קבצים שקשורים לדיווח, וניתן לשמור עוד שלושה.
 
-            <br>
-
-            האם יש צורך לעדכן את שם החברה, היזם או שם הפרוייקט?
-        - wait:
-            options:
-              - show: כן
-                steps:
-                  - say: מהם שם החברה, היזם והפרוייקט (אם רלוונטי)?
-                  - wait:
-                      variable: offender_organization
-                  - say: >-
-                      האם יש לפונה פרטי התקשרות רלוונטים נוספים או אחרים מאלו
-                      שמוזנים כרגע? <br>
-
-                      האם הפונה מעוניינ/ת לעדכן פרטי התקשרות עם החברה, היזם או הפרוייקט?
-                  - wait:
-                      options:
-                        - show: כן, לעדכן פרטי הקשר
-                          steps:
-                            - say: הזינו את פרטי הקשר או ההתקשרות הרלוונטים
-                            - wait:
-                                variable: offender_organization_details
-                        - show: לא
-                          steps: []
-        - say: >-
-            בדקו האם מיקום הפרוייקט המדובר מופיע ברשומות המידע בצד, וודאו את
-            המיקום עם הפונה.
-
-            <br><br>
-
-            האם יש צורך לעדכן את מיקום הפרוייקט?
-        - wait:
-            options:
-              - show: כן
-                steps:
-                  - say: מהו מיקום או כתובת הפרוייקט?
-                  - wait:
-                      variable: event_location
-              - show: לא
-                steps: []
-        - goto: "תלונה: בירור אם היו עדים"
-    - name: "בריאות: בדיקה האם הפניה רלוונטית לנושא הגזענות והאפליה"
-      steps:
-        - say: >-
-            קראו את פרטי המקרה ותקשרו עם הפונה כדי להבין את מהות הפניה.<br>
-
-            <br>
-
-            שאלו את עצמכם האם תוכן הפניה עוסק באפליה או התנהלות על רקע גזעני.<br><br>
-
-
-            במקרה שלא – למשל – אם הפניה עוסקת ברשלנות רפואית, פגיעה בפרטיות, טיב הטיפול הרפואי, היעדר או יכולת כלכלית לרכוש תרופה - יש להפנות את הפונה לעמוד עם פרטי הקשר לכל המוקדים הקיימים במשרד הבריאות
-        - do:
-            cmd: showInfoCard
-            params:
-              - health_ministry_contacts
-        - say: האם פרטי המקרה עוסקים באפליה או התנהלות על רקע גזעני?
-        - wait:
-            options:
-              - show: כן
-                steps:
-                  - goto: "תלונה: בירור והוספת פרטים חסרים"
-              - show: לא
-                steps:
-                  - do:
-                      cmd: addTask
-                      params:
-                        - record
-                        - health_non_racism
-    - name: "תלונה: בירור והוספת פרטים חסרים"
-      steps:
-        - say: |-
-            האם כל הפרטים הבאים מופיעים בתיאור האירוע? 
-            <br><br>
-            <ul>
-            <li>זמן האירוע <br>
-            <li>מיקום<br>
-            <li>מה נאמר או נעשה שחשף את ההתנהגות המפלה או הגזענית<br>
-            </ul>
-        - wait:
-            options:
-              - show: כן, כל הפרטים הללו כבר מופיעים בתיאור האירוע
-                steps: []
-              - show: לא, חלק מהפרטים חסרים
-                steps:
-                  - say: "בררו עם הפונה את הפרטים החסרים בתיאור האירוע: זמן האירוע,
-                      מיקומו ומה נאמר או נעשה שחשף את ההתנהגות המפלה או
-                      הגזענית."
-                  - wait:
-                      variable: _details_to_add_to_description
-                      long: true
-        - goto: "תלונה: בירור אם היו עדים"
-    - name: "תלונה: בירור אם היו עדים"
-      steps:
-        - say: האם היו עדים למקרה, או אנשים אחרים שיכולים לאמת את המידע?
-        - wait:
-            options:
-              - show: כן
-                steps:
-                  - say: כתב/י לנו בבקשה את שמות העדים, פרטי הקשר וכל מידע שיסביר
-                      את הקשר שלהם לאירוע
-                  - wait:
-                      variable: _witness_details
-                      long: true
-              - show: לא
-                steps: []
-        - do:
-            cmd: combinedEventDescription
-            variable: event_description
-            params:
+        האם יש בידי הפונה עוד קבצים - צילומים, סרטונים, מסמכים או הקלטות - שניתן לצרף לתיעוד?'
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - do:
+              cmd: uploader
+              params:
               - record
-        - say: המידע החדש נשמר
-    - name: "מאבטח/ת: בדיקה אילו פרטים חסרים צריך להשלים"
-      steps:
-        - do:
-            cmd: getGuardCompany
-            variable: offender_organization
-            params:
+              - ''
+              - uploader
+          - say: מה יש בקובץ שהועלה?
+          - wait:
+              variable: file3description
+          - do:
+              cmd: saveUser
+              params:
               - record
-        - switch:
-            arg: offender_organization
-            cases:
-              - default: true
-                steps: []
-              - match: ""
+          - say: הקובץ נשמר.
+          - goto: 'קבצים: העלאת קובץ ותיאור #4'
+        - show: לא
+          steps: []
+  - name: 'קבצים: העלאת קובץ ותיאור #4'
+    steps:
+    - say: 'במערכת שמורים שלושה קבצים שקשורים לדיווח, וניתן לשמור עוד שניים.
+
+        האם יש בידי הפונה עוד קבצים - צילומים, סרטונים, מסמכים או הקלטות - שניתן לצרף לתיעוד?'
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - do:
+              cmd: uploader
+              params:
+              - record
+              - ''
+              - uploader
+          - say: מה יש בקובץ שהועלה?
+          - wait:
+              variable: file4description
+          - say: הקובץ נשמר.
+          - goto: 'קבצים: העלאת קובץ ותיאור #5'
+        - show: לא
+          steps: []
+  - name: 'קבצים: העלאת קובץ ותיאור #5'
+    steps:
+    - say: במערכת שמורים ארבעה קבצים שקשורים לדיווח, וניתן לשמור עוד קובץ אחד. האם יש בידי הפונה עוד קובת - צילומים, סרטונים, מסמכים או הקלטות - שניתן לצרף לתיעוד?
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - do:
+              cmd: uploader
+              params:
+              - record
+              - ''
+              - uploader
+          - say: מה יש בקובץ שהועלה?
+          - wait:
+              variable: file5description
+          - do:
+              cmd: saveUser
+              params:
+              - record
+          - say: הקובץ נשמר. לא ניתן להעלות קבצים נוספים. במידה ויש צורך בהעלאת קובץ נוסף למערכת, צרו קשר עם התמיכה הטכנית.
+        - show: לא
+          steps: []
+  - name: 'תלונה: בדיקת אפשרויות פעולה למקרה'
+    steps:
+    - say: כעת נבדוק אם ישנם כיווני פעולה חוקיים או משפטיים אפשריים. נציג אותם לפונה כדי לשמוע האם היה/היתה רוצה שננסה לקדם אותם או את חלקם.
+    - do:
+        cmd: getOffender
+        params:
+        - record
+        variable: offender
+    - switch:
+        arg: offender
+        cases:
+        - default: true
+          steps:
+          - goto: 'תלונה: פניה לגורמים ממשלתיים'
+        - match: משטרה
+          steps:
+          - goto: 'משטרה: בחירת מסלול פעולה'
+        - match: מאבטח/ת
+          steps:
+          - goto: 'מאבטח/ת: בחירת מסלול פעולה'
+        - match: מסגרת חינוכית
+          steps:
+          - goto: 'מסגרת חינוכית: בחירת מסלול לפי מסגרת'
+        - match: דיור
+          steps:
+          - goto: 'דיור: בחירת מסלול פעולה'
+        - match: בריאות
+          steps:
+          - goto: 'בריאות: בחירת מסלול פעולה'
+  - name: 'משטרה: בחירת מסלול פעולה'
+    steps:
+    - say: 'ישנם  שלושה מסלולי פעולה אפשריים בנוגע לתלונות על התנהגות שוטרים, בהתאם לסוג העבירה: <br>
+
+        <br>1. מסלול פלילי<br>
+
+        <br>2. מסלול משמעתי<br>
+
+        <br>3. מסלול נזיקי<br>
+
+        <br>
+
+
+
+        ההבחנה בין המסלול הפלילי לבין המסלול המשמעתי אינה תמיד חד משמעית - ולכן אם יש ספק עדיף להגיש למח"ש (המסלול הפלילי). חשוב ליידע את הפונה שלמרבה הצער אחוזי הגשת כתבי האישום במח"ש נמוכים מאד (פחות מ-5% ומרבית התלונות אפילו לא מתוחקרות).'
+    - say: 'כעת עליכם לברר מהו המסלול הנכון להמשך הטיפול במקרה.
+
+        אם אינכם בטוחים, עדכנו את הפונה שתחזרו אליהם לאחר שתבררו מהו המסלול הנכון להמשך.'
+    - say: מהו מסלול הפעולה המתאים להמשך הטיפול בפניה?
+    - wait:
+        options:
+        - show: פלילי
+          value: felonious
+        - show: משמעתי
+          value: disciplinary
+        - show: נזיקין
+          value: torts
+        - show: אין תשובה ברורה
+          value: not_sure
+        variable: _track
+    - switch:
+        arg: _track
+        cases:
+        - match: felonious
+          steps:
+          - say: 'אם האירוע משקף עבירה פלילית של השוטר לדוג'' תקיפה, או כל מקרה של שימוש מופרז/לא מוצדק בכח, מומלץ להפנות את התלונה למחלקה לחקירות שוטרים (מח"ש).
+
+              <br><br>
+
+              בנוסף כדאי לשקול לפנות לארגוני חברה אזרחית שעשויים לסייע בליווי ויעוץ.'
+          - say: ספרו לפונה על המחלקה לחקירות שוטרים (מח"ש).
+          - say: בררו האם הפונה מעוניינ/ת להעביר את פרטי המקרה למח"ש.
+          - do:
+              cmd: showInfoCard
+              params:
+              - mahash
+          - wait:
+              options:
+              - show: הפונה מאשר להעביר את פרטי המקרה במלואם
                 steps:
-                  - say: בררו אם הפונה יודע/ת את שם חברת האבטחה.
-                  - wait:
-                      options:
-                        - show: כן
-                          steps:
-                            - say: מהו שם חברת האבטחה?
-                            - wait:
-                                variable: offender_organization
-                        - show: לא
-                          steps:
-                            - say: אמרו לפונה שאנחנו ננסה לאתר שם חברת האבטחה בה
-                                עבד/ה המאבטח/ת.
+                - do:
+                    cmd: addTask
+                    params:
+                    - record
+                    - send_to_mahash
+                value: true
+              - show: הפונה מאשר/ת להעביר את המקרה ללא פרטים מזהים
+                steps:
+                - do:
+                    cmd: addTask
+                    params:
+                    - record
+                    - send_anonymously_to_mahash
+                value: anonymously
+              - show: הפונה לא מאשר/ת להעביר את פרטי המקרה למח"ש
+                value: false
+              variable: _mahash
+          - goto: 'תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים'
+        - match: disciplinary
+          steps:
+          - say: 'אם האירוע משקף עבירת משמעת של השוטר (התנהגות בלתי נאותה או מילוי תפקיד באופן לקוי, לדוג'' סירוב להזדהות; נקיטת לשון גסה; עריכת חיפוש, עיכוב או מעצר שלא כדין) מומלץ להגיש תלונה למחלקה לפניות הציבור במשטרה.
+
+              <br><br>
+
+              בנוסף כדאי לשקול לפנות לארגוני חברה אזרחית שעשויים לסייע בליווי ויעוץ.'
+          - goto: 'תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים'
+        - match: torts
+          steps:
+          - say: 'התנהגות או התבטאות גזענית של שוטר עשויה להיות גם עילת תביעה נזיקית במיוחד אם האירוע התרחש במקום ציבורי והיו עדים רבים לאירוע. בכל מקרה כדאי להתייעץ לגבי סיכויי תביעה כזו עם עו"ד נזיקי או עם מרכז תמורה.
+
+
+              <br><br>
+
+              במסלול זה אין גורם ממשלתי רלוונטי לפנות אליו, למעט היחידה לתיאום המאבק בגזענות במשרד המשפטים.'
+          - goto: 'תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים'
+        - default: true
+          steps:
+          - say: 'מכיוון שאינכם בטוחים באיזה מהמסלולים ניתן לפעול, נציג בפניכם את רשימת כל הארגונים הממשלתיים והאזרחיים שניתן לפנות אליהם בנוגע לתלונות ביחס לעבודת המשטרה.<br><br>
+
+
+              הציגו את הגורמים השונים לפונה ובררו למי מהם ירצה/תרצה להעביר את פרטי האירוע.'
+          - goto: 'תלונה: פניה לגורמים ממשלתיים'
+          - do:
+              cmd: null
+  - name: 'מאבטח/ת: בחירת מסלול פעולה'
+    steps:
+    - do:
+        cmd: checkOfficeRepresetativeRelevancy
+        params:
+        - record
+    - do:
+        cmd: checkSpecificGuardComplain
+        params:
+        - record
+    - say: האם מהפרטים עולה חשד למדיניות מפלה של חברת האבטחה?
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - say: 'הסבירו לפונה שבמקרים של חשד למדיניות מפלה של חברה אבטחה או גורם אבטחה ניתן לפנות בתלונה או בקשת בירור למחלקת האבטחה והרישוי במשטרת ישראל.
+
+              <br><br>
+
+              האם הפונה מעוניינ/ת לפנות בתלונה או בקשת בירור לגורם זה?'
+          - do:
+              cmd: showInfoCard
+              params:
+              - police_security_department
+          - wait:
+              options:
+              - show: כן
+                steps:
+                - do:
+                    cmd: addTask
+                    params:
+                    - record
+                    - guard_company_policy_complaint
+              - show: לא
+                steps: []
+        - show: לא
+          steps: []
+    - say: 'הסבירו לפונה שלפי חוק אפליה בשירותים ובמוצרים, אם פעולת המאבטח/ת גרמה לאפליה בהספקת מוצר, שירות ציבורי או בכניסה למקום ציבורי ניתן לתבוע.
+
+        <br><br>
+
+        בית המשפט רשאי לפסוק במקרים אלו עד 50 אלף ₪ פיצוי ללא הוכחת נזק - כלומר, מבלי שהנפגע/ת צריכים להציג הוכחות לפגיעה שנגרמה להם מההתנהגות המפלה.
+
+        <br><br>
+
+        ניתן לשקול תביעת נזיקין גם במקרים שבהם מאבטח/ת השפיל/ה אדם בהתבטאות או באופן ביצוע הבידוק או הפעלת סמכויותיו על רקע מוצאו, לאום וכו'' – במיוחד כאשר המקרה ארע בפומבי וכשקיימת עדות ברורה לקיומה של גזענות.'
+    - say: 'ודאו שהפונה מבינ/ה שבירור האפשרות לתביעת נזיקין יכולה להעשות ע"י עורך דין מומחה לדיני נזיקין או בעזרת אחד מארגוני החברה האזרחית שפעילים בתחום, ושנציג בהמשך השיחה.
+
+        <br><br>
+
+        לפני כן, נברר האם יהיו מעוניינים להעביר את פרטי המקרה ליחידה לתאום המאבק בגזענות במשרד המשפטים.'
+    - goto: 'תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים'
+  - name: 'מסגרת חינוכית: בחירת מסלול לפי מסגרת'
+    steps:
+    - do:
+        cmd: getOffenderOrganizationCategory
+        params:
+        - record
+        variable: _offender_org_category
+    - switch:
+        arg: _offender_org_category
+        cases:
+        - default: true
+          steps: []
+        - match: אוניברסיטה/מכללה
+          steps:
+          - goto: 'מסגרת חינוכית: מסלול אוניברסיטה/מכללה'
+        - match: בית ספר
+          steps:
+          - goto: 'מסגרת חינוכית: מסלול בתי ספר וגנים ציבוריים'
+        - match: גן חובה
+          steps:
+          - goto: 'מסגרת חינוכית: מסלול בתי ספר וגנים ציבוריים'
+        - match: גן טרום חובה
+          steps:
+          - goto: 'מסגרת חינוכית: מסלול בתי ספר וגנים ציבוריים'
+        - match: גן טרום טרום חובה
+          steps:
+          - goto: 'מסגרת חינוכית: מסלול בתי ספר וגנים ציבוריים'
+        - match: גן פרטי לגיל הרך
+          steps:
+          - say: 'מסגרות חינוך פרטי לגיל הרך אינן כפופות לדיני החינוך, על כן הדרך לתקוף אותם בגין אפליה היא באמצעות חוק איסור אפליה.
+
+              <br><br>'
+          - goto: 'מסגרת חינוכית: תביעה אזרחית'
+        - match: חוגים של רשות מקומית
+          steps:
+          - goto: 'מסגרת חינוכית: מסלול חוגים ברשות מקומית'
+    - goto: 'תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים'
+  - name: 'מסגרת חינוכית: מסלול בתי ספר וגנים ציבוריים'
+    steps:
+    - say: "כרקע חשוב לדעת שאפליית תלמידים במוסדות חינוך חובה מטעמי מוצא, מין, זהות מגדרית, נטייה מינית, רקע סוציואקונומי או השקפה פוליטית היא אפליה אסורה. \n<br><br>\nהאיסור להפלות חל על כל מוסדות החינוך בישראל בכל גיל של התלמיד."
+    - say: האיסור להפלות מעוגן בחוק זכויות התלמיד, בחוק איסור אפליה במוצרים ושירותים ובחקיקה נוספת.
+    - say: אפליה בכלל ואפליית תלמידים בפרט עשויה להוות עבירה פלילית.
+    - say: האם התלונה קשורה באפליה בנוגע לקבלה למוסד או למסגרת החינוכית?
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - goto: 'מסגרת חינוכית: אפליה בקבלה בחינוך חובה'
+        - show: לא
+          steps:
+          - goto: 'מסגרת חינוכית: תביעה אזרחית'
+        variable: _acceptance_discrimination
+  - name: 'מסגרת חינוכית: אפליה בקבלה בחינוך חובה'
+    steps:
+    - switch:
+        arg: offender_organization_details
+        cases:
+        - match: חינוך חרדי
+          steps:
+          - say: "במקרה שמוסד חינוכי חרדי דחה קבלת תלמיד/ה לשורותיו וההורים סבורים שמדובר בהחלטה שאינה מוצדקת, הם רשאים לערער על ההחלטה בפני ועדת ערר של המחוז החרדי במשרד החינוך.\nבית הספר מחויב ליידע את ההורים על אפשרות הערעור על החלטתו, ועל האפשרות לפנות לוועדת הערר. \n\n<br><br>\nהוועדה לא תדון במקרים בהם לא הוגש קודם לכן ערעור למוסד החינוכי."
+          - do:
+              cmd: showInfoCard
+              params:
+              - education_ministry_ultra_orthodox
+          - say: האם הפונה (או ההורים) ערערו על הבקשה בפני המוסד החינוכי?
+          - wait:
+              options:
+              - show: כן
+                steps: []
+              - show: לא
+                steps:
+                - say: 'הסבירו לפונה שהשלב הראשון בהתמודדות עם המקרה הוא פניה למוסד כדי לערער על ההחלטה.<br><br>
+
+                    שאלו את הפונה האם הוא/היא מעוניינ/ת בעזרה שלנו בפניה למוסד'
+                - wait:
+                    options:
+                    - show: כן, הפונה מעוניינ/ת שנגיש את הערעור בשמם
+                      steps:
+                      - say: בדקו בצד המסך אם יש בידינו את פרטי ההתקשרות עם בית הספר. אם לא, בקשו מהפונה כל פרט מידע והזינו אותו לשדה "פרטי קשר עם המוסד או הארגון" שבצד ימין של המסך.
+                      - wait:
+                          options:
+                          - show: סיימתי
+                            steps:
                             - do:
                                 cmd: addTask
                                 params:
-                                  - record
-                                  - findGuardCompany
-        - goto: "תלונה: בירור והוספת פרטים חסרים"
-    - name: "קבצים: בירור אם אפשרות ו/או קבצים להעלות"
-      steps:
-        - do:
-            cmd: countFiles
-            variable: _files_counter
-            params:
+                                - record
+                                - contact_ultra_orthodox_edu_inst
+                    - show: לא, הפונה לא מעוניינ/ת לערער או שיפנו בעצמם
+                      steps:
+                      - say: מכיוון שהפונה לא מעוניינ/ת לערער בפני המוסד על ההחלטה היכולת שלנו לסייע במקרה מוגבלת.
+                      - say: שאלו את הפונה האם הוא/היא מעוניינ/ת שנעביר את פרטי המקרה לארגוני חברה אזרחית שפעילים בתחום ואולי יוכלו לסייע בדרכים אחרות.
+                      - wait:
+                          options:
+                          - show: כן
+                            steps:
+                            - goto: 'תלונה: שיתוף עם ארגוני חברה אזרחית'
+                          - show: לא
+                            steps:
+                            - say: 'מכיוון שהפונה לא מעוניינ/ת לפנות לערער על החלטת המוסד ומבקש שלא לשתף את המידע עם גופי חברה אזרחית הפעילים בתחום, אין באפשרותנו לסייע. הסבירו זאת שוב לפונה והזמינו אותם ליצור עמנו קשר בהמשך במידה וישנו את דעתם.
+
+
+                                <br><br>
+
+                                סיימו את השיחה בצורה מנומסת ומכובדת ואחלו  לפונה בהצלחה.'
+                      - goto: Completed
+          - say: בררו אם הפונה מעוניינ/ת שנסייע לו בפניה לועדת הערר במשרד החינוך
+          - wait:
+              options:
+              - show: כן
+                steps:
+                - do:
+                    cmd: addTask
+                    params:
+                    - record
+                    - contact_education_ministry_ultra_ortodox
+              - show: לא
+                steps: []
+        - default: true
+          steps:
+          - say: במסגרות החינוך הממלכתיות, הרישום לבית ספר יסודי ולגני ילדים מתבצע על פי אזורי רישום, ולילד יש זכות ללמוד במוסד הלימוד הקרוב ביותר לביתו.
+          - say: בררו האם הפונה מעוניינ/ת שנסייע בפניה למחלקת החינוך ברשות המקומיות הרלוונטית.
+          - do:
+              cmd: showInfoCard
+              params:
+              - municipal_education_list
+          - wait:
+              options:
+              - show: כן
+                steps:
+                - do:
+                    cmd: addTask
+                    params:
+                    - record
+                    - contact_municipal_education_department
+                value: true
+              - show: לא
+                value: false
+              variable: _municipal_education_send
+          - say: בררו האם הפונה מעוניינ/ת שנסייע בפניה לאגף לפניות ותלונות הציבור במשרד החינוך.
+          - do:
+              cmd: showInfoCard
+              params:
+              - education_ministry
+          - wait:
+              options:
+              - show: כן
+                steps:
+                - do:
+                    cmd: addTask
+                    params:
+                    - record
+                    - contact_education_ministry
+                value: true
+              - show: לא
+                value: false
+              variable: _education_ministry_send
+    - goto: 'מסגרת חינוכית: תביעה אזרחית'
+  - name: 'מסגרת חינוכית: תביעה אזרחית'
+    steps:
+    - say: 'ניתן לבדוק אפשרות להגיש תביעה אזרחית מכוח חוק איסור אפליה ולזכות בפיצוי אף ללא הוכחת נזק. <br>
+
+        <br>
+
+        ניתן לבצע הליך זה בשלושה אמצעים:
+
+        <br>
+
+        <ul>
+
+        <li>פניה לעורך דין פרטי (לא נוכל לסייע בכך)</li>
+
+        <li>פניה לאגף לסיוע משפטי במשרד המשפטים</li>
+
+        <li>פניה לסיוע של ארגון חברה אזרחית הפועל בתחום (בהמשך נציע אפשרויות רלוונטיות)
+
+
+        <br><br>
+
+        האם הפונה מעוניינ/ת שנסייע בפניה לאגף לסיוע משפטי במשרד המשפטים?'
+    - do:
+        cmd: showInfoCard
+        params:
+        - justice_ministry_legal_assistance
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - do:
+              cmd: addTask
+              params:
               - record
-        - switch:
-            arg: _files_counter
-            cases:
-              - default: true
-                steps: []
-              - match: 0
-                steps:
-                  - goto: "קבצים: העלאת קובץ ותיאור #1"
-              - match: 1
-                steps:
-                  - goto: "קבצים: העלאת קובץ ותיאור #2"
-              - match: 2
-                steps:
-                  - goto: "קבצים: העלאת קובץ ותיאור #3"
-              - match: 3
-                steps:
-                  - goto: "קבצים: העלאת קובץ ותיאור #4"
-              - match: 4
-                steps:
-                  - goto: "קבצים: העלאת קובץ ותיאור #5"
-    - name: "קבצים: העלאת קובץ ותיאור #1"
-      steps:
-        - say: >-
-            כרגע אין קבצים שמורים במערכת. בררו אם הפונה מעוניינ/ת להעביר לכם
-            קבצים - צילומים, סרטונים, מסמכים או הקלטות, כדי להעלות למערכת.
+              - justice_ministry_ask_assistance
+        - show: לא
+          steps: []
+  - name: 'מסגרת חינוכית: מסלול אוניברסיטה/מכללה'
+    steps:
+    - say: 'אפליה אסורה באקדמיה עשויה להתבטא בצורות שונות. למשל, בסירוב קבלה למעונות, בתנאי קבלה מפלים, גזענות יכולה להתבטא במילים וביחס משפיל.
 
-            <br><br>
 
-            ניתן להעלות עד 5 קבצים.
-        - wait:
-            options:
-              - show: כן
-                steps:
-                  - do:
-                      cmd: uploader
-                      params:
-                        - record
-                        - ""
-                        - uploader
-                  - say: מה יש בקובץ שהועלה?
-                  - wait:
-                      variable: file1description
-                  - say: הקובץ נשמר..
-                  - goto: "קבצים: העלאת קובץ ותיאור #2"
-              - show: לא
-                steps: []
-    - name: "קבצים: העלאת קובץ ותיאור #2"
-      steps:
-        - say: >-
-            במערכת שמור קובץ אחד שקשור לדיווח, וניתן לשמור עוד ארבעה.
+        <br><br>
 
-            האם יש בידי הפונה עוד קבצים - צילומים, סרטונים, מסמכים או הקלטות - שניתן לצרף לתיעוד?
-        - wait:
-            options:
-              - show: כן
-                steps:
-                  - do:
-                      cmd: uploader
-                      params:
-                        - record
-                        - ""
-                        - uploader
-                  - say: מה יש בקובץ שהועלה?
-                  - wait:
-                      variable: file2description
-                  - say: הקובץ נשמר.
-                  - goto: "קבצים: העלאת קובץ ותיאור #3"
-              - show: לא
-                steps: []
-    - name: "קבצים: העלאת קובץ ותיאור #3"
-      steps:
-        - say: >-
-            במערכת שמורים שני קבצים שקשורים לדיווח, וניתן לשמור עוד שלושה.
+        אם המקרה שתואר על ידי הפונה כולל מתייחס לאפליה או יחס לא ראוי, יש לפנות בכתב לדיקן הסטודנטים במוסד הרלוונטי.
 
-            האם יש בידי הפונה עוד קבצים - צילומים, סרטונים, מסמכים או הקלטות - שניתן לצרף לתיעוד?
-        - wait:
-            options:
-              - show: כן
-                steps:
-                  - do:
-                      cmd: uploader
-                      params:
-                        - record
-                        - ""
-                        - uploader
-                  - say: מה יש בקובץ שהועלה?
-                  - wait:
-                      variable: file3description
-                  - do:
-                      cmd: saveUser
-                      params:
-                        - record
-                  - say: הקובץ נשמר.
-                  - goto: "קבצים: העלאת קובץ ותיאור #4"
-              - show: לא
-                steps: []
-    - name: "קבצים: העלאת קובץ ותיאור #4"
-      steps:
-        - say: >-
-            במערכת שמורים שלושה קבצים שקשורים לדיווח, וניתן לשמור עוד שניים.
+        <br><br>
 
-            האם יש בידי הפונה עוד קבצים - צילומים, סרטונים, מסמכים או הקלטות - שניתן לצרף לתיעוד?
-        - wait:
-            options:
-              - show: כן
-                steps:
-                  - do:
-                      cmd: uploader
-                      params:
-                        - record
-                        - ""
-                        - uploader
-                  - say: מה יש בקובץ שהועלה?
-                  - wait:
-                      variable: file4description
-                  - say: הקובץ נשמר.
-                  - goto: "קבצים: העלאת קובץ ותיאור #5"
-              - show: לא
-                steps: []
-    - name: "קבצים: העלאת קובץ ותיאור #5"
-      steps:
-        - say: במערכת שמורים ארבעה קבצים שקשורים לדיווח, וניתן לשמור עוד קובץ אחד.
-            האם יש בידי הפונה עוד קובת - צילומים, סרטונים, מסמכים או הקלטות -
-            שניתן לצרף לתיעוד?
-        - wait:
-            options:
-              - show: כן
-                steps:
-                  - do:
-                      cmd: uploader
-                      params:
-                        - record
-                        - ""
-                        - uploader
-                  - say: מה יש בקובץ שהועלה?
-                  - wait:
-                      variable: file5description
-                  - do:
-                      cmd: saveUser
-                      params:
-                        - record
-                  - say: הקובץ נשמר. לא ניתן להעלות קבצים נוספים. במידה ויש צורך
-                      בהעלאת קובץ נוסף למערכת, צרו קשר עם התמיכה הטכנית.
-              - show: לא
-                steps: []
-    - name: "תלונה: בדיקת אפשרויות פעולה למקרה"
-      steps:
-        - say: כעת נבדוק אם ישנם כיווני פעולה חוקיים או משפטיים אפשריים. נציג אותם
-            לפונה כדי לשמוע האם היה/היתה רוצה שננסה לקדם אותם או את חלקם.
-        - do:
-            cmd: getOffender
-            variable: offender
-            params:
+        בהמשך, במידה ולא תתקבל תשובה, או שהתשובה שתשלח לא מספקת ניתן לפנות בכתב לנציב קבילות הסטודנטים של המוסד, האחראי על בירור תלונות המוגשות על ידי סטודנטים או מועמדים ללימודים בגין פגיעה בזכויותיהם. בסמכות הנציב להמליץ למוסד על דרכי פעולה.'
+    - say: האם הפונה מעוניינ/ת שנסייע לו לנסח פניה לדיקן ו/או לנציב/ת קבילות הסטודנטים?
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - do:
+              cmd: addTask
+              params:
               - record
-        - switch:
-            arg: offender
-            cases:
-              - default: true
+              - contact_acadeimc_org
+          value: 'true'
+        - show: לא
+          value: 'false'
+        variable: _add_task
+  - name: 'מסגרת חינוכית: מסלול חוגים ברשות מקומית'
+    steps:
+    - say: האם החוג מופעל על ידי או בניהול הרשות המקומית?
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - say: 'אם העיריה מפעילה את החוגים אפשר לפנות למנכ"ל העירייה ולמבקר הפנים שלה.
+
+              <br><br>
+
+              במידה ואמצעי זה לא יסייע, ניתן לשקול אפשרות לתביעה על סמך חוג איסור אפליה.'
+          - say: בדקו עם הפונה האם כבר יצרו כבר קשר עם הרשות המקומית בנושא.
+          - wait:
+              options:
+              - show: כן
                 steps:
-                  - goto: "תלונה: פניה לגורמים ממשלתיים"
-              - match: משטרה
+                - say: 'בקשו מהפונה לספר מה היתה תגובת העירייה.
+
+                    נסו לברר את תוכן התגובה, המועד בה ניתנה, עם מי היה הקשר.
+
+                    במידה וישנו מסמך כתוב, בקשו מהפונה להעביר עליכם עותק שלו.'
+                - wait:
+                    long: true
+                    variable: _details_to_add_to_description
+                - do:
+                    cmd: addMunicipalReaction
+                    params:
+                    - record
+                    variable: event_description
+                - say: אמרו לפונה שיהיה עליכם להתייעץ לגבי המשך הטיפול במקרה לאור תגובת הרשות המקומית. מומלץ לקבוע זמן או מועד לשיחה הבאה בה תעדכנו אותם.
+                - wait:
+                    options:
+                    - show: בסדר
+                      steps:
+                      - do:
+                          cmd: addTask
+                          params:
+                          - record
+                          - municipal_activity_communication_log
+              - show: לא
                 steps:
-                  - goto: "משטרה: בחירת מסלול פעולה"
-              - match: מאבטח/ת
+                - say: בדקו אם פרטי הרשות המקומית מוזנים בפרטי האירוע שבצד ימין. אם לא, בררו עם הפונה באיזו רשות מדובר והזינו לפרטי האירוע שבצד ימין של המסך.
+                - say: בררו אם הפונה מעוניינ/ת שנסייע בפניה לרשות המקומית.
+                - wait:
+                    options:
+                    - show: כן
+                      steps:
+                      - do:
+                          cmd: addTask
+                          params:
+                          - record
+                          - contact_municipality_activity
+                    - show: לא
+                      steps: []
+        - show: לא
+          steps: []
+        - show: הפונה לא יודע/ת
+          steps:
+          - say: האם הפונה מעוניינ/ת שננסה לברר האם החוג מופעל על ידי הרשות המקומית?
+          - wait:
+              options:
+              - show: כן
                 steps:
-                  - goto: "מאבטח/ת: בחירת מסלול פעולה"
-              - match: מסגרת חינוכית
+                - do:
+                    cmd: addTask
+                    params:
+                    - record
+                    - check_if_municipal_activity
+              - show: לא
+                steps: []
+  - name: 'דיור: בחירת מסלול פעולה'
+    steps:
+    - do:
+        cmd: getComplaintType
+        params:
+        - record
+        variable: _complaint_type
+    - switch:
+        arg: _complaint_type
+        cases:
+        - match: אפליה בקבלה לישוב קהילתי
+          steps:
+          - goto: 'דיור: בדיקה האם מדובר בועדת קבלה'
+          - goto: 'תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים'
+        - match: אפליה בקבלה לשכונת הרחבה במושב או בקיבוץ
+          steps:
+          - goto: 'דיור: בדיקה האם מדובר בועדת קבלה'
+          - goto: 'תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים'
+        - match: אפליה בקבלה לנחלה בקיבוץ או במושב
+          steps:
+          - say: "על פי המצב המשפטי הקיים למושב וקיבוץ שיקול דעת נרחב לדחות מועמדים המבקשים לגור בישוב אך סירוב כזה דורש את אישור רשות מקרקעי ישראל.<br><br>\nניתן לתבוע בהליך אזרחי את האגודה השיתופית וניתן לדרוש מרשות מקרקעי ישראל לאפשר הרכישה חרף התנגדות האגודה השיתופית.\n<br><br>\nבתי המשפט קבעו במספר מקרים כי האגודה השיתופית המנהלת את הישוב היא גוף המחוייב לפעול בשוויון בהקצאת מגרשים.\n<br><br>\n\n מומלץ במקרה זה להתייעץ עם ארגון שפועל בתחום (נציג בהמשך השיחה כמה ארגונים רלוונטים) או עם עו\"ד פרטי (לא נוכל לסייע בכך)."
+          - say: לפני כן, נבקש לברר האם הפונה מאשר/ת להעביר את פרטי המקרה ליחידה לתיאום המאבק בגזענות במשרד המשפטים.
+          - goto: 'תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים'
+        - match: אפליה במכירת דירה על ידי חברת בניה/יזם/קבלן
+          steps:
+          - say: בררו האם הפונה יודע/ת מה מעמד הקרקע עליו מוקם הפרוייקט.
+          - wait:
+              options:
+              - show: קרקע שבה זכתה החברה במכרז בניה של רשות מקרקעי ישראל
                 steps:
-                  - goto: "מסגרת חינוכית: בחירת מסלול לפי מסגרת"
-              - match: דיור
+                - say: הסבירו לפונה שאם מדובר בקרקע שבה זכתה החברה במכרז בניה של רשות מקרקעי ישראל, ניתן לפנות לוועדת המכרזים של רשות מקרקעי ישראל בדרישה לפסול את זכייתה של החברה או לקנוס אותה.
+                - do:
+                    cmd: showInfoCard
+                    params:
+                    - minhal
+                - say: האם הפונה מעוניינ/ת שנסייע בהגשת תלונה ליעוץ המשפטי של רשות מקרקעי ישראל?
+                - wait:
+                    options:
+                    - show: כן
+                      steps:
+                      - do:
+                          cmd: addTask
+                          params:
+                          - record
+                          - contact_minhal_legal_advisor
+                    - show: לא
+                value: minhal
+              - show: קרקע פרטית
+                value: private
+              - show: הפונה לא יודע/ת או לא בטוח/ה
                 steps:
-                  - goto: "דיור: בחירת מסלול פעולה"
-              - match: בריאות
-                steps:
-                  - goto: "בריאות: בחירת מסלול פעולה"
-    - name: "משטרה: בחירת מסלול פעולה"
-      steps:
-        - say: >-
-            ישנם  שלושה מסלולי פעולה אפשריים בנוגע לתלונות על התנהגות שוטרים,
-            בהתאם לסוג העבירה: <br>
-
-            <br>1. מסלול פלילי<br>
-
-            <br>2. מסלול משמעתי<br>
-
-            <br>3. מסלול נזיקי<br>
-
-            <br>
-
-
-
-            ההבחנה בין המסלול הפלילי לבין המסלול המשמעתי אינה תמיד חד משמעית - ולכן אם יש ספק עדיף להגיש למח"ש (המסלול הפלילי). חשוב ליידע את הפונה שלמרבה הצער אחוזי הגשת כתבי האישום במח"ש נמוכים מאד (פחות מ-5% ומרבית התלונות אפילו לא מתוחקרות).
-        - say: >-
-            כעת עליכם לברר מהו המסלול הנכון להמשך הטיפול במקרה.
-
-            אם אינכם בטוחים, עדכנו את הפונה שתחזרו אליהם לאחר שתבררו מהו המסלול הנכון להמשך.
-        - say: מהו מסלול הפעולה המתאים להמשך הטיפול בפניה?
-        - wait:
-            variable: _track
-            options:
-              - show: פלילי
-                value: felonious
-              - show: משמעתי
-                value: disciplinary
-              - show: נזיקין
-                value: torts
-              - show: אין תשובה ברורה
+                - say: בררו האם הפונה מעוניינ/ת שנסייע בבדיקת מעמד הקרקע, ושבמידה ונגלה שמדובר באדמת רשות מקרקעי ישראל, נפנה בתלונה בנושא.
+                - wait:
+                    options:
+                    - show: כן
+                      steps:
+                      - do:
+                          cmd: addTask
+                          params:
+                          - record
+                          - housing_check_land_status
+                    - show: לא
                 value: not_sure
-        - switch:
-            arg: _track
-            cases:
-              - match: felonious
-                steps:
-                  - say: >-
-                      אם האירוע משקף עבירה פלילית של השוטר לדוג' תקיפה, או כל
-                      מקרה של שימוש מופרז/לא מוצדק בכח, מומלץ להפנות את התלונה
-                      למחלקה לחקירות שוטרים (מח"ש).
+              variable: _housing_land_type
+          - say: הסבירו לפונה כי ייתכן שניתן להגיש תביעה נזיקית נגד החברה לקבלת פיצוי. <br><br> בדיקה זו תתאפשר באמצעות פניה לעו"ד פרטי (בה לא נוכל לסייע), או לארגונים הפועלים בתחום, ושיוצגו בהמשך השיחה.
+          - say: לפני כן, נברר האם יהיו מעוניינים להעביר את פרטי המקרה ליחידה לתאום המאבק בגזענות במשרד המשפטים.
+          - goto: 'תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים'
+        - match: אפליה במכירת דירת יד 2 מידי אדם פרטי
+          steps:
+          - goto: 'דיור: אפליה של אדם פרטי'
+          - goto: 'תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים'
+        - match: אפליה בהשכרת דירה מאדם פרטי
+          steps:
+          - goto: 'דיור: אפליה של אדם פרטי'
+          - goto: 'תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים'
+        - match: אפליה של חברת תיווך
+          steps:
+          - say: 'אם חברת תיווך נהגה בצורה מפלה במכירת או השכרת נכס, ניתן לבדוק את האפשרות להגיש תלונה משמעתית לרשם המתווכים במשרד המשפטים.
 
-                      <br><br>
+              <br><br>
 
-                      בנוסף כדאי לשקול לפנות לארגוני חברה אזרחית שעשויים לסייע בליווי ויעוץ.
-                  - say: ספרו לפונה על המחלקה לחקירות שוטרים (מח"ש).
-                  - say: בררו האם הפונה מעוניינ/ת להעביר את פרטי המקרה למח"ש.
-                  - do:
-                      cmd: showInfoCard
-                      params:
-                        - mahash
-                  - wait:
-                      variable: _mahash
-                      options:
-                        - show: הפונה מאשר להעביר את פרטי המקרה במלואם
-                          steps:
-                            - do:
-                                cmd: addTask
-                                params:
-                                  - record
-                                  - send_to_mahash
-                          value: yes
-                        - show: הפונה מאשר/ת להעביר את המקרה ללא פרטים מזהים
-                          steps:
-                            - do:
-                                cmd: addTask
-                                params:
-                                  - record
-                                  - send_anonymously_to_mahash
-                          value: anonymously
-                        - show: הפונה לא מאשר/ת להעביר את פרטי המקרה למח"ש
-                          value: no
-                  - goto: "תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד
-                      המשפטים"
-              - match: disciplinary
-                steps:
-                  - say: >-
-                      אם האירוע משקף עבירת משמעת של השוטר (התנהגות בלתי נאותה או
-                      מילוי תפקיד באופן לקוי, לדוג' סירוב להזדהות; נקיטת לשון
-                      גסה; עריכת חיפוש, עיכוב או מעצר שלא כדין) מומלץ להגיש
-                      תלונה למחלקה לפניות הציבור במשטרה.
-
-                      <br><br>
-
-                      בנוסף כדאי לשקול לפנות לארגוני חברה אזרחית שעשויים לסייע בליווי ויעוץ.
-                  - goto: "תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד
-                      המשפטים"
-              - match: torts
-                steps:
-                  - say: >-
-                      התנהגות או התבטאות גזענית של שוטר עשויה להיות גם עילת
-                      תביעה נזיקית במיוחד אם האירוע התרחש במקום ציבורי והיו עדים
-                      רבים לאירוע. בכל מקרה כדאי להתייעץ לגבי סיכויי תביעה כזו
-                      עם עו"ד נזיקי או עם מרכז תמורה.
-
-
-                      <br><br>
-
-                      במסלול זה אין גורם ממשלתי רלוונטי לפנות אליו, למעט היחידה לתיאום המאבק בגזענות במשרד המשפטים.
-                  - goto: "תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד
-                      המשפטים"
-              - default: true
-                steps:
-                  - say: >-
-                      מכיוון שאינכם בטוחים באיזה מהמסלולים ניתן לפעול, נציג
-                      בפניכם את רשימת כל הארגונים הממשלתיים והאזרחיים שניתן
-                      לפנות אליהם בנוגע לתלונות ביחס לעבודת המשטרה.<br><br>
-
-
-                      הציגו את הגורמים השונים לפונה ובררו למי מהם ירצה/תרצה להעביר את פרטי האירוע.
-                  - goto: "תלונה: פניה לגורמים ממשלתיים"
-    - name: "מאבטח/ת: בחירת מסלול פעולה"
-      steps:
-        - do:
-            cmd: checkOfficeRepresetativeRelevancy
-            params:
-              - record
-        - do:
-            cmd: checkSpecificGuardComplain
-            params:
-              - record
-        - say: האם מהפרטים עולה חשד למדיניות מפלה של חברת האבטחה?
-        - wait:
-            options:
+              בררו האם הפונה מועניינ/ת שנבדוק ונסייע בביצוע פנייה שכזו.'
+          - do:
+              cmd: showInfoCard
+              params:
+              - realtors_registrar
+          - wait:
+              options:
               - show: כן
                 steps:
-                  - say: >-
-                      הסבירו לפונה שבמקרים של חשד למדיניות מפלה של חברה אבטחה או
-                      גורם אבטחה ניתן לפנות בתלונה או בקשת בירור למחלקת האבטחה
-                      והרישוי במשטרת ישראל.
-
-                      <br><br>
-
-                      האם הפונה מעוניינ/ת לפנות בתלונה או בקשת בירור לגורם זה?
-                  - do:
-                      cmd: showInfoCard
-                      params:
-                        - police_security_department
-                  - wait:
-                      options:
-                        - show: כן
-                          steps:
-                            - do:
-                                cmd: addTask
-                                params:
-                                  - record
-                                  - guard_company_policy_complaint
-                        - show: לא
-                          steps: []
+                - do:
+                    cmd: addTask
+                    params:
+                    - record
+                    - send_justice_ministry_realtors_registrar
               - show: לא
                 steps: []
-        - say: >-
-            הסבירו לפונה שלפי חוק אפליה בשירותים ובמוצרים, אם פעולת המאבטח/ת
-            גרמה לאפליה בהספקת מוצר, שירות ציבורי או בכניסה למקום ציבורי ניתן
-            לתבוע.
+          - goto: 'תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים'
+        - default: true
+          steps:
+          - say: בררו עם הפונה מהו ההקשר בו נדחתה בקשתו לקבלה בתחום המגורים. כתבו את התיאור והתייעצו עם אחראי/ת בארגון בנוגע לפעולות הנדרשות.
+          - wait:
+              variable: complaint_type
+          - wait:
+              options:
+              - show: הסברתי לפונה שאבדוק מהם ערוצי הפעולה האפשריים ואעדכן
+                steps:
+                - do:
+                    cmd: addTask
+                    params:
+                    - record
+                    - housing_acceptance_verify_method
+          - say: הסבירו לפונה שחוץ מהבירור שנעשה בנוגע, אתם יכולים גם להציע לפנות לגורמים ממשלתיים או ציבוריים כדי לקבל מידע או להתלונן על האירוע.
+          - goto: 'תלונה: פניה לגורמים ממשלתיים'
+  - name: 'דיור: בדיקה האם מדובר בועדת קבלה'
+    steps:
+    - say: האם המקרה קשור בהחלטה או התנהלות של ועדת קבלה בישוב?
+    - do:
+        cmd: showInfoCard
+        params:
+        - settlement_committee
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - say: בררו האם הפונה מעוניינ/ת שננסה לסייע בפניה לועדת ההשגות על החלטות ועדות קבלה לישובים בנגב ובגליל במשרד המשפטים.
+          - do:
+              cmd: showInfoCard
+              params:
+              - justice_ministry_admission_committee
+          - wait:
+              options:
+              - show: כן
+                steps:
+                - do:
+                    cmd: addTask
+                    params:
+                    - record
+                    - contact_justice_ministry_application_commitee
+              - show: לא
+                steps: []
+        - show: לא
+          steps:
+          - say: "למעט ישובים קטנים, של עד 400 משפחות, החוק אינו מתיר מניעת קבלה לישוב. \n<br><br>\nבמידה והפונה נתקל/ה באפליה ניתן להציע להם לפנות לעו\"ד (בכך לא נוכל לסייע) או לנסות להיעזר באחד הארגונים העוסקים בנושא ליעוץ משפטי, שנציע בהמשך השיחה"
+  - name: 'דיור: אפליה של אדם פרטי'
+    steps:
+    - say: 'הסבירו לפונה שאין איסור מפורש בחוק על אפליה ביחס לאנשים פרטיים המוכרים או משכירים את דירתם אך חשוב לתעד ולדווח על כך.
 
-            <br><br>
+        <br><br>
 
-            בית המשפט רשאי לפסוק במקרים אלו עד 50 אלף ₪ פיצוי ללא הוכחת נזק - כלומר, מבלי שהנפגע/ת צריכים להציג הוכחות לפגיעה שנגרמה להם מההתנהגות המפלה.
 
-            <br><br>
+        ניתן לבחון אפשרות להגשת תביעה בנושא, אולם הפסיקה בנושא היא מאוד מוגבלת ולכן כדאי להתייעץ עם ארגון רלוונטי, מרשימה שנציג בהמשך השיחה, או עם עו"ד פרטי (בזה לא נוכל לסייע).
 
-            ניתן לשקול תביעת נזיקין גם במקרים שבהם מאבטח/ת השפיל/ה אדם בהתבטאות או באופן ביצוע הבידוק או הפעלת סמכויותיו על רקע מוצאו, לאום וכו' – במיוחד כאשר המקרה ארע בפומבי וכשקיימת עדות ברורה לקיומה של גזענות.
-        - say: >-
-            ודאו שהפונה מבינ/ה שבירור האפשרות לתביעת נזיקין יכולה להעשות ע"י
-            עורך דין מומחה לדיני נזיקין או בעזרת אחד מארגוני החברה האזרחית
-            שפעילים בתחום, ושנציג בהמשך השיחה.
 
-            <br><br>
+        <br><br>
 
-            לפני כן, נברר האם יהיו מעוניינים להעביר את פרטי המקרה ליחידה לתאום המאבק בגזענות במשרד המשפטים.
-        - goto: "תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים"
-    - name: "מסגרת חינוכית: בחירת מסלול לפי מסגרת"
-      steps:
-        - do:
-            cmd: getOffenderOrganizationCategory
-            variable: _offender_org_category
-            params:
+        לפני כן נברר האם יהיו מעוניינים להעביר את פרטי המקרה ליחידה לתיאום המאבק בגזענות במשרד המשפטים.'
+  - name: 'בריאות: בחירת מסלול פעולה'
+    steps:
+    - do:
+        cmd: getComplaintType
+        params:
+        - record
+        variable: complaint_type
+    - switch:
+        arg: complaint_type
+        cases:
+        - match: הערות גזעניות או מעליבות
+          steps:
+          - goto: 'בריאות: מסלול הערות גזעניות או מעליבות'
+        - match: סירוב להעניק טיפול על רקע גזעני או מפלה
+          steps:
+          - goto: 'בריאות: מסלול סירוב להעניק טיפול על רקע גזעני או מפלה'
+        - match: המרפאה/מרכז רפואי לא היו נגישים
+          steps:
+          - goto: 'בריאות: מסלול המרפאה/מרכז רפואי לא היו נגישים'
+    - goto: 'בריאות: בירור אפשרות לתביעת נזיקין'
+    - goto: 'תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים'
+  - name: 'בריאות: מסלול סירוב להעניק טיפול על רקע גזעני או מפלה'
+    steps:
+    - say: 'במשרד הבריאות פועלת נציבות קבילות כלפי בעלי מקצועות רפואיים.
+
+        <br><br>
+
+        בררו האם הפונה מעוניינ/ת שנסייע בהעברת פרטי המקרה לבירור בנציבות'
+    - do:
+        cmd: showInfoCard
+        params:
+        - health_ministry_public_inquiries
+    - wait:
+        options:
+        - show: כן, הפונה מאשר/ת להעביר את הפניה עם פרטים מזהים
+          steps:
+          - do:
+              cmd: addTask
+              params:
               - record
-        - switch:
-            arg: _offender_org_category
-            cases:
-              - default: true
-                steps: []
-              - match: אוניברסיטה/מכללה
-                steps:
-                  - goto: "מסגרת חינוכית: מסלול אוניברסיטה/מכללה"
-              - match: בית ספר
-                steps:
-                  - goto: "מסגרת חינוכית: מסלול בתי ספר וגנים ציבוריים"
-              - match: גן חובה
-                steps:
-                  - goto: "מסגרת חינוכית: מסלול בתי ספר וגנים ציבוריים"
-              - match: גן טרום חובה
-                steps:
-                  - goto: "מסגרת חינוכית: מסלול בתי ספר וגנים ציבוריים"
-              - match: גן טרום טרום חובה
-                steps:
-                  - goto: "מסגרת חינוכית: מסלול בתי ספר וגנים ציבוריים"
-              - match: גן פרטי לגיל הרך
-                steps:
-                  - say: >-
-                      מסגרות חינוך פרטי לגיל הרך אינן כפופות לדיני החינוך, על כן
-                      הדרך לתקוף אותם בגין אפליה היא באמצעות חוק איסור אפליה.
-
-                      <br><br>
-                  - goto: "מסגרת חינוכית: תביעה אזרחית"
-              - match: חוגים של רשות מקומית
-                steps:
-                  - goto: "מסגרת חינוכית: מסלול חוגים ברשות מקומית"
-        - goto: "תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים"
-    - name: "מסגרת חינוכית: מסלול בתי ספר וגנים ציבוריים"
-      steps:
-        - say: >-
-            כרקע חשוב לדעת שאפליית תלמידים במוסדות חינוך חובה מטעמי מוצא, מין,
-            זהות מגדרית, נטייה מינית, רקע סוציואקונומי או השקפה פוליטית היא
-            אפליה אסורה. 
-
-            <br><br>
-
-            האיסור להפלות חל על כל מוסדות החינוך בישראל בכל גיל של התלמיד.
-        - say: האיסור להפלות מעוגן בחוק זכויות התלמיד, בחוק איסור אפליה במוצרים
-            ושירותים ובחקיקה נוספת.
-        - say: אפליה בכלל ואפליית תלמידים בפרט עשויה להוות עבירה פלילית.
-        - say: האם התלונה קשורה באפליה בנוגע לקבלה למוסד או למסגרת החינוכית?
-        - wait:
-            variable: _acceptance_discrimination
-            options:
-              - show: כן
-                steps:
-                  - goto: "מסגרת חינוכית: אפליה בקבלה בחינוך חובה"
-              - show: לא
-                steps:
-                  - goto: "מסגרת חינוכית: תביעה אזרחית"
-    - name: "מסגרת חינוכית: אפליה בקבלה בחינוך חובה"
-      steps:
-        - switch:
-            arg: offender_details
-            cases:
-              - match: חינוך חרדי
-                steps:
-                  - say: >-
-                      במקרה שמוסד חינוכי חרדי דחה קבלת תלמיד/ה לשורותיו וההורים
-                      סבורים שמדובר בהחלטה שאינה מוצדקת, הם רשאים לערער על
-                      ההחלטה בפני ועדת ערר של המחוז החרדי במשרד החינוך.
-
-                      בית הספר מחויב ליידע את ההורים על אפשרות הערעור על החלטתו, ועל האפשרות לפנות לוועדת הערר. 
-
-
-                      <br><br>
-
-                      הוועדה לא תדון במקרים בהם לא הוגש קודם לכן ערעור למוסד החינוכי.
-                  - do:
-                      cmd: showInfoCard
-                      params:
-                        - education_ministry_unltra_orthodox
-                  - say: האם הפונה (או ההורים) ערערו על הבקשה בפני המוסד החינוכי?
-                  - wait:
-                      options:
-                        - show: כן
-                          steps: []
-                        - show: לא
-                          steps:
-                            - say: >-
-                                הסבירו לפונה שהשלב הראשון בהתמודדות עם המקרה הוא
-                                פניה למוסד כדי לערער על ההחלטה.<br><br>
-
-                                שאלו את הפונה האם הוא/היא מעוניינ/ת בעזרה שלנו בפניה למוסד
-                            - wait:
-                                options:
-                                  - show: כן, הפונה מעוניינ/ת שנגיש את הערעור בשמם
-                                    steps:
-                                      - say: בדקו בצד המסך אם יש בידינו את פרטי
-                                          ההתקשרות עם בית הספר. אם לא, בקשו
-                                          מהפונה כל פרט מידע והזינו אותו לשדה
-                                          "פרטי קשר עם המוסד או הארגון" שבצד
-                                          ימין של המסך.
-                                      - wait:
-                                          options:
-                                            - show: סיימתי
-                                              steps:
-                                                - do:
-                                                    cmd: addTask
-                                                    params:
-                                                      - record
-                                                      - contact_ultra_orthodox_edu_inst
-                                  - show: לא, הפונה לא מעוניינ/ת לערער או שיפנו בעצמם
-                                    steps:
-                                      - say: מכיוון שהפונה לא מעוניינ/ת לערער בפני
-                                          המוסד על ההחלטה היכולת שלנו לסייע
-                                          במקרה מוגבלת.
-                                      - say: שאלו את הפונה האם הוא/היא מעוניינ/ת
-                                          שנעביר את פרטי המקרה לארגוני חברה
-                                          אזרחית שפעילים בתחום ואולי יוכלו לסייע
-                                          בדרכים אחרות.
-                                      - wait:
-                                          options:
-                                            - show: כן
-                                              steps:
-                                                - goto: "תלונה: שיתוף עם ארגוני חברה
-                                                    אזרחית"
-                                            - show: לא
-                                              steps:
-                                                - say: >-
-                                                    מכיוון שהפונה לא מעוניינ/ת
-                                                    לפנות לערער על החלטת המוסד
-                                                    ומבקש שלא לשתף את המידע עם
-                                                    גופי חברה אזרחית הפעילים
-                                                    בתחום, אין באפשרותנו לסייע.
-                                                    הסבירו זאת שוב לפונה והזמינו
-                                                    אותם ליצור עמנו קשר בהמשך
-                                                    במידה וישנו את דעתם.
-
-
-                                                    <br><br>
-
-                                                    סיימו את השיחה בצורה מנומסת ומכובדת ואחלו  לפונה בהצלחה.
-                                      - goto: complete
-                  - say: בררו אם הפונה מעוניינ/ת שנסייע לו בפניה לועדת הערר במשרד
-                      החינוך
-                  - wait:
-                      options:
-                        - show: כן
-                          steps:
-                            - do:
-                                cmd: addTask
-                                params:
-                                  - record
-                                  - contact_education_ministry_ultra_ortodox
-                        - show: לא
-                          steps: []
-              - default: true
-                steps:
-                  - say: במסגרות החינוך הממלכתיות, הרישום לבית ספר יסודי ולגני
-                      ילדים מתבצע על פי אזורי רישום, ולילד יש זכות ללמוד במוסד
-                      הלימוד הקרוב ביותר לביתו.
-                  - say: בררו האם הפונה מעוניינ/ת שנסייע בפניה למחלקת החינוך ברשות
-                      המקומיות הרלוונטית.
-                  - do:
-                      cmd: showInfoCard
-                      params:
-                        - municipal_education_list
-                  - wait:
-                      variable: _municipal_education_send
-                      options:
-                        - show: כן
-                          steps:
-                            - do:
-                                cmd: addTask
-                                params:
-                                  - record
-                                  - contact_municipal_education_department
-                          value: yes
-                        - show: לא
-                          value: no
-                  - say: בררו האם הפונה מעוניינ/ת שנסייע בפניה לאגף לפניות ותלונות
-                      הציבור במשרד החינוך.
-                  - do:
-                      cmd: showInfoCard
-                      params:
-                        - education_ministry
-                  - wait:
-                      variable: _education_ministry_send
-                      options:
-                        - show: כן
-                          steps:
-                            - do:
-                                cmd: addTask
-                                params:
-                                  - record
-                                  - contact_education_ministry
-                          value: yes
-                        - show: לא
-                          value: no
-        - goto: "מסגרת חינוכית: תביעה אזרחית"
-    - name: "מסגרת חינוכית: תביעה אזרחית"
-      steps:
-        - say: >-
-            ניתן לבדוק אפשרות להגיש תביעה אזרחית מכוח חוק איסור אפליה ולזכות
-            בפיצוי אף ללא הוכחת נזק. <br>
-
-            <br>
-
-            ניתן לבצע הליך זה בשלושה אמצעים:
-
-            <br>
-
-            <ul>
-
-            <li>פניה לעורך דין פרטי (לא נוכל לסייע בכך)</li>
-
-            <li>פניה לאגף לסיוע משפטי במשרד המשפטים</li>
-
-            <li>פניה לסיוע של ארגון חברה אזרחית הפועל בתחום (בהמשך נציע אפשרויות רלוונטיות)
-
-
-            <br><br>
-
-            האם הפונה מעוניינ/ת שנסייע בפניה לאגף לסיוע משפטי במשרד המשפטים?
-        - do:
-            cmd: showInfoCard
-            params:
-              - justice_ministry_legal_assistance
-        - wait:
-            options:
-              - show: כן
-                steps:
-                  - do:
-                      cmd: addTask
-                      params:
-                        - record
-                        - justice_ministry_ask_assistance
-              - show: לא
-                steps: []
-    - name: "מסגרת חינוכית: מסלול אוניברסיטה/מכללה"
-      steps:
-        - say: >-
-            אפליה אסורה באקדמיה עשויה להתבטא בצורות שונות. למשל, בסירוב קבלה
-            למעונות, בתנאי קבלה מפלים, גזענות יכולה להתבטא במילים וביחס משפיל.
-
-
-            <br><br>
-
-            אם המקרה שתואר על ידי הפונה כולל מתייחס לאפליה או יחס לא ראוי, יש לפנות בכתב לדיקן הסטודנטים במוסד הרלוונטי.
-
-            <br><br>
-
-            בהמשך, במידה ולא תתקבל תשובה, או שהתשובה שתשלח לא מספקת ניתן לפנות בכתב לנציב קבילות הסטודנטים של המוסד, האחראי על בירור תלונות המוגשות על ידי סטודנטים או מועמדים ללימודים בגין פגיעה בזכויותיהם. בסמכות הנציב להמליץ למוסד על דרכי פעולה.
-        - say: האם הפונה מעוניינ/ת שנסייע לו לנסח פניה לדיקן ו/או לנציב/ת קבילות
-            הסטודנטים?
-        - wait:
-            variable: _add_task
-            options:
-              - show: כן
-                steps:
-                  - do:
-                      cmd: addTask
-                      params:
-                        - record
-                        - contact_acadeimc_org
-                value: "true"
-              - show: לא
-                value: "false"
-    - name: "מסגרת חינוכית: מסלול חוגים ברשות מקומית"
-      steps:
-        - say: האם החוג מופעל על ידי או בניהול הרשות המקומית?
-        - wait:
-            options:
-              - show: כן
-                steps:
-                  - say: >-
-                      אם העיריה מפעילה את החוגים אפשר לפנות למנכ"ל העירייה
-                      ולמבקר הפנים שלה.
-
-                      <br><br>
-
-                      במידה ואמצעי זה לא יסייע, ניתן לשקול אפשרות לתביעה על סמך חוג איסור אפליה.
-                  - say: בדקו עם הפונה האם כבר יצרו כבר קשר עם הרשות המקומית בנושא.
-                  - wait:
-                      options:
-                        - show: כן
-                          steps:
-                            - say: >-
-                                בקשו מהפונה לספר מה היתה תגובת העירייה.
-
-                                נסו לברר את תוכן התגובה, המועד בה ניתנה, עם מי היה הקשר.
-
-                                במידה וישנו מסמך כתוב, בקשו מהפונה להעביר עליכם עותק שלו.
-                            - wait:
-                                variable: _details_to_add_to_description
-                                long: true
-                            - do:
-                                cmd: addMunicipalReaction
-                                variable: event_description
-                                params:
-                                  - record
-                            - say: אמרו לפונה שיהיה עליכם להתייעץ לגבי המשך הטיפול
-                                במקרה לאור תגובת הרשות המקומית. מומלץ לקבוע זמן
-                                או מועד לשיחה הבאה בה תעדכנו אותם.
-                            - wait:
-                                options:
-                                  - show: בסדר
-                                    steps:
-                                      - do:
-                                          cmd: addTask
-                                          params:
-                                            - record
-                                            - municipal_activity_communication_log
-                        - show: לא
-                          steps:
-                            - say: בדקו אם פרטי הרשות המקומית מוזנים בפרטי האירוע
-                                שבצד ימין. אם לא, בררו עם הפונה באיזו רשות מדובר
-                                והזינו לפרטי האירוע שבצד ימין של המסך.
-                            - say: בררו אם הפונה מעוניינ/ת שנסייע בפניה לרשות
-                                המקומית.
-                            - wait:
-                                options:
-                                  - show: כן
-                                    steps:
-                                      - do:
-                                          cmd: addTask
-                                          params:
-                                            - record
-                                            - contact_municipality_activity
-                                  - show: לא
-                                    steps: []
-              - show: לא
-                steps: []
-              - show: הפונה לא יודע/ת
-                steps:
-                  - say: האם הפונה מעוניינ/ת שננסה לברר האם החוג מופעל על ידי הרשות
-                      המקומית?
-                  - wait:
-                      options:
-                        - show: כן
-                          steps:
-                            - do:
-                                cmd: addTask
-                                params:
-                                  - record
-                                  - check_if_municipal_activity
-                        - show: לא
-                          steps: []
-    - name: "דיור: בחירת מסלול פעולה"
-      steps:
-        - do:
-            cmd: getComplaintType
-            variable: _complaint_type
-            params:
+              - send_to_health_ministry_public_inquiries
+        - show: הפונה מאשר/ת לפנות לנציב ללא מסירת פרטים מזהים
+          steps:
+          - do:
+              cmd: addTask
+              params:
               - record
-        - switch:
-            arg: _complaint_type
-            cases:
-              - match: אפליה בקבלה לישוב קהילתי
-                steps:
-                  - goto: "דיור: בדיקה האם מדובר בועדת קבלה"
-                  - goto: "תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד
-                      המשפטים"
-              - match: אפליה בקבלה לשכונת הרחבה במושב או בקיבוץ
-                steps:
-                  - goto: "דיור: בדיקה האם מדובר בועדת קבלה"
-                  - goto: "תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד
-                      המשפטים"
-              - match: אפליה בקבלה לנחלה בקיבוץ או במושב
-                steps:
-                  - say: >-
-                      על פי המצב המשפטי הקיים למושב וקיבוץ שיקול דעת נרחב לדחות
-                      מועמדים המבקשים לגור בישוב אך סירוב כזה דורש את אישור רשות
-                      מקרקעי ישראל.<br><br>
+              - send_to_health_ministry_public_inqueries_anonymously
+        - show: לא, הפונה אינו מעוניין לפנות לנציבות
+          steps: []
+    - say: עדכנו את הפונה שהעתק הפניה יועבר גם למתאמת המאבק בגזענות במשרד הבריאות
+    - wait:
+        options:
+        - show: בסדר
+          steps:
+          - do:
+              cmd: addTask
+              params:
+              - record
+              - contact_health_ministry_zero_racism
+  - name: 'בריאות: מסלול הערות גזעניות או מעליבות'
+    steps:
+    - say: 'במשרד הבריאות פועלת מתאמת למאבק בגזענות.<br><br>
 
-                      ניתן לתבוע בהליך אזרחי את האגודה השיתופית וניתן לדרוש מרשות מקרקעי ישראל לאפשר הרכישה חרף התנגדות האגודה השיתופית.
+        בררו האם הפונה מעוניינ/ת שנסייע בפניה למתאמת המאבק בגזענות והעברת פרטי המקרה.'
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - do:
+              cmd: addTask
+              params:
+              - record
+              - contact_health_ministry_zero_racism
+        - show: לא
+          steps: []
+    - say: האם האירוע התרחש או קשור באחד מבתי החולים בארץ?
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - do:
+              cmd: addTask
+              params:
+              - record
+              - send_health_centers_antiracism_officers
+          - say: עדכנו את הפונה שננסה לאתר את הממונה למאבק בגזענות במוסד, ונעביר גם אליהם העתק של הפניה לממונה במשרד הבריאות.
+        - show: לא
+          steps: []
+  - name: 'בריאות: מסלול המרפאה/מרכז רפואי לא היו נגישים'
+    steps:
+    - say: ניתן לפנות בשאלות ובתלונות לממונת שוויון זכויות לאנשים עם מוגבלות במשרד הבריאות.
+    - do:
+        cmd: showInfoCard
+        params:
+        - health_ministry_accessiblity
+    - wait:
+        options:
+        - show: כן, הפונה מעוניינ/ת לפנות לממונה ומאשרת להעביר את פרטי המקרה
+          steps:
+          - do:
+              cmd: addTask
+              params:
+              - record
+              - send_to_health_ministry_accessiblity
+        - show: הפונה מאשר/ת לפנות לממונה, מבלי לחשוף פרטים מזהים
+          steps:
+          - do:
+              cmd: addTask
+              params:
+              - record
+              - send_to_health_ministry_accessiblity_anonymously
+        - show: לא
+          steps: []
+  - name: 'בריאות: בירור אפשרות לתביעת נזיקין'
+    steps:
+    - say: 'הסבירו לפונה כי במקרים מסוימים ניתן להגיש תביעה אזרחית לפיצוי בגין אפליה בקבלת טיפול רפואי. <br><br>
 
-                      <br><br>
+        ניתן להיוועץ עם הלשכה לסיוע משפטי במשרד המשפטים, או עם ארגונים רלוונטיים (שנציג בהמשך השיחה), או עם עו"ד פרטי (בכך לא נוכל לסייע).<br><br>
 
-                      בתי המשפט קבעו במספר מקרים כי האגודה השיתופית המנהלת את הישוב היא גוף המחוייב לפעול בשוויון בהקצאת מגרשים.
+        בררו האם הפונה מעוניינ/ת שנסייע בפניה ללשכה לסיוע משפטי במשרד המשפטים.'
+    - do:
+        cmd: showInfoCard
+        params:
+        - justice_ministry_legal_assistance
+    - wait:
+        options:
+        - show: כן
+          steps:
+          - do:
+              cmd: addTask
+              params:
+              - record
+              - justice_ministry_ask_assistance
+        - show: לא
+          steps: []
+  - name: 'תלונה: פניה לגורמים ממשלתיים'
+    steps:
+    - say: כעת נבדוק מיהם הגורמים הממשלתיים או הציבוריים אליהם ניתן לפנות כדי לקבל מידע או להתלונן על האירוע.
+    - say: 'אמרו לפונה: <br> אני אציג בפניך את הגורמים שיוכלו אולי לסייע בטיפול במקרה, ונחשוב יחד למי מהם כדאי לפנות. נתחיל...'
+    - do:
+        cmd: prepareGovOrgs
+        params:
+        - record
+    - goto: בחירת ארגון ממשלתי
+    - goto: 'תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים'
+  - name: 'תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים'
+    steps:
+    - say: האם הפונה מעוניינ/ת לשתף את פרטי המקרה עם היחידה לתיאום המאבק בגזענות במשרד המשפטים?
+    - do:
+        cmd: showInfoCard
+        params:
+        - justice_ministry_anti_racism_unit
+    - wait:
+        options:
+        - show: כן, מאשר/ת להעביר להם את פרטי המקרה, כולל שמי ופרטי הקשר
+          value: true
+        - show: מאשר/ת להעביר את תיאור המקרה, ללא פרטים מזהים
+          value: anonymously
+        - show: לא
+          value: false
+        variable: _add_task
+    - switch:
+        arg: _add_task
+        cases:
+        - match: true
+          steps:
+          - do:
+              cmd: addTask
+              params:
+              - record
+              - share_full_details_with_justice_ministry
+        - match: anonymously
+          steps:
+          - do:
+              cmd: addTask
+              params:
+              - record
+              - share_anonymously_with_justice_ministry
+    - goto: 'תלונה: שיתוף עם ארגוני חברה אזרחית'
+  - name: 'תלונה: שיתוף עם ארגוני חברה אזרחית'
+    steps:
+    - say: 'כעת נבדוק האם ישנם גורמי חברה אזרחית (עמותות או ארגונים שלא למטרות רווח) שיוכלו, אולי, לסייע לפונה בהמשך הטיפול במקרה.
 
-                      <br><br>
 
-                       מומלץ במקרה זה להתייעץ עם ארגון שפועל בתחום (נציג בהמשך השיחה כמה ארגונים רלוונטים) או עם עו"ד פרטי (לא נוכל לסייע בכך).
-                  - say: לפני כן, נבקש לברר האם הפונה מאשר/ת להעביר את פרטי המקרה
-                      ליחידה לתיאום המאבק בגזענות במשרד המשפטים.
-                  - goto: "תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד
-                      המשפטים"
-              - match: אפליה במכירת דירה על ידי חברת בניה/יזם/קבלן
-                steps:
-                  - say: בררו האם הפונה יודע/ת מה מעמד הקרקע עליו מוקם הפרוייקט.
-                  - wait:
-                      variable: housing_land_type
-                      options:
-                        - show: קרקע שבה זכתה החברה במכרז בניה של רשות מקרקעי ישראל
-                          value: minhal
-                          steps:
-                            - say: הסבירו לפונה שאם מדובר בקרקע שבה זכתה החברה
-                                במכרז בניה של רשות מקרקעי ישראל, ניתן לפנות
-                                לוועדת המכרזים של רשות מקרקעי ישראל בדרישה לפסול
-                                את זכייתה של החברה או לקנוס אותה.
-                            - do:
-                                cmd: showInfoCard
-                                params:
-                                  - minhal
-                            - say: האם הפונה מעוניינ/ת שנסייע בהגשת תלונה ליעוץ
-                                המשפטי של רשות מקרקעי ישראל?
-                            - wait:
-                                options:
-                                  - show: כן
-                                    steps:
-                                      - do:
-                                          cmd: addTask
-                                          params:
-                                            - record
-                                            - contact_minhal_legal_advisor
-                                  - show: לא
-                        - show: קרקע פרטית
-                          value: private
-                        - show: הפונה לא יודע/ת או לא בטוח/ה
-                          value: not_sure
-                          steps:
-                            - say: בררו האם הפונה מעוניינ/ת שנסייע בבדיקת מעמד
-                                הקרקע, ושבמידה ונגלה שמדובר באדמת רשות מקרקעי
-                                ישראל, נפנה בתלונה בנושא.
-                            - wait:
-                                options:
-                                  - show: כן
-                                    steps:
-                                      - do:
-                                          cmd: addTask
-                                          params:
-                                            - record
-                                            - housing_check_land_status
-                                  - show: לא
-                  - say: הסבירו לפונה כי ייתכן שניתן להגיש תביעה נזיקית נגד החברה
-                      לקבלת פיצוי. <br><br> בדיקה זו תתאפשר באמצעות פניה לעו"ד
-                      פרטי (בה לא נוכל לסייע), או לארגונים הפועלים בתחום,
-                      ושיוצגו בהמשך השיחה.
-                  - say: לפני כן, נברר האם יהיו מעוניינים להעביר את פרטי המקרה
-                      ליחידה לתאום המאבק בגזענות במשרד המשפטים.
-                  - goto: "תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד
-                      המשפטים"
-              - match: אפליה במכירת דירת יד 2 מידי אדם פרטי
-                steps:
-                  - goto: "דיור: אפליה של אדם פרטי"
-                  - goto: "תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד
-                      המשפטים"
-              - match: אפליה בהשכרת דירה מאדם פרטי
-                steps:
-                  - goto: "דיור: אפליה של אדם פרטי"
-                  - goto: "תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד
-                      המשפטים"
-              - match: אפליה של חברת תיווך
-                steps:
-                  - say: >-
-                      אם חברת תיווך נהגה בצורה מפלה במכירת או השכרת נכס, ניתן
-                      לבדוק את האפשרות להגיש תלונה משמעתית לרשם המתווכים במשרד
-                      המשפטים.
+        <br><br>
 
-                      <br><br>
+        חשוב להסביר שמדובר בארגונים שאינם קשורים למדינה או לממשלה. אם הפונה יאשר/תאשר, נעביר את פרטי המקרה שקיבלנו לארגון או לארגונים שיבחר והם אמורים ליצור קשר עם הפונה.'
+    - do:
+        cmd: prepareNgoOrgs
+        params:
+        - record
+    - goto: בחירת ארגון חברה אזרחית
+  - name: קביעת שיחת המשך
+    steps:
+    - do:
+        cmd: getTaskCount
+        params:
+        - record
+        variable: _numOfTasks
+    - switch:
+        arg: _numOfTasks
+        cases:
+        - match: 0
+          steps:
+          - say: 'סיימנו את השיחה, מבלי שקיבלת את הסכמת הפונה לנקוט פעולה כלשהי.
 
-                      בררו האם הפונה מועניינ/ת שנבדוק ונסייע בביצוע פנייה שכזו.
-                  - do:
-                      cmd: showInfoCard
-                      params:
-                        - realtors_registrar
-                  - wait:
-                      options:
-                        - show: כן
-                          steps:
-                            - do:
-                                cmd: addTask
-                                params:
-                                  - record
-                                  - send_justice_ministry_realtors_registrar
-                        - show: לא
-                          steps: []
-                  - goto: "תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד
-                      המשפטים"
-              - default: true
-                steps:
-                  - say: בררו עם הפונה מהו ההקשר בו נדחתה בקשתו לקבלה בתחום
-                      המגורים. כתבו את התיאור והתייעצו עם אחראי/ת בארגון בנוגע
-                      לפעולות הנדרשות.
-                  - wait:
-                      variable: complaint_type
-                  - wait:
-                      options:
-                        - show: הסברתי לפונה שאבדוק מהם ערוצי הפעולה האפשריים ואעדכן
-                          steps:
-                            - do:
-                                cmd: addTask
-                                params:
-                                  - record
-                                  - housing_acceptance_verify_method
-                  - say: הסבירו לפונה שחוץ מהבירור שנעשה בנוגע, אתם יכולים גם להציע
-                      לפנות לגורמים ממשלתיים או ציבוריים כדי לקבל מידע או
-                      להתלונן על האירוע.
-                  - goto: "תלונה: פניה לגורמים ממשלתיים"
-    - name: "דיור: בדיקה האם מדובר בועדת קבלה"
-      steps:
-        - say: האם המקרה קשור בהחלטה או התנהלות של ועדת קבלה בישוב?
-        - do:
-            cmd: showInfoCard
-            params:
-              - settlement_committee
-        - wait:
-            options:
+              הסבר/י לו שזה המצב וברר/י אם ירצו לחזור על הנקודות שהועלו, כדי לחשוב שוב על הדברים
+
+              האם הפונה מבקש לשנות חלק מהתשובות?'
+          - wait:
+              options:
               - show: כן
                 steps:
-                  - say: בררו האם הפונה מעוניינ/ת שננסה לסייע בפניה לועדת ההשגות על
-                      החלטות ועדות קבלה לישובים בנגב ובגליל במשרד המשפטים.
-                  - do:
-                      cmd: showInfoCard
-                      params:
-                        - justice_ministry_admission_committee
-                  - wait:
-                      options:
-                        - show: כן
-                          steps:
-                            - do:
-                                cmd: addTask
-                                params:
-                                  - record
-                                  - contact_justice_ministry_application_commitee
-                        - show: לא
-                          steps: []
+                - do:
+                    cmd: restartConversation
               - show: לא
-                steps:
-                  - say: >-
-                      למעט ישובים קטנים, של עד 400 משפחות, החוק אינו מתיר מניעת
-                      קבלה לישוב. 
-
-                      <br><br>
-
-                      במידה והפונה נתקל/ה באפליה ניתן להציע להם לפנות לעו"ד (בכך לא נוכל לסייע) או לנסות להיעזר באחד הארגונים העוסקים בנושא ליעוץ משפטי, שנציע בהמשך השיחה
-    - name: "דיור: אפליה של אדם פרטי"
-      steps:
-        - say: >-
-            הסבירו לפונה שאין איסור מפורש בחוק על אפליה ביחס לאנשים פרטיים
-            המוכרים או משכירים את דירתם אך חשוב לתעד ולדווח על כך.
-
-            <br><br>
-
-
-            ניתן לבחון אפשרות להגשת תביעה בנושא, אולם הפסיקה בנושא היא מאוד מוגבלת ולכן כדאי להתייעץ עם ארגון רלוונטי, מרשימה שנציג בהמשך השיחה, או עם עו"ד פרטי (בזה לא נוכל לסייע).
-
-
-            <br><br>
-
-            לפני כן נברר האם יהיו מעוניינים להעביר את פרטי המקרה ליחידה לתיאום המאבק בגזענות במשרד המשפטים.
-    - name: "בריאות: בחירת מסלול פעולה"
-      steps:
-        - do:
-            cmd: getComplaintType
-            variable: complaint_type
-            params:
-              - record
-        - switch:
-            arg: complaint_type
-            cases:
-              - match: הערות גזעניות או מעליבות
-                steps:
-                  - goto: "בריאות: מסלול הערות גזעניות או מעליבות"
-              - match: סירוב להעניק טיפול על רקע גזעני או מפלה
-                steps:
-                  - goto: "בריאות: מסלול סירוב להעניק טיפול על רקע גזעני או מפלה"
-              - match: המרפאה/מרכז רפואי לא היו נגישים
-                steps:
-                  - goto: "בריאות: מסלול המרפאה/מרכז רפואי לא היו נגישים"
-        - goto: "בריאות: בירור אפשרות לתביעת נזיקין"
-        - goto: "תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים"
-    - name: "בריאות: מסלול סירוב להעניק טיפול על רקע גזעני או מפלה"
-      steps:
-        - say: |-
-            במשרד הבריאות פועלת נציבות קבילות כלפי בעלי מקצועות רפואיים.
-            <br><br>
-            בררו האם הפונה מעוניינ/ת שנסייע בהעברת פרטי המקרה לבירור בנציבות
-        - do:
-            cmd: showInfoCard
-            params:
-              - health_ministry_public_inquiries
-        - wait:
-            options:
-              - show: כן, הפונה מאשר/ת להעביר את הפניה עם פרטים מזהים
-                steps:
-                  - do:
-                      cmd: addTask
-                      params:
-                        - record
-                        - send_to_health_ministry_public_inquiries
-              - show: הפונה מאשר/ת לפנות לנציב ללא מסירת פרטים מזהים
-                steps:
-                  - do:
-                      cmd: addTask
-                      params:
-                        - record
-                        - send_to_health_ministry_public_inqueries_anonymously
-              - show: לא, הפונה אינו מעוניין לפנות לנציבות
                 steps: []
-        - say: עדכנו את הפונה שהעתק הפניה יועבר גם למתאמת המאבק בגזענות במשרד
-            הבריאות
-        - wait:
-            options:
+        - default: true
+          steps:
+          - say: 'עדכנו את הפונה בכל המשימות שרשמתם לעצמכם (ומופיעות בצד המסך).
+
+
+              חשוב לסכם עם הפונה מתי תהיו איתו/איתה בקשר כדי לעדכן על מצב הטיפול בפניה.'
+          - wait:
+              options:
               - show: בסדר
                 steps:
-                  - do:
-                      cmd: addTask
-                      params:
-                        - record
-                        - contact_health_ministry_zero_racism
-    - name: "בריאות: מסלול הערות גזעניות או מעליבות"
-      steps:
-        - say: >-
-            במשרד הבריאות פועלת מתאמת למאבק בגזענות.<br><br>
-
-            בררו האם הפונה מעוניינ/ת שנסייע בפניה למתאמת המאבק בגזענות והעברת פרטי המקרה.
-        - wait:
-            options:
+                - do:
+                    cmd: addTask
+                    params:
+                    - record
+                    - update_user
+  - name: break
+    steps: []
+  - name: Completed
+    steps: []
+  - name: בחירת ארגון חברה אזרחית
+    steps:
+    - do:
+        cmd: nextNgoOrg
+        params:
+        - record
+        variable: _next_org
+    - switch:
+        arg: _next_org
+        cases:
+        - match: ''
+          steps: []
+        - default: true
+          steps:
+          - say: האם הפונה מעוניינ/ת לשתף את המקרה עם {{_next_org.organizationName}}?
+          - wait:
+              options:
               - show: כן
                 steps:
-                  - do:
-                      cmd: addTask
-                      params:
-                        - record
-                        - contact_health_ministry_zero_racism
-              - show: לא
-                steps: []
-        - say: האם האירוע התרחש או קשור באחד מבתי החולים בארץ?
-        - wait:
-            options:
-              - show: כן
-                steps:
-                  - do:
-                      cmd: addTask
-                      params:
-                        - record
-                        - send_health_centers_antiracism_officers
-                  - say: עדכנו את הפונה שננסה לאתר את הממונה למאבק בגזענות במוסד,
-                      ונעביר גם אליהם העתק של הפניה לממונה במשרד הבריאות.
-              - show: לא
-                steps: []
-    - name: "בריאות: מסלול המרפאה/מרכז רפואי לא היו נגישים"
-      steps:
-        - say: ניתן לפנות בשאלות ובתלונות לממונת שוויון זכויות לאנשים עם מוגבלות
-            במשרד הבריאות.
-        - do:
-            cmd: showInfoCard
-            params:
-              - health_ministry_accessiblity
-        - wait:
-            options:
-              - show: כן, הפונה מעוניינ/ת לפנות לממונה ומאשרת להעביר את פרטי המקרה
-                steps:
-                  - do:
-                      cmd: addTask
-                      params:
-                        - record
-                        - send_to_health_ministry_accessiblity
-              - show: הפונה מאשר/ת לפנות לממונה, מבלי לחשוף פרטים מזהים
-                steps:
-                  - do:
-                      cmd: addTask
-                      params:
-                        - record
-                        - send_to_health_ministry_accessiblity_anonymously
-              - show: לא
-                steps: []
-    - name: "בריאות: בירור אפשרות לתביעת נזיקין"
-      steps:
-        - say: >-
-            הסבירו לפונה כי במקרים מסוימים ניתן להגיש תביעה אזרחית לפיצוי בגין
-            אפליה בקבלת טיפול רפואי. <br><br>
-
-            ניתן להיוועץ עם הלשכה לסיוע משפטי במשרד המשפטים, או עם ארגונים רלוונטיים (שנציג בהמשך השיחה), או עם עו"ד פרטי (בכך לא נוכל לסייע).<br><br>
-
-            בררו האם הפונה מעוניינ/ת שנסייע בפניה ללשכה לסיוע משפטי במשרד המשפטים.
-        - do:
-            cmd: showInfoCard
-            params:
-              - justice_ministry_legal_assistance
-        - wait:
-            options:
-              - show: כן
-                steps:
-                  - do:
-                      cmd: addTask
-                      params:
-                        - record
-                        - justice_ministry_ask_assistance
-              - show: לא
-                steps: []
-    - name: "תלונה: פניה לגורמים ממשלתיים"
-      steps:
-        - say: כעת נבדוק מיהם הגורמים הממשלתיים או הציבוריים אליהם ניתן לפנות כדי
-            לקבל מידע או להתלונן על האירוע.
-        - say: "אמרו לפונה: <br> אני אציג בפניך את הגורמים שיוכלו אולי לסייע בטיפול
-            במקרה, ונחשוב יחד למי מהם כדאי לפנות. נתחיל..."
-        - do:
-            cmd: selectGovOrgs
-            params:
-              - record
-        - goto: "תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים"
-    - name: "תלונה: האם להעביר פרטים ליחידה לתיאום המאבק בגזענות במשרד המשפטים"
-      steps:
-        - say: האם הפונה מעוניינ/ת לשתף את פרטי המקרה עם היחידה לתיאום המאבק
-            בגזענות במשרד המשפטים?
-        - do:
-            cmd: showInfoCard
-            params:
-              - justice_ministry_anti_racism_unit
-        - wait:
-            variable: _add_task
-            options:
-              - show: כן, מאשר/ת להעביר להם את פרטי המקרה, כולל שמי ופרטי הקשר
-                value: yes
+                - do:
+                    cmd: addOrgTask
+                    params:
+                    - record
+                    - _next_org
+                    - send_to_ngo
               - show: מאשר/ת להעביר את תיאור המקרה, ללא פרטים מזהים
-                value: anonymously
+                steps:
+                - do:
+                    cmd: addOrgTask
+                    params:
+                    - record
+                    - _next_org
+                    - org_send_anonymously
               - show: לא
-                value: no
-        - switch:
-            arg: _add_task
-            cases:
-              - match: yes
+                steps: []
+          - goto: בחירת ארגון חברה אזרחית
+  - name: בחירת ארגון ממשלתי
+    steps:
+    - do:
+        cmd: nextGovOrg
+        params:
+        - record
+        variable: _next_org
+    - switch:
+        arg: _next_org
+        cases:
+        - match: ''
+          steps: []
+        - default: true
+          steps:
+          - say: האם הפונה מעוניינ/ת לשתף את המקרה עם {{_next_org.organizationName}}?
+          - wait:
+              options:
+              - show: כן
                 steps:
-                  - do:
-                      cmd: addTask
-                      params:
-                        - record
-                        - share_full_details_with_justice_ministry
-              - match: anonymously
-                steps:
-                  - do:
-                      cmd: addTask
-                      params:
-                        - record
-                        - share_anonymously_with_justice_ministry
-        - goto: "תלונה: שיתוף עם ארגוני חברה אזרחית"
-    - name: "תלונה: שיתוף עם ארגוני חברה אזרחית"
-      steps:
-        - say: >-
-            כעת נבדוק האם ישנם גורמי חברה אזרחית (עמותות או ארגונים שלא למטרות
-            רווח) שיוכלו, אולי, לסייע לפונה בהמשך הטיפול במקרה.
+                - do:
+                    cmd: addOrgTask
+                    params:
+                    - record
+                    - _next_org
+                    - send_report_to_governmental_unit
+              - show: לא
+                steps: []
+          - goto: בחירת ארגון ממשלתי
+  taskTemplates:
+  - description: "שלח/י את פרטי המקרה ל{{organizationName}}. \nהפונה אישר/ה העברת הפרטים במלואם.\n<br>\nיש לשלוח את פרטי המקרה במלואם לארגון ולוודא את קבלת החומר. יש לכלול בדיווח גם את שמות הארגונים האחרים אליהם ביקש/ה הפונה לפנות.  \n<br><br>\nיש לתעד בכרטיס המשימה את התקשורת עם הארגון ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הארגון בנוגע לפניה זו.\n\n"
+    infocardSlugs: ''
+    slug: send_to_ngo
+    title: משלוח פרטי המקרה במלואם ל{{organizationName}} (ארגון חברה אזרחית)
+  - description: "שלח/י את פרטי המקרה ל{{organizationName}}. \nהפונה אישר/ה העברת הפרטים במלואם.\n\n יש לתעד בכרטיס המשימה את התקשורת עם הארגון ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הארגון בנוגע לפניה זו."
+    infocardSlugs: null
+    slug: send_report_to_governmental_unit
+    title: העברת פרטי המקרה ל-{{organizationName}} (גורם ממשלתי רלוונטי)
+  - description: '[יש לבדוק האם ישנו/ישנה ממונה למאבק בגזענות ברשימת הממונים במשרדי הממשלה](https://www.gov.il/he/Departments/General/responsible_for_racism).
+
+      יש לעדכן אם יש, או אם אין ממונה במשרד הרלוונטי.
 
 
-            <br><br>
+      <ul>
 
-            חשוב להסביר שמדובר בארגונים שאינם קשורים למדינה או לממשלה. אם הפונה יאשר/תאשר, נעביר את פרטי המקרה שקיבלנו לארגון או לארגונים שיבחר והם אמורים ליצור קשר עם הפונה.
-        - do:
-            cmd: selectNGO
-            params:
-              - record
-    - name: קביעת שיחת המשך
-      steps:
-        - do:
-            cmd: getTaskCount
-            variable: _numOfTasks
-            params:
-              - record
-        - switch:
-            arg: _numOfTasks
-            cases:
-              - match: 0
-                steps:
-                  - say: >-
-                      סיימנו את השיחה, מבלי שקיבלת את הסכמת הפונה לנקוט פעולה
-                      כלשהי.
+      <li>
 
-                      הסבר/י לו שזה המצב וברר/י אם ירצו לחזור על הנקודות שהועלו, כדי לחשוב שוב על הדברים
+      אם לא מופיעים ברשימה פרטי הממונה, יש ליצור קשר עם המשרד הרלוונטי ולברר אם מונה/מונתה ממונה לנושא. יש לתעד כאן את שלבי החיפוש והמענה.
 
-                      האם הפונה מבקש לשנות חלק מהתשובות?
-                  - wait:
-                      options:
-                        - show: כן
-                          steps:
-                            - do:
-                                cmd: restartConversation
-                        - show: לא
-                          steps: []
-              - default: true
-                steps:
-                  - say: >-
-                      עדכנו את הפונה בכל המשימות שרשמתם לעצמכם (ומופיעות בצד
-                      המסך).
+      </li>
+
+      <li>
+
+      אם ישנו ממונה,  יש לתעד בכרטיס המשימה את התקשורת עם הארגון ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הארגון בנוגע לפניה זו.
+
+      </li>
+
+      </ul>'
+    infocardSlugs: office_preventing_racism
+    slug: share_with_office_fight_racism_contact
+    title: העברת פרטי המקרה לממונה למאבק בגזענות במשרד הרלוונטי
+  - description: "שלח/י את פרטי המקרה ל{{organizationName}}. \n\nשימו לב!\nהפונה ביקש/ה במפורש לא להעביר פרטים שעלולים לחשוף את זהותו או זהותה, ולכן יש להקפיד לטשטש או להסיר כל פרט שכזה מן הדיווח.\n\n יש לתעד בכרטיס המשימה את התקשורת עם הארגון ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הארגון בנוגע לפניה זו.\n\n<br><br>\n יש לתעד בכרטיס המשימה את התקשורת עם הארגון ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הארגון בנוגע לפניה זו."
+    infocardSlugs: null
+    slug: org_send_anonymously
+    title: שלח את פרטי המקרה ל{{organizationName}} באופן אנונימי
+  - description: "יש לשלוח את פרטי המקרה במלואם ליחידה לתיאום המאבק בגזענות במשרד המשפטים ולוודא את קבלת החומר.\n\nשלח/י את פרטי המקרה ליחידה לתיאום המאבק בגזענות במשרד המשפטים.\nהפונה אישר/ה העברת הפרטים במלואם.\n<br>\nיש לשלוח את פרטי המקרה במלואם ליחידה לתיאום המאבק בגזענות במשרד המשפטים ולוודא את קבלת החומר.\n<br><br>\n יש לתעד בכרטיס המשימה את התקשורת עם הארגון ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הארגון בנוגע לפניה זו."
+    infocardSlugs: justice_ministry_anti_racism_unit
+    slug: share_full_details_with_justice_ministry
+    title: שיתוף פרטי המקרה עם היחידה לתיאום המאבק בגזענות במשרד המשפטים
+  - description: 'יש לשלוח את פרטי המקרה לארגון. ניתן לסמן את המשימה כהושלמה לאחר קבלת אישור לקליטת החומר.
 
 
-                      חשוב לסכם עם הפונה מתי תהיו איתו/איתה בקשר כדי לעדכן על מצב הטיפול בפניה.
-                  - wait:
-                      options:
-                        - show: בסדר
-                          steps:
-                            - do:
-                                cmd: addTask
-                                params:
-                                  - record
-                                  - update_user
+      שלח/י את פרטי המקרה ליחידה לתיאום המאבק בגזענות במשרד המשפטים.
+
+
+      שימו לב!
+
+      הפונה ביקש/ה במפורש לא להעביר פרטים שעלולים לחשוף את זהותו או זהותה, ולכן יש להקפיד לטשטש או להסיר כל פרט שכזה מן הדיווח.
+
+
+
+      '
+    infocardSlugs: justice_ministry_anti_racism_unit
+    slug: share_anonymously_with_justice_ministry
+    title: שיתוף המקרה ללא פרטים מזהים עם היחידה לתיאום המאבק בגזענות במשרד המשפטים
+  - description: "יש לשלוח את פרטי המקרה במלואם למחלקה לחקירות שוטרים ולוודא את קבלת החומר. אך חשוב להמשיך ולתעד את המשך הקשר עם מח\"ש.\n<br><br>\n יש לתעד בכרטיס המשימה את התקשורת עם הארגון ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הארגון בנוגע לפניה זו."
+    infocardSlugs: mahash
+    slug: send_to_mahash
+    title: משלוח פרטי המקרה במלואם למחלקה לחקירות שוטרים
+  - description: "**שימו לב!**\nהפונה ביקש/ה במפורש לא להעביר פרטים שעלולים לחשוף את זהותו או זהותה, ולכן יש להקפיד לטשטש או להסיר כל פרט שכזה מן הדיווח.\n<br>\nיש לשלוח את פרטי המקרה למחלקה לחקירות שוטרים. ניתן לסמן את המשימה כהושלמה לאחר קבלת אישור לקליטת החומר.\n\n<br><br>\n יש לתעד בכרטיס המשימה את התקשורת עם הארגון ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הארגון בנוגע לפניה זו."
+    infocardSlugs: mahash
+    slug: send_anonymously_to_mahash
+    title: משלוח תיאור המקרה ללא פרטים מזהים למחחלקה לחקירות שוטרים (מח"ש)
+  - description: "יש לציין בהגשת התלונה כי היא מוגשת בהתאם לנוהל המשטרתי מס' 90.028.143 \"שלילת סמכות לשמש כמאבטח בגופים המונחים\", עם העתק לחברת האבטחה ולגוף האבטחה הרלוונטי (המשרד הממשלתי, הקניון וכו').\n\n<br><br>\n יש לתעד בכרטיס המשימה את התקשורת עם הארגון ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הארגון בנוגע לפניה זו."
+    infocardSlugs: police_security_department
+    slug: compaint_guard_to_police
+    title: הגשת תלונה כנגד מאבטח/ת ספציפי למחלקת האבטחה והרישוי במשטרת ישראל
+  - description: "במקרה של סימנים או עדות למדיניות מפלה שמופעלת על ידי חברת האבטחה, מומלץ להגיש תלונה למחלקת האבטחה והרישוי במשטרת ישראל עם העתק לחברת האבטחה ולגוף האבטחה הרלוונטי. \n\n<br><br>\n יש לתעד בכרטיס המשימה את התקשורת עם שני הארגונים הללו ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם שני הארגונים בנוגע לפניה זו."
+    infocardSlugs: police_security_department
+    slug: guard_company_policy_complaint
+    title: הגשת תלונה כנגד חברת אבטחה בשל מדיניות מפלה
+  - description: "בדקו אם [פרטי הקשר עם דיקן הסטודנטים נמצא ברשימה](https://docs.google.com/spreadsheets/d/1ZbwKcgyM5XMT32UYGDLJnWlXFwS8W2RhcLyGg0nabpE/edit?usp=sharing). אם לא, צרו קשר עם המוסד ובקשו את פרטי ההתקשרות.\nאם התלונה לא נענית תוך __ ימים או שמתקבלת תשובה שאינה מספקת, ניתן לשקול לפנות לנציב/ת קבילות הסטודנטים במוסד.\n\nתעדו כאן את מועדי הפניה והמענה שהתקבל. ניתן לשלם את המשימה כהושלמה לאחר סיום התקשורת עם המוסד.\n\n<br><br>\n יש לתעד בכרטיס המשימה את התקשורת עם הארגון ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הארגון בנוגע לפניה זו."
+    infocardSlugs: academic_orgs_list
+    slug: contact_acadeimc_org
+    title: פניה למוסד האקדמי
+  - description: "אם האפליה היא ברישום ובקבלה, ניתן לפנות בכתב לאגף לפניות ותלונות הציבור במשרד החינוך.\n<br><br>\n\n יש לתעד בכרטיס המשימה את התקשורת עם הארגון ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הארגון בנוגע לפניה זו."
+    infocardSlugs: education_ministry
+    slug: contact_education_ministry
+    title: פניה לאגוף לפניות ותלונות הציבור במשרד החינוך
+  - description: "- נסו לאתר את מנהל/ת המחלקה לפי הרשות הרלוונטית [ברשימה](http://www.e4u.org.il/ManagementMembers/Pages/MemberList.aspx).\n- במידה והרשות אינה מופיעה ברשימה, או שאנשי הקשר אליהם פניתם אינם מגיבים, נסו לחפש אמצעי תקשורת מעודכן באתר האינטרנט או המוקד הטלפוני של הרשות.\n- תעדו כאן את הפניה והמענה.\n- ניתן לסגור את המשימה לאחר שהתקבל המענה ותועד כאן.\n<br><br>\n\n יש לתעד בכרטיס המשימה את התקשורת עם הארגון ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הארגון בנוגע לפניה זו."
+    infocardSlugs: municipal_education_list
+    slug: contact_municipal_education_department
+    title: פניה למנהל/ת מחלקת החינוך ברשות המקומית
+  - description: "ניתן להגיש תביעה אזרחית מכוח חוק איסור אפליה ולזכות בפיצוי אף ללא הוכחת נזק. האגף לסיוע משפטי מספק ייצוג לקורבנות אפליה ללא עלות. \n\n<br><br>\n יש לתעד בכרטיס המשימה את התקשורת עם הארגון ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הארגון בנוגע לפניה זו."
+    infocardSlugs: justice_ministry_legal_assistance
+    slug: justice_ministry_ask_assistance
+    title: הגשת בקשה לסיוע משפטי ממשרד המשפטים
+  - description: "[למידע נוסף על ההליך, מתוך אתר \"כל זכות\"](https://www.kolzchut.org.il/he/%D7%A2%D7%A8%D7%A2%D7%95%D7%A8_%D7%A2%D7%9C_%D7%94%D7%97%D7%9C%D7%98%D7%94_%D7%A9%D7%9C%D7%90_%D7%9C%D7%A7%D7%91%D7%9C_%D7%AA%D7%9C%D7%9E%D7%99%D7%93/%D7%94_%D7%9C%D7%9E%D7%95%D7%A1%D7%93_%D7%97%D7%99%D7%A0%D7%95%D7%9A_%D7%97%D7%A8%D7%93%D7%99_-_%D7%95%D7%A2%D7%93%D7%AA_%D7%A2%D7%A8%D7%A8_%D7%9E%D7%98%D7%A2%D7%9D_%D7%9E%D7%A9%D7%A8%D7%93_%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A)\n\n<br><br>\n יש לתעד בכרטיס המשימה את התקשורת עם הועדה ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הועדה בנוגע לפניה זו."
+    infocardSlugs: education_ministry_ultra_orthodox
+    slug: contact_education_ministry_ultra_ortodox
+    title: פניה לועדת הערר במחוז חינוך חרדי במשרד החינוך
+  - description: "[קראו על פרטי ההליך באתר \"כל זכות\"](https://www.kolzchut.org.il/he/%D7%A2%D7%A8%D7%A2%D7%95%D7%A8_%D7%A2%D7%9C_%D7%94%D7%97%D7%9C%D7%98%D7%94_%D7%A9%D7%9C%D7%90_%D7%9C%D7%A7%D7%91%D7%9C_%D7%AA%D7%9C%D7%9E%D7%99%D7%93/%D7%94_%D7%9C%D7%9E%D7%95%D7%A1%D7%93_%D7%97%D7%99%D7%A0%D7%95%D7%9A_%D7%97%D7%A8%D7%93%D7%99_-_%D7%95%D7%A2%D7%93%D7%AA_%D7%A2%D7%A8%D7%A8_%D7%9E%D7%98%D7%A2%D7%9D_%D7%9E%D7%A9%D7%A8%D7%93_%D7%94%D7%97%D7%99%D7%A0%D7%95%D7%9A)\n\nתעדו את פרטי הפניה.\n\n<br><br>\n יש לתעד בכרטיס המשימה את התקשורת עם הועדה ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הועדה בנוגע לפניה זו."
+    infocardSlugs: null
+    slug: contact_ultra_orthodox_edu_inst
+    title: פניה למוסד חינוך חרדי לצורך ערעור על החלטה שלא לקבל תלמיד/ה למוסד
+  - description: "יש ליצור קשר עם הרשות המקומית בה התרחש הארוע ולברר האם החוג מופעל על ידי הרשות המקומית.\nאם כן, אפשר לפנות למנכ\"ל העירייה ולמבקר הפנים שלה, וכן לתבוע מכוח חוק איסור אפליה.\nאם החוגים אינם מופעלים על ידי העירייה, אבל מתבצעים באחד ממתקניה (אולם ספורט, מקלט וכו'), אפשר לדרוש מהעירייה להפסיק את ההתקשרות.\n<br>\n<br>\n יש לתעד בכרטיס המשימה את התקשורת עם הרשות ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הרשות בנוגע לפניה זו."
+    infocardSlugs: null
+    slug: check_if_municipal_activity
+    title: 'בדיקה האם חוג מופעל על ידי רשות מקומית '
+  - description: 'אם החוג מופעל על ידי הרשות המקומית, אפשר לפנות למנכ"ל העירייה ולמבקר הפנים שלה, וכן לתבוע מכוח חוק איסור אפליה.
+
+      אם החוגים אינם מופעלים על ידי העירייה, אבל מתבצעים באחד ממתקניה (אולם ספורט, מקלט וכו''), אפשר לדרוש מהעירייה להפסיק את ההתקשרות.
+
+
+      תעדו כאן את פרטי הבדיקה וההתקשרות.
+
+
+      ניתן לסמן את המשימה כהושלמה לאחר סיום התקשורת, או אם יתברר שהחוג אינו מופעל על ידי הרשות המקומית או במתקניה.'
+    infocardSlugs: null
+    slug: contact_municipality_activity
+    title: פניה לרשות מקומית בנוגע לאפליה בחוג
+  - description: 'בדקו והתייעצו האם תגובת הרשות המקומית מצדיקה המשך התקשרות עם הרשות בנושא, או שיש לבדוק ערוצי פעולה אחרים.
+
+
+      תעדו כאן את המשך התקשורת עם הרשות או את הסיבות להפסקת התקשורת.
+
+
+      ניתן לסמן את המשימה כהושלמה לאחר ההחלטה לסיים את ההתקשרות עם הרשות.'
+    infocardSlugs: null
+    slug: municipal_activity_communication_log
+    title: המשך התקשרות עם רשות מקומית בנושא אפליה בחוג/ים
+  - description: 'הפונים מצפים לקבל עדכון לגבי מצב הטיפול במקרה עליו דיווחו.
+
+      משימה זו נועדה לתעד למתי נקבעו שיחותיכם הבאה עם הפונה ואת התכנים של אותן שיחות.
+
+
+      אנא קבעו יום ושעה לעדכון הבא, תוך מספר ימים. אנחנו צריכים לעדכן את הפונה גם במידה ולא קיבלנו תשובות מחלק מהגופים. העדכון חשוב.
+
+
+      יש לתעד במשימה זו בכל פעם את המועד בו נקבעה השיחה הבאה, ולסמן את המשימה כהושלמה רק כאשר אין עוד צורך בעדכון הפונה בפרטים הנוגעים למקרה.
+
+
+      '
+    infocardSlugs: null
+    slug: update_user
+    title: קיום שיחות עדכון עם הפונה
+  - description: "קראו את הפרטים בנוגע  לפניה לועדת הערר, ורכזו את החומר.\nיש לתעד תחת משימה זו את תהליך איסוף החומר הדרוש והפניה.\n\n\n<br>\n<br>\n יש לתעד בכרטיס המשימה את התקשורת עם הועדה ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הועדה בנוגע לפניה זו."
+    infocardSlugs: justice_ministry_admission_committee
+    slug: contact_justice_ministry_application_commitee
+    title: פניה לועדת ההשגות על החלטות ועדות קבלה לישובים בנגב ובגליל במשרד המשפטים
+  - description: "קראו את הפרטים בנוגע  לפניה לועדת הערר, ורכזו את החומר.\nיש לתעד תחת משימה זו את תהליך איסוף החומר הדרוש והפניה.\n\n\n<br>\n<br>\n יש לתעד בכרטיס המשימה את התקשורת עם הועדה ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הועדה בנוגע לפניה זו."
+    infocardSlugs: justice_ministry_admission_committee
+    slug: contact_justice_ministry_application_commitee
+    title: פניה לועדת ההשגות על החלטות ועדות קבלה לישובים בנגב ובגליל במשרד המשפטים
+  - description: 'הפונה ציין שמקרה האפליה המדווח, בהקשר של קבלה בתחום הדיור נוגע ל-{{complaint_type}}.
+
+
+      בררו עם האחרא/ית בארגון לגבי אופן ההתממודדות עם מקרה מסוג זה.
+
+
+      יש לתעד כאן את ההחלטה וההנחיה המקצועית בנושא. ניתן לסמן את המשימה כהושלמה לאחר שעדכנתכם את הפונה בהמלצה המקצועית.'
+    infocardSlugs: null
+    slug: housing_acceptance_verify_method
+    title: בירור אפיקי פעולה לתלונות על אפליה בקבלה בתחום הדיור מסוג לא מוכר
+  - description: "- ודאו שהפרוייקט המדובר נבנה על אדמות מנהל מקרקעי ישראל.\n- אם כן, הגישו תלונה בנושא ליועצת המשפטית של מנהל מקרקעי ישראל.\n- עדכנו את הפונה על הגשת התלונה, והמשיכו לעדכן תחת נושא זה כל מענה או התקשרות עתידית עם היעוץ המשפטי של מנהל מקרקעי ישראל\n\n<br>\n<br>\n יש לתעד בכרטיס המשימה את התקשורת עם הארגון ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הארגון בנוגע לפניה זו."
+    infocardSlugs: minhal_legal_advisor
+    slug: contact_minhal_legal_advisor
+    title: הגשת תלונה על אפליה בפרוייקט על אדמות רשות מקרקעי ישראל
+  - description: "יש לבדוק האם מדובר בקרקע שבה זכתה החברה במכרז בניה של רשות מקרקעי ישראל.\nבמבידה וכן, יש לפנות בתלונה אל היעוץ המשפטי של הרשות\n\n\n- ודאו שהפרוייקט המדובר נבנה על אדמות מנהל מקרקעי ישראל.\n- אם כן, הגישו תלונה בנושא ליועצת המשפטית של מנהל מקרקעי ישראל.\n- עדכנו את הפונה על הגשת התלונה, והמשיכו לעדכן תחת נושא זה כל מענה או התקשרות עתידית עם היעוץ המשפטי של מנהל מקרקעי ישראל\n\n<br>\n<br>\n יש לתעד בכרטיס המשימה את התקשורת עם הארגון ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הארגון בנוגע לפניה זו."
+    infocardSlugs: minhal_legal_advisor
+    slug: housing_check_land_status
+    title: בדיקה האם מדובר בקרקע של רשות מקרקעי ישראל
+  - description: "בררו את פרטי חברת התיווך ואשרו שפרטי המקרה מצדיקים תלונה על תפקודה.\nפנו אל רשם המתווכים עם כל הפרטים ותעדו בכרטיסיית המשימה את התשובות ופניותיכם לרשם המתווכים.\n\n<br>\n<br>\n יש לתעד בכרטיס המשימה את התקשורת עם הרשם ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הארגון בנוגע לפניה זו."
+    infocardSlugs: realtors_registrar
+    slug: send_justice_ministry_realtors_registrar
+    title: הגשת תלונה משמעתית נגד חברת תיווך ברשם המתווכים, משרד המשפטים
+  - description: 'במקרה של פניות שעוסקות בתחום הבריאות בנושאים שאינם קשורים להתנהלות מפלה או על רקע גזעני, יש להעביר לפונה את פרטי הקשר עם המוקד הרלוונטי לנושא הפניה.
+
+      <br>
+
+      אתרו את המוקד הרלוונטי ב[עמוד הפניות והתלונות](https://www.health.gov.il/PniyotHazibur/Pages/Complaints.aspx) באתר משרד הבריאות, ושלחו אותם לפונה.
+
+      <br>
+
+      עדכנו את כרטיס המשימה לאחר העברת פרטי הקשר, וסמנו את המשימה כהושלמה לאחר שאישרתם מול הפונה שקיבל את הפרטים.'
+    infocardSlugs: health_ministry_contacts
+    slug: health_non_racism
+    title: העברת פרטי הקשר עם מוקדי הפניות של משרד הבריאות
+  - description: "העבירו את פרטי המקרה למתאמת המאבק בגזענות במשרד הבריאות.\nתעדו כאן את שלבי ההתקשרות ועדכנו את הפונה.\n\n<br>\n<br>\n יש לתעד בכרטיס המשימה את התקשורת עם הארגון ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הארגון בנוגע לפניה זו."
+    infocardSlugs: health_ministry_zero_racism
+    slug: contact_health_ministry_zero_racism
+    title: פניה למתאמת המאבק בגזענות במשרד הבריאות
+  - description: "בדקו אם בית החולים או המוסד הרפואי מופיע ברשימת המוסדות בעלי ממונה למאבק בגזענות.\nבמידה ולא, צרו קשר עם הארגון ובררו האם ישנו/ישנה ממונה לנושא, ורשמו את פרטי ההתקשרות עמם\n<br><br>\nשלחו להם העתק של הפניה שהועברה לממונה למאבק בגזענות במשרד הבריאות.\n<br>\n<br>\n יש לתעד בכרטיס המשימה את התקשורת עם הארגון ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הארגון בנוגע לפניה זו."
+    infocardSlugs: health_centers_antiracism_officers
+    slug: send_health_centers_antiracism_officers
+    title: בדיקה אם יש ממונה למאבק בגזענות ומשלוח העתק הפניה
+  - description: "עברו על פרטי המקרה, והשמיטו מהם פרטים שעלולים לזהות את הפונה במישרין או בעקיפין.\nקראו את נוהל הגשת הפניה באתר משרד הבריאות ושלחו את הפניה.\nתעדו כאן את השלבים השונים ואת המענה שיתקבל.\n\n<br>\n<br>\n יש לתעד בכרטיס המשימה את התקשורת ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת בנוגע לפניה זו."
+    infocardSlugs: health_ministry_public_inquiries
+    slug: send_to_helath_ministry_public_inqueries_anonymously
+    title: העברת פניה ללא פרטים מזהים לנציבות קבילות הציבור למקצועות רפואיים במשרד הבריאות
+  - description: 'קראו את נוהל הגשת הפניה באתר משרד הבריאות ושלחו את הפניה.
+
+      תעדו כאן את השלבים השונים ואת המענה שיתקבל.
+
+
+      ניתן לסמן משימה זו כהושלמה לאחר שהסתיימה התקשורת עם הנציבות ולאחר שעדכנתם את הפונה בפרטים המלאים.'
+    infocardSlugs: health_ministry_public_inquiries
+    slug: send_to_health_ministry_public_inquiries
+    title: 'פניה לנציבות קבילות הציבור למקצועות רפואיים במשרד הבריאות '
+  - description: "העבירו את פרטי המקרה אל הממונה על שוויון לאנשים עם מוגבלויות במשרד הבריאות.\nדאגו לעדכן בכרטיסיית המשימה את מועד הפניה והתגובות שיתקבלו, ועדכנו בהן את הפונה.\n\n<br>\n<br>\n יש לתעד בכרטיס המשימה את התקשורת עם הממונה ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הממונה בנוגע לפניה זו."
+    infocardSlugs: health_ministry_accessiblity
+    slug: send_to_health_ministry_accessiblity
+    title: פניה לממונה על שוויון לאנשים עם מוגבלויות במשרד הבריאות
+  - description: "עברו על פרטי המקרה, והשמיטו מהם פרטים שעלולים לזהות את הפונה במישרין או בעקיפין.\nקראו את נוהל הגשת הפניה באתר משרד הבריאות ושלחו את הפניה.\nתעדו כאן את השלבים השונים ואת המענה שיתקבל.\n\n<br>\n<br>\n יש לתעד בכרטיס המשימה את התקשורת עם הממונה ואת העדכונים שעברו אל הפונה ושהגיעו מהפונה. ניתן לסמן משימה זו כהושלמה רק לאחר שהושלמה התקשורת עם הממונה בנוגע לפניה זו."
+    infocardSlugs: send_to_health_ministry_accessiblity_anonymously
+    slug: send_to_health_ministry_accessiblity_anonymously
+    title: פניה ללא פרטים מזהים לממונה על שוויון לאנשים עם מוגבלויות במשרד הבריאות
+  - description: "שלחו את המייל הבא לכתובת המייל שהעביר/ה הפונה, עם התיקונים וההשלמות הנדרשות:\n\n>    שמי , מהמוקד למאבק בגזענות ממסדית.\n> \n>    קיבלתי את הפרטים ששלחת אלינו ב-. יש לי כמה שאלות שחשוב לי לשאול ולברר איתך לגבי המקרה, כדי שאוכל להציע לך דרכי פעולה אפשריות. זה קצת קשה לברר את כל הפרטים הללו במייל. האם ישנה דרך אחרת בה נוכל ליצור קשר? איך אפשר יהיה לשוחח איתך או להתכתב איתך?\n>\n>    את/ה מוזמנ/ת גם ליצור איתי קשר ב:`_______` בימים `__________` בשעות `_________`.\n>\n>    תודה,\n\nניתן לסמן את המשימה כהושלמה לאחר שהתקבל מענה עם פרטים נוספים, או אם לא התקבלה התייחסות לאחר שני נסיונות נוספים ליצור קשר עם הפונה. לאחר הזנת פרטי התקשרות חדשים והשלמת המשימה יש ללחוץ על \"אתחול שיחה\" לצורך קבלת הנחיה מפורטת."
+    infocardSlugs: null
+    slug: request_extra_communication_methods
+    title: משלוח בקשה לאמצעי קשר נוספים לפונה
+  - description: 'הפונה לא ידע/ה מה שם חברת האבטחה ופרטי ההתקשרות עמה.
+
+      נסו לאתר את שם החברת ופרטי ההתקשרות עם החברה לפי תיאור המקרה.
+
+
+      ניתן לסמן את המשימה כהושלמה בשני מקרים:
+
+
+      1. לאחר הזנת שם החברה לשדה "שם הארגון או המוסד" ואת פרטי ההתקשרות בשדה "פרטי קשר עם הארגון או המוסד".
+
+      2. במידה והניסיון לאתר את שם ופרטי החברה נכשל.'
+    infocardSlugs: null
+    slug: findGuardCompany
+    title: ניסיון לאתר את שם פרטי חברת האבטחה
+  - description: הוסיפו תיאור המשימה החדשה וערכו את כותרת המשימה
+    infocardSlugs: null
+    slug: new_task
+    title: משימה חדשה
