@@ -1,3 +1,4 @@
+import sys
 import os
 import re
 from pathlib import Path
@@ -164,13 +165,22 @@ def pull_translations(lang, filename):
 
 
 if __name__=='__main__':
+    try:
+        source = sys.argv[1]
+        assert source in ('editor', 'local')
+    except Exception:
+        print('Must provide either "local" or "editor" as the first argument to the script')
+        sys.exit(1)
+
     for kind in ('user', 'agent'):
         print(kind)
-        url_in = f'https://firestore.googleapis.com/v1/projects/reportit-script-builder/databases/(default)/documents/script/{kind}'
         f_in = Path(f'src/{kind}/script.yaml')
-        content = requests.get(url_in).json()['fields']['yaml']['stringValue']
-        scripts = yaml.load(content)
-        yaml.dump(scripts, f_in.open('w'), allow_unicode=True, indent=2, width=1000000)
+        if source == 'editor':
+            url_in = f'https://firestore.googleapis.com/v1/projects/reportit-script-builder/databases/(default)/documents/script/{kind}'
+            content = requests.get(url_in).json()['fields']['yaml']['stringValue']
+            scripts = yaml.load(content)
+            yaml.dump(scripts, f_in.open('w'), allow_unicode=True, indent=2, width=1000000)
+        scripts = yaml.load(f_in.open())
         assign_ids(scripts, [str(f_in)])
 
         if TRANSIFEX_TOKEN:
@@ -191,10 +201,14 @@ if __name__=='__main__':
         json.dump(scripts, f_out.open('w'), ensure_ascii=False, sort_keys=True)
 
     for kind in ('infocards', 'organizations', 'taskTemplates'):
-        url_in = f'https://firestore.googleapis.com/v1/projects/reportit-script-builder/databases/(default)/documents/script/agent'
         f_in = Path(f'src/datasets/{kind}.datapackage.json')
-        content = yaml.load(requests.get(url_in).json()['fields']['yaml']['stringValue'])[0]
-        dataset = content[kind]
+        if source == 'editor':
+            url_in = f'https://firestore.googleapis.com/v1/projects/reportit-script-builder/databases/(default)/documents/script/agent'
+            content = yaml.load(requests.get(url_in).json()['fields']['yaml']['stringValue'])[0]
+            dataset = content[kind]
+            json.dump(dataset, f_in.open('w'), ensure_ascii=False, sort_keys=True)
+
+        dataset = json.load(f_in.open())
 
         if TRANSIFEX_TOKEN:
             rx_translations = {}
