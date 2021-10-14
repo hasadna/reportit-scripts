@@ -178,9 +178,9 @@ if __name__=='__main__':
         if source == 'editor':
             url_in = f'https://firestore.googleapis.com/v1/projects/reportit-script-builder/databases/(default)/documents/script/{kind}'
             content = requests.get(url_in).json()['fields']['yaml']['stringValue']
-            scripts = yaml.load(content)
+            scripts = yaml.load(content, Loader=yaml.BaseLoader)
             yaml.dump(scripts, f_in.open('w'), allow_unicode=True, indent=2, width=1000000)
-        scripts = yaml.load(f_in.open())
+        scripts = yaml.load(f_in.open(), Loader=yaml.BaseLoader)
         assign_ids(scripts, [str(f_in)])
 
         if TRANSIFEX_TOKEN:
