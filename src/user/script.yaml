@@ -45,9 +45,9 @@
                       variable: email
                       validation: (([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))
                       placeholder: me@mail.com
-              - show: וואסטאפ
+              - show: WhatsApp
                 steps:
-                  - say: מה מספר הטלפון שלך שרשום בוואטסאפ?
+                  - say: מה מספר הטלפון שלך שרשום ב-WhatsApp?
                   - wait:
                       variable: whatsapp
                       validation: "[-.0-9()/+]{9,16}"
